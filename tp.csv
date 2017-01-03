@@ -1,0 +1,134 @@
+"","Sample_ID","xx","yy","Host_family","Host_genus","Host_species","stream_distance","vegcom","vegtopo","coords.x1","coords.x2","optional"
+"1",1,360,220,"Juglandaceae","Engelhardtia","roxburghiana",24.1189666431927,2,7,360,220,TRUE
+"2",2,360,221,"Theaceae","Pyrenaria","shinkoensis",23.226638755993,2,7,360,221,TRUE
+"3",3,361,221,"Proteaceae","Helicia","formosana",22.7752509607153,2,7,361,221,TRUE
+"4",4,361,220,"Theaceae","Pyrenaria","shinkoensis",23.6675788479151,2,7,361,220,TRUE
+"5",5,363,220,"Theaceae","Pyrenaria","shinkoensis",22.7648032573597,2,7,363,220,TRUE
+"6",6,363,223,"Proteaceae","Helicia","formosana",20.0878195957605,2,7,363,223,TRUE
+"7",7,360,223,"Juglandaceae","Engelhardtia","roxburghiana",21.4419829815935,2,7,360,223,TRUE
+"8",8,360,227,"Proteaceae","Helicia","formosana",17.8726714327945,2,7,360,227,TRUE
+"9",9,360,235,"Sabiaceae","Meliosma","squamulata",10.7340483351965,2,7,360,235,TRUE
+"10",10,360,251,"Lauraceae","Machilus","thunbergii",3.54319785999944,2,7,360,251,TRUE
+"11",11,360,283,"Euphorbiaceae","Antidesma","japonicum var. densiflorum",25.900888951815,2,5,360,283,TRUE
+"12",12,360,347,"Rubiaceae","Randia","cochinchinensis",53.5382598452998,2,7,360,347,TRUE
+"13",13,367,220,"Theaceae","Cleyera","japonica",20.9592520762491,2,7,367,220,TRUE
+"14",14,375,220,"Proteaceae","Helicia","formosana",17.5854133896404,2,7,375,220,TRUE
+"15",15,391,220,"Theaceae","Adinandra","formosana",10.1543506714521,2,7,391,220,TRUE
+"16",16,423,220,"Rubiaceae","Randia","cochinchinensis",4.77270944717353,2,7,423,220,TRUE
+"17",17,487,220,"Rubiaceae","Lasianthus","fordii",32.9984841280166,2,7,487,220,TRUE
+"18",18,487,347,"Proteaceae","Helicia","formosana",23.6973061949249,3,7,487,347,TRUE
+"19",19,423,283,"Rubiaceae","Tricalysia","dubia",10.3362974396717,2,7,423,283,TRUE
+"20",20,391,251,"Cyatheaceae","Cyathea","podophylla",6.13463002230047,2,7,391,251,TRUE
+"21",21,375,235,"Theaceae","Cleyera","japonica",3.9632314060315,2,7,375,235,TRUE
+"22",22,367,227,"Fagaceae","Limlia","uraiana",14.7129568658508,2,7,367,227,TRUE
+"23",23,360,360,"Melastomataceae","Blastus","cochinchinensis",61.4564329036663,2,7,360,360,TRUE
+"24",24,360,361,"Melastomataceae","Blastus","cochinchinensis",62.1364248223443,2,7,360,361,TRUE
+"25",25,361,361,"Proteaceae","Helicia","formosana",62.8693329837596,2,7,361,361,TRUE
+"26",26,361,360,"Verbenaceae","Callicarpa","kochiana",62.197354327679,2,7,361,360,TRUE
+"27",27,360,364,"Melastomataceae","Melastoma","kochiana",62.0617130244554,2,7,360,364,TRUE
+"28",28,363,363,"Proteaceae","Helicia","formosana",61.3591173562093,2,7,363,363,TRUE
+"29",29,363,360,"Verbenaceae","Callicarpa","kochiana",63.7004424286272,2,7,363,360,TRUE
+"30",30,367,360,"Lauraceae","Machilus","japonica var. kusanoi",60.324926678306,2,7,367,360,TRUE
+"31",31,376,360,"Euphorbiaceae","Antidesma","japonicum var. densiflorum",51.5599663595708,2,7,376,360,TRUE
+"32",32,391,360,"Aquifoliaceae","Ilex","ficoidea",36.9516991616787,2,7,391,360,TRUE
+"33",33,423,360,"Proteaceae","Helicia","formosana",5.78739580617564,2,7,423,360,TRUE
+"34",34,487,360,"Melastomataceae","Blastus","cochinchinensis",33.1192564082593,3,7,487,360,TRUE
+"35",35,360,368,"Lauraceae","Machilus","thunbergii",58.6875179198577,2,7,360,368,TRUE
+"36",36,360,375,"Rubiaceae","Randia","cochinchinensis",52.7826764868118,2,7,360,375,TRUE
+"37",37,360,391,"Theaceae","Cleyera","japonica",38.2551613216207,2,5,360,391,TRUE
+"38",38,360,423,"Proteaceae","Helicia","formosana",11.7160696538456,2,7,360,423,TRUE
+"39",39,360,483,"Symplocaceae","Symplocos","theophrastifolia",46.4455938103757,2,5,360,483,TRUE
+"40",40,488,488,"Melastomataceae","Melastoma","candida",111.188712018049,4,6,488,488,TRUE
+"41",41,423,423,"Araliaceae","Schefflera","octophylla",20.7118098841125,2,7,423,423,TRUE
+"42",42,375,375,"Cyatheaceae","Cyathea","podophylla",45.1969895990105,2,7,375,375,TRUE
+"43",43,391,391,"Theaceae","Pyrenaria","shinkoensis",24.2623080406893,2,7,391,391,TRUE
+"44",44,367,367,"Melastomataceae","Blastus","cochinchinensis",55.9185432400833,2,7,367,367,TRUE
+"45",45,307,360,"Melastomataceae","Blastus","cochinchinensis",42.2273953599182,2,7,307,360,TRUE
+"46",46,243,360,"Proteaceae","Helicia","formosana",81.9366867558174,3,7,243,360,TRUE
+"47",47,211,360,"Lauraceae","Machilus","zuihoensis",103.372517742198,2,5,211,360,TRUE
+"48",48,195,360,"Fagaceae","Limlia","uraiana",115.931039063233,3,6,195,360,TRUE
+"49",49,188,360,"Sabiaceae","Meliosma","squamulata",121.679649040507,3,6,188,360,TRUE
+"50",50,183,360,"Fagaceae","Castanopsis","cuspidata var. carlesii",125.863426434056,3,6,183,360,TRUE
+"51",51,181,360,"Fagaceae","Limlia","uraiana",127.553393380815,3,6,181,360,TRUE
+"52",52,180,360,"Melastomataceae","Blastus","cochinchinensis",128.401718008681,3,6,180,360,TRUE
+"53",53,180,361,"Melastomataceae","Blastus","cochinchinensis",128.932239414899,2,6,180,361,TRUE
+"54",54,181,361,"Fagaceae","Castanopsis","cuspidata var. carlesii",128.087428485082,2,6,181,361,TRUE
+"55",55,180,363,"Proteaceae","Helicia","formosana",130.009863881403,2,6,180,363,TRUE
+"56",56,183,363,"Rubiaceae","Randia","cochinchinensis",127.503590665522,2,6,183,363,TRUE
+"57",57,180,367,"Theaceae","Pyrenaria","shinkoensis",132.229533003414,2,6,180,367,TRUE
+"58",58,180,375,"Lauraceae","Machilus","zuihoensis var. mushaensis",136.911718935893,2,6,180,375,TRUE
+"59",59,180,391,"Cyatheaceae","Cyathea","podophylla",147.136526903896,2,6,180,391,TRUE
+"60",60,180,423,"Proteaceae","Helicia","formosana",151.95750081338,3,6,180,423,TRUE
+"61",61,180,487,"Symplocaceae","Symplocos","glauca",163.948920908948,2,7,180,487,TRUE
+"62",62,307,487,"Elaeocarpaceae","Elaeocarpus","sylvestris",66.4160549919232,2,5,307,487,TRUE
+"63",63,243,423,"Fagaceae","Limlia","uraiana",88.9709783846867,2,2,243,423,TRUE
+"64",64,211,391,"Euphorbiaceae","Glochidion","acuminatum",125.737081586652,2,5,211,391,TRUE
+"65",65,195,375,"Melastomataceae","Blastus","cochinchinensis",125.290955031403,2,6,195,375,TRUE
+"66",66,187,367,"Lauraceae","Machilus","zuihoensis var. mushaensis",126.517659739504,2,6,187,367,TRUE
+"67",67,180,220,"Lauraceae","Machilus","thunbergii",130.459537551379,1,1,180,220,TRUE
+"68",68,180,221,"Theaceae","Eurya","loquaiana",129.913525418949,1,2,180,221,TRUE
+"69",69,181,221,"Myrsinaceae","Myrsine","seguinii",129.075137273449,1,2,181,221,TRUE
+"70",70,181,220,"Myrsinaceae","Myrsine","seguinii",129.624680958141,1,1,181,220,TRUE
+"71",71,183,220,"Myrsinaceae","Myrsine","seguinii",127.929037868904,1,1,183,220,TRUE
+"72",72,183,223,"Proteaceae","Helicia","formosana",126.308318452269,1,2,183,223,TRUE
+"73",73,180,223,"Fagaceae","Castanopsis","cuspidata var. carlesii",128.837845309908,1,2,180,223,TRUE
+"74",74,180,227,"Sabiaceae","Meliosma","squamulata",126.753788814141,1,2,180,227,TRUE
+"75",75,180,235,"Theaceae","Pyrenaria","shinkoensis",122.870615559701,1,2,180,235,TRUE
+"76",76,180,251,"Sabiaceae","Meliosma","squamulata",116.372327237105,2,4,180,251,TRUE
+"77",77,180,283,"Proteaceae","Helicia","formosana",109.403744468367,2,4,180,283,TRUE
+"78",78,180,347,"Fagaceae","Limlia","uraiana",122.041902390535,3,6,180,347,TRUE
+"79",79,307,347,"Fagaceae","Pasania","harlandii",29.5398889791895,2,7,307,347,TRUE
+"80",80,243,283,"Proteaceae","Helicia","formosana",46.8593507492346,3,7,243,283,TRUE
+"81",81,211,251,"Euphorbiaceae","Antidesma","japonicum var. densiflorum",87.9851963875731,2,4,211,251,TRUE
+"82",82,195,235,"Theaceae","Pyrenaria","shinkoensis",109.773370171093,1,2,195,235,TRUE
+"83",83,187,227,"Myrsinaceae","Myrsine","seguinii",120.783243069557,1,2,187,227,TRUE
+"84",84,187,220,"Theaceae","Cleyera","japonica",124.475331468056,1,1,187,220,TRUE
+"85",85,195,220,"Sabiaceae","Meliosma","squamulata",117.585943341147,1,1,195,220,TRUE
+"86",86,211,220,"Fagaceae","Limlia","uraiana",104.246480690656,1,2,211,220,TRUE
+"87",87,243,220,"Myrsinaceae","Myrsine","seguinii",79.3770540462951,1,2,243,220,TRUE
+"88",88,307,220,"Lauraceae","Cryptocarya","chinensis",47.3648298635868,2,7,307,220,TRUE
+"89",89,287,20,"Proteaceae","Helicia","formosana",25.3394152368675,2,7,287,20,TRUE
+"90",90,243,20,"Proteaceae","Helicia","formosana",33.0712635252617,2,7,243,20,TRUE
+"91",91,211,20,"Proteaceae","Helicia","formosana",37.2932203872008,2,6,211,20,TRUE
+"92",92,195,20,"Melastomataceae","Blastus","cochinchinensis",31.4341479690713,2,6,195,20,TRUE
+"93",93,187,20,"Rosaceae","Prunus","phaeosticta",27.6354936451907,2,6,187,20,TRUE
+"94",94,180,20,"Moraceae","Ficus","erecta var. beecheyana",25.0662169986653,2,6,180,20,TRUE
+"95",95,181,20,"Moraceae","Ficus","erecta var. beecheyana",25.3338463049766,2,6,181,20,TRUE
+"96",96,181,21,"Proteaceae","Helicia","formosana",24.3772796030275,3,7,181,21,TRUE
+"97",97,180,21,"Proteaceae","Helicia","formosana",24.0990295834537,3,7,180,21,TRUE
+"98",98,180,23,"Proteaceae","Helicia","formosana",22.1733897125401,3,7,180,23,TRUE
+"99",99,183,23,"Proteaceae","Helicia","formosana",23.1975173948459,3,7,183,23,TRUE
+"100",100,183,20,"Proteaceae","Helicia","formosana",25.9765439688227,2,6,183,20,TRUE
+"101",101,180,27,"Proteaceae","Helicia","formosana",18.3698443189968,3,7,180,27,TRUE
+"102",102,187,27,"Theaceae","Cleyera","japonica",21.3724959475545,3,7,187,27,TRUE
+"103",103,180,35,"Proteaceae","Helicia","formosana",11.0883070679596,3,7,180,35,TRUE
+"104",104,180,51,"Proteaceae","Helicia","formosana",1.40999758101289,3,7,180,51,TRUE
+"105",105,180,83,"Fagaceae","Limlia","uraiana",22.4672190109978,3,7,180,83,TRUE
+"106",106,180,147,"Proteaceae","Helicia","formosana",82.4973358742708,2,3,180,147,TRUE
+"107",107,307,147,"Melastomataceae","Blastus","cochinchinensis",64.8587595670828,1,3,307,147,TRUE
+"108",108,243,83,"Theaceae","Cleyera","japonica",19.0211322089993,1,3,243,83,TRUE
+"109",109,209,49,"Sabiaceae","Meliosma","squamulata",13.468150800429,3,7,209,49,TRUE
+"110",110,209,49,"Fagaceae","Limlia","uraiana",13.468150800429,3,7,209,49,TRUE
+"111",111,195,35,"Fagaceae","Limlia","uraiana",20.3797326875039,3,7,195,35,TRUE
+"112",112,167,40,"Melastomataceae","Blastus","cochinchinensis",4.25015124759909,2,7,167,40,TRUE
+"113",113,103,40,"Araliaceae","Schefflera","octophylla",12.80384601,3,7,103,40,TRUE
+"114",114,71,40,"Proteaceae","Helicia","formosana",6.01591425281203,2,7,71,40,TRUE
+"115",115,55,40,"Cyatheaceae","Cyathea","podophylla",16.7581088829563,3,4,55,40,TRUE
+"116",116,47,40,"Proteaceae","Helicia","formosana",24.2118015729727,3,4,47,40,TRUE
+"117",117,40,40,"Fagaceae","Limlia","uraiana",30.7958225028702,3,4,40,40,TRUE
+"118",118,40,41,"Fagaceae","Limlia","uraiana",30.501391282502,3,7,40,41,TRUE
+"119",119,41,41,"Fagaceae","Limlia","uraiana",29.54255564416,3,7,41,41,TRUE
+"120",120,41,40,"Fagaceae","Limlia","uraiana",29.8464471495066,3,4,41,40,TRUE
+"121",121,43,40,"Melastomataceae","Blastus","cochinchinensis",27.9582877710401,3,4,43,40,TRUE
+"122",122,43,43,"Fagaceae","Limlia","uraiana",27.076212494185,3,7,43,43,TRUE
+"123",123,40,43,"Melastomataceae","Blastus","cochinchinensis",29.9701819197865,3,7,40,43,TRUE
+"124",124,40,47,"Euphorbiaceae","Glochidion","acuminatum",28.9161391513662,3,7,40,47,TRUE
+"125",125,40,55,"Lauraceae","Litsea","acuminata",27.3274394167397,3,7,40,55,TRUE
+"126",126,40,71,"Melastomataceae","Blastus","cochinchinensis",20.1617466502182,3,7,40,71,TRUE
+"127",127,40,103,"Proteaceae","Helicia","formosana",11.6945672910677,3,7,40,103,TRUE
+"128",128,40,167,"Fagaceae","Castanopsis","cuspidata var. carlesii",75.5402822628824,3,3,40,167,TRUE
+"129",129,167,167,"Myrsinaceae","Myrsine","seguinii",105.213550865239,1,3,167,167,TRUE
+"130",130,103,103,"Proteaceae","Helicia","formosana",45.7219588394888,3,7,103,103,TRUE
+"131",131,71,71,"Proteaceae","Helicia","formosana",5.36038208039325,4,7,71,71,TRUE
+"132",132,55,55,"Proteaceae","Helicia","formosana",12.4372976089321,3,7,55,55,TRUE
+"133",133,47,47,"Proteaceae","Helicia","formosana",22.1635438249625,3,7,47,47,TRUE
