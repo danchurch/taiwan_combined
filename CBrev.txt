@@ -1,0 +1,46 @@
+## start over, see if we can redo our original biom table construction. 
+
+
+## we already rearranged the split barcodes on the leaf reads, is that 
+## still laying around?
+
+## they're here:
+
+ls -lh /home/daniel/Documents/taiwan/taiwan_dada2/rearranged_leafR1.fastq
+ls -lh /home/daniel/Documents/taiwan/taiwan_dada2/rearranged_leafR2.fastq
+
+## let's make a link to these:
+
+
+
+ln -s /home/daniel/Documents/taiwan/taiwan_dada2/rearranged_leafR1.fastq reLeafR1.fastq
+ln -s /home/daniel/Documents/taiwan/taiwan_dada2/rearranged_leafR2.fastq reLeafR2.fastq
+
+rm reLeafR*.fastq
+
+## confused - it looks like I used to have an aggregate wood reads file, 
+## all the R1s in one file, R2s in the other. 
+
+## whatever it was, I don't have it anymore. 
+
+## without this, do we just loop through the wood reads, trim as we go?
+
+## wood directory
+
+wooddir='/home/daniel/Documents/taiwan/woodreads/'
+
+i='lane1-s257-index-GAGGACTT-CCTAAGTCNNNN-PosI_S257_L001_R1_001.fastq'
+
+cut <(echo $i) -d "-" -f 1
+
+echo $i 
+
+for i in $wooddir*"_R1_"*; do 
+    echo $i
+done
+
+fastx_trimmer -l 255 -i $i -o woodR1_trimmed.fastq
+fastx_trimmer -l 210 -i woodR2.fastq -o woodR2_trimmed.fastq
+
+
+
