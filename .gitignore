@@ -3,3 +3,5 @@ combo_biome_reformat_for_mycologia.ipynb
 *.sw*
 reLeafR1.fastq
 reLeafR2.fastq
+trimmed_wood
+trimmed_leaf

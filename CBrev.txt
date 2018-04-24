@@ -43,4 +43,123 @@ fastx_trimmer -l 255 -i $i -o woodR1_trimmed.fastq
 fastx_trimmer -l 210 -i woodR2.fastq -o woodR2_trimmed.fastq
 
 
+## okay, but we don't have single wood forward and reverse files, 
+## we have a forward and a reverse for each sample 
 
+## so apply the trim across all reads in the wood files. 
+
+## where are these?
+wooddir=/home/daniel/Documents/taiwan/woodreads/
+
+
+mkdir trimmed_wood
+mkdir trimmed_wood/R1
+mkdir trimmed_wood/R2
+
+## trims.sh
+########################################
+
+wooddir=/home/daniel/Documents/taiwan/woodreads/
+
+cd /home/daniel/Documents/taiwan/taiwan_combined_biom
+
+R1trimdir='/home/daniel/Documents/taiwan/taiwan_combined_biom/trimmed_wood/R1/'
+
+for i in $wooddir*_R1_*; do
+    echo $i
+    out=$R1trimdir$(basename ${i/_001\.fastq/_trimmed\.fastq}) 
+    fastx_trimmer -l 255 -i $i -o $out && echo $out 
+done
+
+R2trimdir='/home/daniel/Documents/taiwan/taiwan_combined_biom/trimmed_wood/R2/'
+
+for j in $wooddir*_R2_*; do
+    echo $j
+    out=$R2trimdir$(basename ${j/_001\.fastq/_trimmed\.fastq}) 
+    fastx_trimmer -l 210 -i $j -o $out && echo $out 
+done
+
+########################################
+
+
+time ./trims.sh
+
+echo "zoop"
+
+## and the leaf reads?
+
+mkdir  trimmed_leaf
+mkdir trimmed_leaf/R{1..2}
+
+### okay, but I think we gotta do this on Talapas. 
+## I recall it's sometimes weird using outputs from
+## the 32-bit home version of usearch with the 64-bit
+## software, etc, so best to stick with the 64bit
+## version on Talapas...
+
+scp reLeafR1.fastq dthomas@talapas-login.uoregon.edu:/projects/xylaria/dthomas 
+
+scp reLeafR2.fastq dthomas@talapas-login.uoregon.edu:/projects/xylaria/dthomas 
+
+## gotta get the wood reads (trimmed) there too:
+
+scp trimmed_wood -r dthomas@talapas-login.uoregon.edu:/projects/xylaria/dthomas
+cp trimmed_wood -r dthomas@talapas-login.uoregon.edu:/projects/xylaria/dthomas
+
+## merging is next....
+
+## on the new cluster (Talapas) the 
+## batch info is included as comments
+## in the script:
+
+## merge_leaves.sh
+###########################
+#! /usr/bin/env bash
+
+#SBATCH --job-name=merge_leaves
+#SBATCH --output=merge_leaves.out
+#SBATCH --error=merge_leaves.err
+#SBATCH --time=0-04:00:00
+#SBATCH --nodes=1
+
+leafdir=/projects/xylaria/dthomas/leaf/
+
+module load usearch/8.0
+
+usearch -fastq_mergepairs $leafdir"reLeafR2.fastq" -reverse $leafdir"reLeafR1.fastq" -fastqout $leafdir"leafmerged.fastq"
+usearch -fastq_mergepairs $leafdir"Roo_R2_trimmed.fastq" -reverse $leafdir"Roo_R1_trimmed.fastq" -fastqout $leafdir"leaftrimmedmerged.fastq"
+
+
+################################
+
+## didn't work. they don't have the license for
+## usearch 64bit, just 32bit. 
+
+## what file size can usearch 32-bit handle?
+## our wood reads are demultiplexed, much 
+## smaller, let's try these:
+
+## merge_wood.sh
+################################
+#!usr/bin/env bash
+
+#SBATCH --job-name=merge_wood
+#SBATCH --output=merge_wood.out
+#SBATCH --error=merge_wood.err
+#SBATCH --time=0-05:00:00
+#SBATCH --nodes=1
+
+module load usearch/8.0
+
+cd projects/xylaria/dthomas/
+
+R1d=/projects/xylaria/dthomas/trimmed_wood/R1/
+
+for forward in $R1d*; do 
+    echo $forward
+    reverse=${forward//R1/R2}
+    aa=$(basename $forward); output="/projects/xylaria/dthomas/merged_wood/"${aa/_R1_trimmed.fastq/_merged.fastq}
+    usearch -fastq_mergepairs $forward -reverse $reverse -fastqout $output
+done
+
+###########################
