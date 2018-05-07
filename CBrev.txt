@@ -345,5 +345,44 @@ usearch -fastq_mergepairs $forward -reverse $reverse -fastq_maxdiffs 20 -alnout 
 ## for older versions. What is the difference between these errors? Most of our reads aligned
 ## very well.  
 
+## let's try this on my own computer, with v8.1.x of usearch
+
+forward='lane1-s161-index-AAGCACTG-TTCGTACGNNNN-Dc-PosG_S161_L001_R1_trimmed.fastq'
+reverse='lane1-s161-index-AAGCACTG-TTCGTACGNNNN-Dc-PosG_S161_L001_R2_trimmed.fastq'
+
+usearch -fastq_mergepairs $forward -reverse $reverse -fastqout ./test.fastq
+
+## better results. Still not perfect (67%) but maybe that's okay. 
+
+usearch -fastq_mergepairs $forward -reverse $reverse -fastq_maxdiffs 10 -fastqout ./test2.fastq
+
+## even better, 
+
+usearch -fastq_mergepairs $forward \
+    -reverse $reverse \
+    -fastq_maxdiffs 10 \
+    -alnout aln_2.txt \
+    -report test2.report.txt 
+
+## maybe wiser to use a percentage?
+
+usearch -fastq_mergepairs $forward \
+    -reverse $reverse \
+    -fastq_maxdiffpct 40 \
+    -alnout aln_3.txt \
+    -report test3.report.txt \
+    -fastqout ./test3.fastq
+
+## drops us back to 67.7%
+
+## sleepy. Time for bed. 
+
+## so in the future, need to rerun the merging for wood and split up leaf reads,
+## because usearch 8.1 seems so much more forgiving that 8.0. 
+
+## is there something I can set to running tonight?
+
+## split up leaf files on the optiplex?
+## run the merge on all of them?
 
 
