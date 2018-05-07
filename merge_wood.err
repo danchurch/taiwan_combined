@@ -1,0 +1,2639 @@
+/cm/local/apps/slurm/var/spool/job1139779/slurm_script: line 11: cd: projects/xylaria/dthomas/: No such file or directory
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   11.2% 96.8% merged00:02  71Mb   66.9% 96.7% merged00:02  71Mb  100.0% 96.6% merged
+                                
+Merged length min 255, lowq 256, median 256, mean 256.0, higq 256, max 432
+     Merge length    Reads
+-----------------  -------
+    250 -     274    78630  ********************************
+    275 -     299       18  
+    300 -     324        3  
+    325 -     349        4  
+    350 -     374        1  
+    375 -     399        0  
+    400 -     424        0  
+    425 -     449        1  
+
+     81140  Pairs
+     78384  Converted (96.6%)
+     42406  Exact overlaps (52.26%)
+      1710  Not aligned (2.11%)
+       273  Too many gaps (max=0) (0.34%)
+      4246  Gaps
+    483458  Mismatches
+    284145  Fwd errs
+    199313  Rev errs
+       773  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   16.1% 33.4% merged00:02  71Mb   96.9% 33.3% merged00:02  71Mb  100.0% 33.3% merged
+                                
+Merged length min 255, lowq 273, median 285, mean 282.5, higq 293, max 437
+     Merge length    Reads
+-----------------  -------
+    250 -     274    10740  ********************************
+    275 -     299     7808  ***********************
+    300 -     324     3688  **********
+    325 -     349        1  
+    350 -     374        3  
+    375 -     399        1  
+    400 -     424        0  
+    425 -     449        4  
+
+     66420  Pairs
+     22090  Converted (33.3%)
+      9603  Exact overlaps (14.46%)
+      3867  Not aligned (5.82%)
+       155  Too many gaps (max=0) (0.23%)
+      2962  Gaps
+    177810  Mismatches
+     90114  Fwd errs
+     87696  Rev errs
+     40308  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   76.3% 49.5% merged00:01  71Mb  100.0% 49.7% merged
+                                
+Merged length min 255, lowq 257, median 269, mean 276.8, higq 285, max 437
+     Merge length    Reads
+-----------------  -------
+    250 -     274    17540  ********************************
+    275 -     299     5847  **********
+    300 -     324     3248  *****
+    325 -     349        3  
+    350 -     374        4  
+    375 -     399        0  
+    400 -     424        0  
+    425 -     449      463  
+
+     54286  Pairs
+     26968  Converted (49.7%)
+     12850  Exact overlaps (23.67%)
+      2165  Not aligned (3.99%)
+       137  Too many gaps (max=0) (0.25%)
+      2436  Gaps
+    201423  Mismatches
+    106352  Fwd errs
+     95071  Rev errs
+     25016  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:00  71Mb  100.0% 47.4% merged
+                                
+Merged length min 255, lowq 256, median 270, mean 272.7, higq 275, max 441
+     Merge length    Reads
+-----------------  -------
+    250 -     274    10461  ********************************
+    275 -     299     2935  ********
+    300 -     324      541  *
+    325 -     349      591  *
+    350 -     374       25  
+    375 -     399       27  
+    400 -     424       12  
+    425 -     449        3  
+
+     30597  Pairs
+     14499  Converted (47.4%)
+      7579  Exact overlaps (24.77%)
+      6204  Not aligned (20.28%)
+        96  Too many gaps (max=0) (0.31%)
+      1667  Gaps
+    107130  Mismatches
+     59371  Fwd errs
+     47759  Rev errs
+      9798  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    0.2% 0.0% merged00:01  71Mb  100.0% 19.1% merged
+                                
+Merged length min 255, lowq 274, median 291, mean 302.8, higq 342, max 445
+     Merge length    Reads
+-----------------  -------
+    250 -     274     2418  *********************
+    275 -     299     3627  ********************************
+    300 -     324      667  *****
+    325 -     349     1941  *****************
+    350 -     374      473  ****
+    375 -     399        0  
+    400 -     424      404  ***
+    425 -     449       36  
+
+     49618  Pairs
+      9490  Converted (19.1%)
+      3997  Exact overlaps (8.06%)
+      8403  Not aligned (16.94%)
+        76  Too many gaps (max=0) (0.15%)
+       989  Gaps
+     72102  Mismatches
+     41241  Fwd errs
+     30861  Rev errs
+     31649  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   14.9% 39.1% merged00:01  71Mb  100.0% 39.9% merged
+                                
+Merged length min 255, lowq 287, median 296, mean 292.3, higq 298, max 426
+     Merge length    Reads
+-----------------  -------
+    250 -     274     3263  *****
+    275 -     299    20201  ********************************
+    300 -     324      796  *
+    325 -     349      361  
+    350 -     374      171  
+    375 -     399        1  
+    400 -     424      105  
+    425 -     449       16  
+
+     62123  Pairs
+     24798  Converted (39.9%)
+     11609  Exact overlaps (18.69%)
+      2764  Not aligned (4.45%)
+       116  Too many gaps (max=0) (0.19%)
+      1798  Gaps
+    170736  Mismatches
+     88806  Fwd errs
+     81930  Rev errs
+     34445  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    5.8% 20.2% merged00:01  71Mb  100.0% 19.3% merged
+                                
+Merged length min 255, lowq 263, median 275, mean 287.9, higq 319, max 443
+     Merge length    Reads
+-----------------  -------
+    250 -     274     3587  ********************************
+    275 -     299     2406  *********************
+    300 -     324     1419  ************
+    325 -     349      911  ********
+    350 -     374      124  *
+    375 -     399       18  
+    400 -     424       51  
+    425 -     449       30  
+
+     43902  Pairs
+      8490  Converted (19.3%)
+      4058  Exact overlaps (9.24%)
+      9130  Not aligned (20.80%)
+        56  Too many gaps (max=0) (0.13%)
+      1003  Gaps
+     59129  Mismatches
+     29574  Fwd errs
+     29555  Rev errs
+     26226  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   24.5% 18.3% merged00:01  71Mb  100.0% 18.6% merged
+                                
+Merged length min 255, lowq 284, median 291, mean 299.0, higq 295, max 437
+     Merge length    Reads
+-----------------  -------
+    250 -     274     1146  ****
+    275 -     299     9016  ********************************
+    300 -     324      380  *
+    325 -     349     1443  *****
+    350 -     374      286  *
+    375 -     399       20  
+    400 -     424        5  
+    425 -     449      308  *
+
+     67557  Pairs
+     12534  Converted (18.6%)
+      5600  Exact overlaps (8.29%)
+      4266  Not aligned (6.31%)
+        70  Too many gaps (max=0) (0.10%)
+       979  Gaps
+     79367  Mismatches
+     40007  Fwd errs
+     39360  Rev errs
+     50687  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   26.3% 30.3% merged00:01  71Mb  100.0% 30.8% merged
+                                
+Merged length min 255, lowq 269, median 290, mean 291.6, higq 296, max 445
+     Merge length    Reads
+-----------------  -------
+    250 -     274     3432  ****************
+    275 -     299     6504  ********************************
+    300 -     324     1832  *********
+    325 -     349      795  ***
+    350 -     374       82  
+    375 -     399        0  
+    400 -     424       94  
+    425 -     449      297  *
+
+     42098  Pairs
+     12960  Converted (30.8%)
+      6132  Exact overlaps (14.57%)
+      3775  Not aligned (8.97%)
+        76  Too many gaps (max=0) (0.18%)
+      1738  Gaps
+     87088  Mismatches
+     44643  Fwd errs
+     42445  Rev errs
+     25287  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   42.7% 23.9% merged00:01  71Mb  100.0% 23.9% merged
+                                
+Merged length min 255, lowq 278, median 329, mean 323.0, higq 369, max 447
+     Merge length    Reads
+-----------------  -------
+    250 -     274     4050  *****************
+    275 -     299     2952  ************
+    300 -     324     1323  *****
+    325 -     349     1584  ******
+    350 -     374     7500  ********************************
+    375 -     399       12  
+    400 -     424       18  
+    425 -     449       18  
+
+     72444  Pairs
+     17349  Converted (23.9%)
+      6890  Exact overlaps (9.51%)
+      5436  Not aligned (7.50%)
+       108  Too many gaps (max=0) (0.15%)
+      2090  Gaps
+    112216  Mismatches
+     49306  Fwd errs
+     62910  Rev errs
+     49551  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   18.5% 48.5% merged00:01  71Mb  100.0% 48.4% merged
+                                
+Merged length min 255, lowq 294, median 309, mean 299.4, higq 309, max 449
+     Merge length    Reads
+-----------------  -------
+    250 -     274     7274  *********
+    275 -     299     2017  **
+    300 -     324    24809  ********************************
+    325 -     349       88  
+    350 -     374       79  
+    375 -     399       12  
+    400 -     424        8  
+    425 -     449       20  
+
+     70626  Pairs
+     34175  Converted (48.4%)
+     15140  Exact overlaps (21.44%)
+      8633  Not aligned (12.22%)
+       132  Too many gaps (max=0) (0.19%)
+      1392  Gaps
+    227093  Mismatches
+    118770  Fwd errs
+    108323  Rev errs
+     27686  Staggered
+00:01  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:02  71Mb   82.2% 51.4% merged00:02  71Mb  100.0% 51.6% merged
+                                
+Merged length min 255, lowq 330, median 330, mean 325.9, higq 330, max 442
+     Merge length    Reads
+-----------------  -------
+    250 -     274     1654  *
+    275 -     299      320  
+    300 -     324      727  
+    325 -     349    30534  ********************************
+    350 -     374       50  
+    375 -     399       29  
+    400 -     424        3  
+    425 -     449        2  
+
+     64304  Pairs
+     33206  Converted (51.6%)
+     16134  Exact overlaps (25.09%)
+      5689  Not aligned (8.85%)
+       113  Too many gaps (max=0) (0.18%)
+      2276  Gaps
+    184145  Mismatches
+     99963  Fwd errs
+     84182  Rev errs
+     25296  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   45.7% 19.6% merged00:01  71Mb  100.0% 19.3% merged
+                                
+Merged length min 255, lowq 280, median 306, mean 298.7, higq 306, max 445
+     Merge length    Reads
+-----------------  -------
+    250 -     274     2256  ************
+    275 -     299     2053  ***********
+    300 -     324     5733  ********************************
+    325 -     349      215  *
+    350 -     374      429  **
+    375 -     399        3  
+    400 -     424       60  
+    425 -     449       34  
+
+     55547  Pairs
+     10717  Converted (19.3%)
+      4827  Exact overlaps (8.69%)
+     11813  Not aligned (21.27%)
+        66  Too many gaps (max=0) (0.12%)
+      1086  Gaps
+     76891  Mismatches
+     38231  Fwd errs
+     38660  Rev errs
+     32951  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    7.6% 15.2% merged00:02  71Mb   78.5% 14.8% merged00:02  71Mb  100.0% 14.8% merged
+                                
+Merged length min 255, lowq 295, median 332, mean 316.5, higq 338, max 442
+     Merge length    Reads
+-----------------  -------
+    250 -     274     1373  *********
+    275 -     299      528  ***
+    300 -     324      329  **
+    325 -     349     4730  ********************************
+    350 -     374       43  
+    375 -     399        3  
+    400 -     424       13  
+    425 -     449        1  
+
+     46807  Pairs
+      6930  Converted (14.8%)
+      3027  Exact overlaps (6.47%)
+     10541  Not aligned (22.52%)
+        90  Too many gaps (max=0) (0.19%)
+      1854  Gaps
+     52649  Mismatches
+     27867  Fwd errs
+     24782  Rev errs
+     29246  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   57.2% 40.2% merged00:01  71Mb  100.0% 40.6% merged
+                                
+Merged length min 255, lowq 263, median 267, mean 280.9, higq 304, max 444
+     Merge length    Reads
+-----------------  -------
+    250 -     274    12277  ********************************
+    275 -     299     2595  ******
+    300 -     324     4458  ***********
+    325 -     349     1072  **
+    350 -     374      135  
+    375 -     399      101  
+    400 -     424       21  
+    425 -     449       77  
+
+     50385  Pairs
+     20436  Converted (40.6%)
+      8520  Exact overlaps (16.91%)
+      3894  Not aligned (7.73%)
+       300  Too many gaps (max=0) (0.60%)
+      2801  Gaps
+    228978  Mismatches
+    147558  Fwd errs
+     81420  Rev errs
+     25755  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   46.8% 25.9% merged00:01  71Mb  100.0% 25.5% merged
+                                
+Merged length min 255, lowq 268, median 284, mean 300.9, higq 332, max 446
+     Merge length    Reads
+-----------------  -------
+    250 -     274     4055  ********************************
+    275 -     299     2253  *****************
+    300 -     324      980  *******
+    325 -     349     3924  ******************************
+    350 -     374      108  
+    375 -     399      238  *
+    400 -     424        1  
+    425 -     449      278  **
+
+     46012  Pairs
+     11736  Converted (25.5%)
+      5232  Exact overlaps (11.37%)
+      6356  Not aligned (13.81%)
+       101  Too many gaps (max=0) (0.22%)
+      1737  Gaps
+     84488  Mismatches
+     44295  Fwd errs
+     40193  Rev errs
+     27819  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   56.9% 33.4% merged00:01  71Mb  100.0% 33.5% merged
+                                
+Merged length min 255, lowq 276, median 293, mean 294.4, higq 304, max 444
+     Merge length    Reads
+-----------------  -------
+    250 -     274     2830  ******************
+    275 -     299     4874  ********************************
+    300 -     324     2014  *************
+    325 -     349     1067  *******
+    350 -     374      382  **
+    375 -     399        2  
+    400 -     424       90  
+    425 -     449       99  
+
+     33483  Pairs
+     11213  Converted (33.5%)
+      4936  Exact overlaps (14.74%)
+      7203  Not aligned (21.51%)
+       145  Too many gaps (max=0) (0.43%)
+      1635  Gaps
+    108760  Mismatches
+     70704  Fwd errs
+     38056  Rev errs
+     14922  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   13.2% 25.4% merged00:02  71Mb   93.3% 27.2% merged00:02  71Mb  100.0% 27.3% merged
+                                
+Merged length min 255, lowq 267, median 267, mean 278.6, higq 291, max 445
+     Merge length    Reads
+-----------------  -------
+    250 -     274    12020  ********************************
+    275 -     299     5628  **************
+    300 -     324      648  *
+    325 -     349      496  *
+    350 -     374      146  
+    375 -     399      138  
+    400 -     424       78  
+    425 -     449        8  
+
+     69695  Pairs
+     19040  Converted (27.3%)
+      8027  Exact overlaps (11.52%)
+      3130  Not aligned (4.49%)
+       122  Too many gaps (max=0) (0.18%)
+      2744  Gaps
+    154701  Mismatches
+     77987  Fwd errs
+     76714  Rev errs
+     47403  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   82.9% 21.0% merged00:01  71Mb  100.0% 21.1% merged
+                                
+Merged length min 255, lowq 260, median 269, mean 280.3, higq 291, max 445
+     Merge length    Reads
+-----------------  -------
+    250 -     274     8843  ********************************
+    275 -     299     3033  **********
+    300 -     324     1091  ***
+    325 -     349     1249  ****
+    350 -     374       77  
+    375 -     399       95  
+    400 -     424        7  
+    425 -     449      158  
+
+     68504  Pairs
+     14439  Converted (21.1%)
+      6748  Exact overlaps (9.85%)
+      5313  Not aligned (7.76%)
+       114  Too many gaps (max=0) (0.17%)
+      1622  Gaps
+    118999  Mismatches
+     71206  Fwd errs
+     47793  Rev errs
+     48638  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   99.2% 20.6% merged00:01  71Mb  100.0% 20.6% merged
+                                
+Merged length min 255, lowq 270, median 276, mean 295.1, higq 309, max 441
+     Merge length    Reads
+-----------------  -------
+    250 -     274     5285  ********************************
+    275 -     299      636  ***
+    300 -     324     4060  ************************
+    325 -     349      247  *
+    350 -     374        8  
+    375 -     399       23  
+    400 -     424        0  
+    425 -     449      502  ***
+
+     51789  Pairs
+     10685  Converted (20.6%)
+      5268  Exact overlaps (10.17%)
+     13798  Not aligned (26.64%)
+        76  Too many gaps (max=0) (0.15%)
+      1395  Gaps
+     74424  Mismatches
+     41584  Fwd errs
+     32840  Rev errs
+     27230  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:00  71Mb  100.0% 47.6% merged
+                                
+Merged length min 255, lowq 269, median 270, mean 285.4, higq 303, max 433
+     Merge length    Reads
+-----------------  -------
+    250 -     274     5589  ********************************
+    275 -     299     2411  *************
+    300 -     324     1753  **********
+    325 -     349      961  *****
+    350 -     374        4  
+    375 -     399        0  
+    400 -     424       29  
+    425 -     449       21  
+
+     22478  Pairs
+     10708  Converted (47.6%)
+      4791  Exact overlaps (21.31%)
+       947  Not aligned (4.21%)
+        60  Too many gaps (max=0) (0.27%)
+       791  Gaps
+     73887  Mismatches
+     35507  Fwd errs
+     38380  Rev errs
+     10763  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   40.9% 16.3% merged00:01  71Mb  100.0% 16.2% merged
+                                
+Merged length min 255, lowq 267, median 283, mean 298.4, higq 323, max 443
+     Merge length    Reads
+-----------------  -------
+    250 -     274     3502  ********************************
+    275 -     299     2710  ************************
+    300 -     324     1612  **************
+    325 -     349     1951  *****************
+    350 -     374       25  
+    375 -     399       41  
+    400 -     424      148  *
+    425 -     449      402  ***
+
+     63894  Pairs
+     10322  Converted (16.2%)
+      4585  Exact overlaps (7.18%)
+      6323  Not aligned (9.90%)
+        69  Too many gaps (max=0) (0.11%)
+      1364  Gaps
+     74457  Mismatches
+     37615  Fwd errs
+     36842  Rev errs
+     47180  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   47.8% 4.1% merged00:01  71Mb  100.0% 4.1% merged
+                               
+Merged length min 255, lowq 255, median 258, mean 264.7, higq 269, max 357
+     Merge length    Reads
+-----------------  -------
+    250 -     274     2266  ********************************
+    275 -     299      379  *****
+    300 -     324       73  *
+    325 -     349       24  
+    350 -     374        1  
+
+     66945  Pairs
+      2715  Converted (4.1%)
+      1118  Exact overlaps (1.67%)
+       968  Not aligned (1.45%)
+        28  Too many gaps (max=0) (0.04%)
+       632  Gaps
+     24005  Mismatches
+     12030  Fwd errs
+     11975  Rev errs
+     63234  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   39.9% 63.2% merged00:01  71Mb  100.0% 63.5% merged
+                                
+Merged length min 255, lowq 283, median 304, mean 308.5, higq 325, max 444
+     Merge length    Reads
+-----------------  -------
+    250 -     274     7645  ********************
+    275 -     299     4146  ***********
+    300 -     324    11164  ******************************
+    325 -     349    11675  ********************************
+    350 -     374     2901  *******
+    375 -     399       59  
+    400 -     424     1180  ***
+    425 -     449       14  
+
+     59955  Pairs
+     38085  Converted (63.5%)
+     14955  Exact overlaps (24.94%)
+      5961  Not aligned (9.94%)
+       699  Too many gaps (max=0) (1.17%)
+      4098  Gaps
+    441721  Mismatches
+    319883  Fwd errs
+    121838  Rev errs
+     15210  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    7.5% 63.6% merged00:02  71Mb   73.0% 63.6% merged00:02  71Mb  100.0% 63.8% merged
+                                
+Merged length min 255, lowq 267, median 324, mean 306.6, higq 324, max 448
+     Merge length    Reads
+-----------------  -------
+    250 -     274    15419  **************
+    275 -     299     3036  **
+    300 -     324    35038  ********************************
+    325 -     349     2225  **
+    350 -     374     1075  
+    375 -     399       66  
+    400 -     424       33  
+    425 -     449       10  
+
+     88898  Pairs
+     56699  Converted (63.8%)
+     26504  Exact overlaps (29.81%)
+      3542  Not aligned (3.98%)
+       203  Too many gaps (max=0) (0.23%)
+      2941  Gaps
+    345717  Mismatches
+    189576  Fwd errs
+    156141  Rev errs
+     28454  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   39.8% 37.8% merged00:01  71Mb  100.0% 37.4% merged
+                                
+Merged length min 255, lowq 274, median 275, mean 276.0, higq 275, max 446
+     Merge length    Reads
+-----------------  -------
+    250 -     274     8524  ****************
+    275 -     299    16886  ********************************
+    300 -     324      109  
+    325 -     349       32  
+    350 -     374       18  
+    375 -     399        0  
+    400 -     424        1  
+    425 -     449        3  
+
+     67852  Pairs
+     25383  Converted (37.4%)
+     10568  Exact overlaps (15.58%)
+      8237  Not aligned (12.14%)
+       190  Too many gaps (max=0) (0.28%)
+      2677  Gaps
+    211622  Mismatches
+     91258  Fwd errs
+    120364  Rev errs
+     34042  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   10.9% 40.3% merged00:02  71Mb   86.0% 40.2% merged00:02  71Mb  100.0% 40.3% merged
+                                
+Merged length min 255, lowq 304, median 330, mean 320.5, higq 346, max 449
+     Merge length    Reads
+-----------------  -------
+    250 -     274     2397  *****
+    275 -     299     2956  ******
+    300 -     324     8226  ******************
+    325 -     349    14507  ********************************
+    350 -     374       37  
+    375 -     399       21  
+    400 -     424       34  
+    425 -     449       73  
+
+     68404  Pairs
+     27544  Converted (40.3%)
+     11298  Exact overlaps (16.52%)
+      5731  Not aligned (8.38%)
+       707  Too many gaps (max=0) (1.03%)
+      3261  Gaps
+    383566  Mismatches
+    303610  Fwd errs
+     79956  Rev errs
+     34422  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   37.9% 18.6% merged00:01  71Mb  100.0% 19.2% merged
+                                
+Merged length min 255, lowq 273, median 273, mean 279.4, higq 275, max 444
+     Merge length    Reads
+-----------------  -------
+    250 -     274    10913  ********************************
+    275 -     299     2094  ******
+    300 -     324     1235  ***
+    325 -     349      176  
+    350 -     374      551  *
+    375 -     399       38  
+    400 -     424       12  
+    425 -     449       31  
+
+     77710  Pairs
+     14956  Converted (19.2%)
+      7473  Exact overlaps (9.62%)
+      2906  Not aligned (3.74%)
+        94  Too many gaps (max=0) (0.12%)
+      1642  Gaps
+    100022  Mismatches
+     52509  Fwd errs
+     47513  Rev errs
+     59754  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    0.2% 0.0% merged00:02  71Mb   33.9% 33.7% merged00:02  71Mb  100.0% 34.1% merged
+                                
+Merged length min 255, lowq 264, median 264, mean 272.3, higq 264, max 441
+     Merge length    Reads
+-----------------  -------
+    250 -     274    19766  ********************************
+    275 -     299      926  *
+    300 -     324     4314  ******
+    325 -     349       86  
+    350 -     374       23  
+    375 -     399       35  
+    400 -     424        3  
+    425 -     449        5  
+
+     73469  Pairs
+     25037  Converted (34.1%)
+     12957  Exact overlaps (17.64%)
+      2268  Not aligned (3.09%)
+       121  Too many gaps (max=0) (0.16%)
+      2071  Gaps
+    166735  Mismatches
+     87949  Fwd errs
+     78786  Rev errs
+     46043  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    0.2% 0.0% merged00:02  71Mb   62.5% 22.4% merged00:02  71Mb  100.0% 22.4% merged
+                                
+Merged length min 255, lowq 274, median 274, mean 275.8, higq 274, max 442
+     Merge length    Reads
+-----------------  -------
+    250 -     274    19778  ********************************
+    275 -     299      187  
+    300 -     324      490  
+    325 -     349       40  
+    350 -     374      610  
+    375 -     399        2  
+    400 -     424        2  
+    425 -     449        2  
+
+     93640  Pairs
+     21012  Converted (22.4%)
+     10554  Exact overlaps (11.27%)
+      3306  Not aligned (3.53%)
+        99  Too many gaps (max=0) (0.11%)
+      1644  Gaps
+    137744  Mismatches
+     76388  Fwd errs
+     61356  Rev errs
+     69223  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   26.6% 45.1% merged00:01  71Mb  100.0% 45.1% merged
+                                
+Merged length min 255, lowq 264, median 264, mean 269.1, higq 264, max 429
+     Merge length    Reads
+-----------------  -------
+    250 -     274    20133  ********************************
+    275 -     299     2069  ***
+    300 -     324      284  
+    325 -     349     1087  *
+    350 -     374       83  
+    375 -     399        0  
+    400 -     424       41  
+    425 -     449       27  
+
+     52094  Pairs
+     23498  Converted (45.1%)
+      9554  Exact overlaps (18.34%)
+      3743  Not aligned (7.19%)
+       226  Too many gaps (max=0) (0.43%)
+      4159  Gaps
+    208074  Mismatches
+    117600  Fwd errs
+     90474  Rev errs
+     24627  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   20.1% 17.1% merged00:01  71Mb  100.0% 16.6% merged
+                                
+Merged length min 255, lowq 265, median 283, mean 293.5, higq 320, max 445
+     Merge length    Reads
+-----------------  -------
+    250 -     274     2964  ********************************
+    275 -     299     2432  **************************
+    300 -     324     1555  ****************
+    325 -     349     1909  ********************
+    350 -     374        2  
+    375 -     399        2  
+    400 -     424        0  
+    425 -     449       53  
+
+     53095  Pairs
+      8830  Converted (16.6%)
+      3855  Exact overlaps (7.26%)
+      9699  Not aligned (18.27%)
+        87  Too many gaps (max=0) (0.16%)
+      1438  Gaps
+     70255  Mismatches
+     38017  Fwd errs
+     32238  Rev errs
+     34479  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   24.2% 28.2% merged00:01  71Mb  100.0% 28.2% merged
+                                
+Merged length min 255, lowq 278, median 280, mean 294.5, higq 320, max 435
+     Merge length    Reads
+-----------------  -------
+    250 -     274     3625  ***********************
+    275 -     299     4965  ********************************
+    300 -     324     3551  **********************
+    325 -     349     3777  ************************
+    350 -     374        5  
+    375 -     399        3  
+    400 -     424       31  
+    425 -     449       89  
+
+     56498  Pairs
+     15948  Converted (28.2%)
+      8100  Exact overlaps (14.34%)
+      3770  Not aligned (6.67%)
+        98  Too many gaps (max=0) (0.17%)
+      1509  Gaps
+    103723  Mismatches
+     58612  Fwd errs
+     45111  Rev errs
+     36682  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    5.2% 6.9% merged00:02  71Mb   90.3% 7.2% merged00:02  71Mb  100.0% 7.2% merged
+                               
+Merged length min 255, lowq 262, median 302, mean 303.8, higq 358, max 446
+     Merge length    Reads
+-----------------  -------
+    250 -     274     2574  ********************************
+    275 -     299      290  ***
+    300 -     324      920  ***********
+    325 -     349       94  *
+    350 -     374     1884  ***********************
+    375 -     399        0  
+    400 -     424       12  
+    425 -     449        3  
+
+     79282  Pairs
+      5721  Converted (7.2%)
+      2568  Exact overlaps (3.24%)
+      3256  Not aligned (4.11%)
+        56  Too many gaps (max=0) (0.07%)
+       766  Gaps
+     40788  Mismatches
+     22106  Fwd errs
+     18682  Rev errs
+     70249  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   44.7% 48.5% merged00:01  71Mb  100.0% 48.6% merged
+                                
+Merged length min 255, lowq 272, median 280, mean 290.5, higq 304, max 445
+     Merge length    Reads
+-----------------  -------
+    250 -     274    13532  ********************************
+    275 -     299     6411  ***************
+    300 -     324    12977  ******************************
+    325 -     349      884  **
+    350 -     374      661  *
+    375 -     399       92  
+    400 -     424       42  
+    425 -     449      296  
+
+     69369  Pairs
+     33706  Converted (48.6%)
+     11258  Exact overlaps (16.23%)
+      8589  Not aligned (12.38%)
+      1189  Too many gaps (max=0) (1.71%)
+      5321  Gaps
+    612139  Mismatches
+    496197  Fwd errs
+    115942  Rev errs
+     25885  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    0.2% 0.0% merged00:02  71Mb   92.5% 16.3% merged00:02  71Mb  100.0% 16.3% merged
+                                
+Merged length min 255, lowq 265, median 277, mean 288.3, higq 328, max 440
+     Merge length    Reads
+-----------------  -------
+    250 -     274     5931  ********************************
+    275 -     299     2770  **************
+    300 -     324      573  ***
+    325 -     349     3069  ****************
+    350 -     374       65  
+    375 -     399       49  
+    400 -     424        9  
+    425 -     449        1  
+
+     75663  Pairs
+     12339  Converted (16.3%)
+      5142  Exact overlaps (6.80%)
+      3600  Not aligned (4.76%)
+       128  Too many gaps (max=0) (0.17%)
+      2747  Gaps
+    102025  Mismatches
+     54111  Fwd errs
+     47914  Rev errs
+     59596  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   90.8% 43.6% merged00:01  71Mb  100.0% 43.6% merged
+                                
+Merged length min 255, lowq 275, median 275, mean 283.0, higq 289, max 445
+     Merge length    Reads
+-----------------  -------
+    250 -     274     5279  *********
+    275 -     299    17108  ********************************
+    300 -     324     2648  ****
+    325 -     349      666  *
+    350 -     374      182  
+    375 -     399       95  
+    400 -     424       33  
+    425 -     449       50  
+
+     59509  Pairs
+     25956  Converted (43.6%)
+     12166  Exact overlaps (20.44%)
+      2725  Not aligned (4.58%)
+       105  Too many gaps (max=0) (0.18%)
+      1490  Gaps
+    181347  Mismatches
+     96730  Fwd errs
+     84617  Rev errs
+     30723  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:00  71Mb  100.0% 14.6% merged
+                                
+Merged length min 255, lowq 262, median 282, mean 299.1, higq 333, max 443
+     Merge length    Reads
+-----------------  -------
+    250 -     274     2574  ********************************
+    275 -     299      970  ************
+    300 -     324      549  ******
+    325 -     349      501  ******
+    350 -     374     1285  ***************
+    375 -     399       24  
+    400 -     424       45  
+    425 -     449       20  
+
+     40688  Pairs
+      5932  Converted (14.6%)
+      2926  Exact overlaps (7.19%)
+     13728  Not aligned (33.74%)
+        36  Too many gaps (max=0) (0.09%)
+       770  Gaps
+     41193  Mismatches
+     22195  Fwd errs
+     18998  Rev errs
+     20992  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    6.8% 39.1% merged00:01  71Mb  100.0% 39.3% merged
+                                
+Merged length min 255, lowq 270, median 283, mean 287.1, higq 293, max 428
+     Merge length    Reads
+-----------------  -------
+    250 -     274     6189  ***************
+    275 -     299    12453  ********************************
+    300 -     324     1248  ***
+    325 -     349     1955  *****
+    350 -     374      442  *
+    375 -     399       29  
+    400 -     424       26  
+    425 -     449        7  
+
+     56413  Pairs
+     22170  Converted (39.3%)
+     10354  Exact overlaps (18.35%)
+      2972  Not aligned (5.27%)
+       179  Too many gaps (max=0) (0.32%)
+      2488  Gaps
+    176362  Mismatches
+     94991  Fwd errs
+     81371  Rev errs
+     31092  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    9.5% 25.9% merged00:01  71Mb  100.0% 25.5% merged
+                                
+Merged length min 255, lowq 267, median 279, mean 299.0, higq 327, max 407
+     Merge length    Reads
+-----------------  -------
+    250 -     274     4909  ********************************
+    275 -     299     1888  ************
+    300 -     324     1867  ************
+    325 -     349      979  ******
+    350 -     374     1769  ***********
+    375 -     399      366  **
+    400 -     424        2  
+
+     45981  Pairs
+     11716  Converted (25.5%)
+      5687  Exact overlaps (12.37%)
+      2912  Not aligned (6.33%)
+        64  Too many gaps (max=0) (0.14%)
+      1357  Gaps
+     75274  Mismatches
+     38959  Fwd errs
+     36315  Rev errs
+     31289  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   23.5% 11.0% merged00:01  71Mb  100.0% 11.3% merged
+                                
+Merged length min 255, lowq 274, median 284, mean 291.1, higq 304, max 447
+     Merge length    Reads
+-----------------  -------
+    250 -     274     3158  ************************
+    275 -     299     4134  ********************************
+    300 -     324     2440  ******************
+    325 -     349      467  ***
+    350 -     374       12  
+    375 -     399       37  
+    400 -     424       76  
+    425 -     449       58  
+
+     91328  Pairs
+     10317  Converted (11.3%)
+      4910  Exact overlaps (5.38%)
+      6867  Not aligned (7.52%)
+        65  Too many gaps (max=0) (0.07%)
+      1252  Gaps
+     73541  Mismatches
+     36470  Fwd errs
+     37071  Rev errs
+     74079  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    0.2% 0.0% merged00:01  71Mb  100.0% 27.7% merged
+                                
+Merged length min 255, lowq 267, median 278, mean 287.2, higq 305, max 444
+     Merge length    Reads
+-----------------  -------
+    250 -     274     8048  ********************************
+    275 -     299     1250  ****
+    300 -     324     6225  ************************
+    325 -     349      551  **
+    350 -     374       17  
+    375 -     399        9  
+    400 -     424      261  *
+    425 -     449       68  
+
+     58993  Pairs
+     16355  Converted (27.7%)
+      7467  Exact overlaps (12.66%)
+     18471  Not aligned (31.31%)
+        74  Too many gaps (max=0) (0.13%)
+      1045  Gaps
+    116361  Mismatches
+     58813  Fwd errs
+     57548  Rev errs
+     24093  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    0.2% 0.0% merged00:02  71Mb   78.4% 39.5% merged00:02  71Mb  100.0% 39.4% merged
+                                
+Merged length min 255, lowq 271, median 291, mean 289.5, higq 304, max 445
+     Merge length    Reads
+-----------------  -------
+    250 -     274    10793  *******************************
+    275 -     299     3009  ********
+    300 -     324    10977  ********************************
+    325 -     349      439  *
+    350 -     374      280  
+    375 -     399       58  
+    400 -     424       41  
+    425 -     449      104  
+
+     62657  Pairs
+     24706  Converted (39.4%)
+      7131  Exact overlaps (11.38%)
+      6813  Not aligned (10.87%)
+       995  Too many gaps (max=0) (1.59%)
+      4572  Gaps
+    507739  Mismatches
+    419626  Fwd errs
+     88113  Rev errs
+     30143  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   67.0% 16.0% merged00:01  71Mb  100.0% 15.9% merged
+                                
+Merged length min 255, lowq 280, median 308, mean 303.6, higq 308, max 443
+     Merge length    Reads
+-----------------  -------
+    250 -     274     1799  ***********
+    275 -     299     1519  *********
+    300 -     324     5116  ********************************
+    325 -     349      306  *
+    350 -     374       97  
+    375 -     399      702  ****
+    400 -     424       66  
+    425 -     449       11  
+
+     60131  Pairs
+      9556  Converted (15.9%)
+      4627  Exact overlaps (7.69%)
+      2727  Not aligned (4.54%)
+        60  Too many gaps (max=0) (0.10%)
+      1230  Gaps
+     64066  Mismatches
+     31099  Fwd errs
+     32967  Rev errs
+     47788  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   91.7% 13.4% merged00:01  71Mb  100.0% 13.5% merged
+                                
+Merged length min 255, lowq 275, median 295, mean 297.2, higq 306, max 444
+     Merge length    Reads
+-----------------  -------
+    250 -     274     1869  ***********************
+    275 -     299     2541  ********************************
+    300 -     324     1951  ************************
+    325 -     349      275  ***
+    350 -     374      783  *********
+    375 -     399        3  
+    400 -     424        6  
+    425 -     449       63  
+
+     55199  Pairs
+      7446  Converted (13.5%)
+      3367  Exact overlaps (6.10%)
+      5167  Not aligned (9.36%)
+        45  Too many gaps (max=0) (0.08%)
+       809  Gaps
+     50831  Mismatches
+     25100  Fwd errs
+     25731  Rev errs
+     42541  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   73.2% 18.2% merged00:01  71Mb  100.0% 18.2% merged
+                                
+Merged length min 255, lowq 270, median 274, mean 283.5, higq 297, max 445
+     Merge length    Reads
+-----------------  -------
+    250 -     274     7806  ********************************
+    275 -     299     3436  **************
+    300 -     324     2724  ***********
+    325 -     349      544  **
+    350 -     374      112  
+    375 -     399        2  
+    400 -     424        9  
+    425 -     449       72  
+
+     80353  Pairs
+     14590  Converted (18.2%)
+      5769  Exact overlaps (7.18%)
+      4350  Not aligned (5.41%)
+       115  Too many gaps (max=0) (0.14%)
+      2498  Gaps
+    120158  Mismatches
+     56306  Fwd errs
+     63852  Rev errs
+     61298  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   58.5% 28.4% merged00:01  71Mb  100.0% 28.2% merged
+                                
+Merged length min 255, lowq 261, median 284, mean 285.6, higq 309, max 444
+     Merge length    Reads
+-----------------  -------
+    250 -     274     7436  ********************************
+    275 -     299     3907  ****************
+    300 -     324     5072  *********************
+    325 -     349      304  *
+    350 -     374       96  
+    375 -     399       38  
+    400 -     424       11  
+    425 -     449      168  
+
+     59923  Pairs
+     16908  Converted (28.2%)
+      7979  Exact overlaps (13.32%)
+     13135  Not aligned (21.92%)
+       124  Too many gaps (max=0) (0.21%)
+      2116  Gaps
+    118879  Mismatches
+     60075  Fwd errs
+     58804  Rev errs
+     29756  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   59.0% 50.9% merged00:01  71Mb  100.0% 51.1% merged
+                                
+Merged length min 255, lowq 279, median 301, mean 302.0, higq 308, max 443
+     Merge length    Reads
+-----------------  -------
+    250 -     274     5284  ****************
+    275 -     299     5007  ***************
+    300 -     324    10202  ********************************
+    325 -     349     2366  *******
+    350 -     374     3569  ***********
+    375 -     399      119  
+    400 -     424        0  
+    425 -     449       96  
+
+     51974  Pairs
+     26542  Converted (51.1%)
+     13210  Exact overlaps (25.42%)
+      2701  Not aligned (5.20%)
+       101  Too many gaps (max=0) (0.19%)
+      1147  Gaps
+    154736  Mismatches
+     84215  Fwd errs
+     70521  Rev errs
+     22630  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   58.6% 17.1% merged00:01  71Mb  100.0% 17.3% merged
+                                
+Merged length min 255, lowq 256, median 260, mean 275.5, higq 283, max 446
+     Merge length    Reads
+-----------------  -------
+    250 -     274     8041  ********************************
+    275 -     299     1459  *****
+    300 -     324      607  **
+    325 -     349     1125  ****
+    350 -     374       91  
+    375 -     399       43  
+    400 -     424       12  
+    425 -     449       30  
+
+     65400  Pairs
+     11324  Converted (17.3%)
+      5412  Exact overlaps (8.28%)
+      7412  Not aligned (11.33%)
+        84  Too many gaps (max=0) (0.13%)
+      1817  Gaps
+     83865  Mismatches
+     43211  Fwd errs
+     40654  Rev errs
+     46580  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   51.1% 31.3% merged00:01  71Mb  100.0% 31.1% merged
+                                
+Merged length min 255, lowq 260, median 285, mean 280.5, higq 293, max 449
+     Merge length    Reads
+-----------------  -------
+    250 -     274     9418  **************************
+    275 -     299    11460  ********************************
+    300 -     324     1195  ***
+    325 -     349      249  
+    350 -     374        8  
+    375 -     399       43  
+    400 -     424      105  
+    425 -     449       84  
+
+     72266  Pairs
+     22476  Converted (31.1%)
+     12162  Exact overlaps (16.83%)
+      4661  Not aligned (6.45%)
+        86  Too many gaps (max=0) (0.12%)
+      1067  Gaps
+    126414  Mismatches
+     73211  Fwd errs
+     53203  Rev errs
+     45043  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   69.0% 13.6% merged00:01  71Mb  100.0% 13.5% merged
+                                
+Merged length min 255, lowq 269, median 273, mean 285.5, higq 297, max 406
+     Merge length    Reads
+-----------------  -------
+    250 -     274     2354  ********************************
+    275 -     299     1187  ****************
+    300 -     324      624  ********
+    325 -     349      445  ******
+    350 -     374        3  
+    375 -     399        0  
+    400 -     424       33  
+
+     34026  Pairs
+      4608  Converted (13.5%)
+      2044  Exact overlaps (6.01%)
+      4244  Not aligned (12.47%)
+        38  Too many gaps (max=0) (0.11%)
+       615  Gaps
+     35132  Mismatches
+     17533  Fwd errs
+     17599  Rev errs
+     25136  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:00  71Mb  100.0% 13.6% merged
+                                
+Merged length min 255, lowq 256, median 279, mean 291.3, higq 294, max 445
+     Merge length    Reads
+-----------------  -------
+    250 -     274      884  ********************************
+    275 -     299      722  **************************
+    300 -     324       25  
+    325 -     349      347  ************
+    350 -     374       57  **
+    375 -     399        9  
+    400 -     424        5  
+    425 -     449       80  **
+
+     15416  Pairs
+      2093  Converted (13.6%)
+      1048  Exact overlaps (6.80%)
+      3645  Not aligned (23.64%)
+        36  Too many gaps (max=0) (0.23%)
+       749  Gaps
+     16939  Mismatches
+      8918  Fwd errs
+      8021  Rev errs
+      9642  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   32.0% 39.6% merged00:01  71Mb  100.0% 40.2% merged
+                                
+Merged length min 255, lowq 294, median 309, mean 299.1, higq 309, max 442
+     Merge length    Reads
+-----------------  -------
+    250 -     274     3102  ******
+    275 -     299     5901  ************
+    300 -     324    15669  ********************************
+    325 -     349      320  
+    350 -     374        3  
+    375 -     399        0  
+    400 -     424        5  
+    425 -     449       11  
+
+     61921  Pairs
+     24897  Converted (40.2%)
+     11482  Exact overlaps (18.54%)
+      5377  Not aligned (8.68%)
+       114  Too many gaps (max=0) (0.18%)
+      1793  Gaps
+    171670  Mismatches
+     91816  Fwd errs
+     79854  Rev errs
+     31533  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    5.5% 10.3% merged00:01  71Mb  100.0% 9.3% merged 
+                               
+Merged length min 255, lowq 270, median 280, mean 290.5, higq 299, max 448
+     Merge length    Reads
+-----------------  -------
+    250 -     274     1904  *************************
+    275 -     299     2416  ********************************
+    300 -     324      667  ********
+    325 -     349      308  ****
+    350 -     374       32  
+    375 -     399       20  
+    400 -     424       11  
+    425 -     449      184  **
+
+     59221  Pairs
+      5488  Converted (9.3%)
+      2592  Exact overlaps (4.38%)
+      8371  Not aligned (14.14%)
+        54  Too many gaps (max=0) (0.09%)
+      1187  Gaps
+     40762  Mismatches
+     22170  Fwd errs
+     18592  Rev errs
+     45308  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    0.2% 100.0% merged00:02  71Mb   95.2% 31.6% merged 00:02  71Mb  100.0% 31.5% merged
+                                
+Merged length min 255, lowq 257, median 257, mean 274.8, higq 272, max 431
+     Merge length    Reads
+-----------------  -------
+    250 -     274    12948  ********************************
+    275 -     299     1004  **
+    300 -     324      889  **
+    325 -     349     1276  ***
+    350 -     374     1007  **
+    375 -     399        6  
+    400 -     424        0  
+    425 -     449        7  
+
+     53819  Pairs
+     16979  Converted (31.5%)
+      6733  Exact overlaps (12.51%)
+      6126  Not aligned (11.38%)
+       158  Too many gaps (max=0) (0.29%)
+      2716  Gaps
+    154883  Mismatches
+     75610  Fwd errs
+     79273  Rev errs
+     30556  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   77.8% 37.0% merged00:01  71Mb  100.0% 37.2% merged
+                                
+Merged length min 255, lowq 306, median 306, mean 304.3, higq 306, max 446
+     Merge length    Reads
+-----------------  -------
+    250 -     274     1440  **
+    275 -     299      907  *
+    300 -     324    19611  ********************************
+    325 -     349      872  *
+    350 -     374       45  
+    375 -     399       55  
+    400 -     424        0  
+    425 -     449       94  
+
+     61646  Pairs
+     22911  Converted (37.2%)
+     10984  Exact overlaps (17.82%)
+      4643  Not aligned (7.53%)
+       113  Too many gaps (max=0) (0.18%)
+      1289  Gaps
+    144822  Mismatches
+     78509  Fwd errs
+     66313  Rev errs
+     33979  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   46.3% 57.3% merged00:01  71Mb  100.0% 58.0% merged
+                                
+Merged length min 255, lowq 264, median 264, mean 274.8, higq 284, max 418
+     Merge length    Reads
+-----------------  -------
+    250 -     274    26172  ********************************
+    275 -     299     6712  ********
+    300 -     324     4252  *****
+    325 -     349      316  
+    350 -     374      475  
+    375 -     399       87  
+    400 -     424        3  
+
+     65060  Pairs
+     37741  Converted (58.0%)
+     18280  Exact overlaps (28.10%)
+      4101  Not aligned (6.30%)
+       276  Too many gaps (max=0) (0.42%)
+      3028  Gaps
+    296660  Mismatches
+    177300  Fwd errs
+    119360  Rev errs
+     22942  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   21.8% 32.0% merged00:01  71Mb  100.0% 31.8% merged
+                                
+Merged length min 255, lowq 279, median 287, mean 296.3, higq 324, max 444
+     Merge length    Reads
+-----------------  -------
+    250 -     274     3299  ************
+    275 -     299     8339  ********************************
+    300 -     324     7590  *****************************
+    325 -     349      331  *
+    350 -     374        2  
+    375 -     399       19  
+    400 -     424        7  
+    425 -     449       63  
+
+     61533  Pairs
+     19560  Converted (31.8%)
+      8855  Exact overlaps (14.39%)
+      4084  Not aligned (6.64%)
+        90  Too many gaps (max=0) (0.15%)
+      1400  Gaps
+    134617  Mismatches
+     74451  Fwd errs
+     60166  Rev errs
+     37799  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   13.3% 10.0% merged00:02  71Mb   95.6% 10.4% merged00:02  71Mb  100.0% 10.4% merged
+                                
+Merged length min 255, lowq 257, median 269, mean 284.7, higq 306, max 444
+     Merge length    Reads
+-----------------  -------
+    250 -     274     5084  ********************************
+    275 -     299      995  ******
+    300 -     324     2619  ****************
+    325 -     349      108  
+    350 -     374      651  ****
+    375 -     399        1  
+    400 -     424        7  
+    425 -     449       35  
+
+     90498  Pairs
+      9395  Converted (10.4%)
+      4317  Exact overlaps (4.77%)
+      7185  Not aligned (7.94%)
+       105  Too many gaps (max=0) (0.12%)
+      2575  Gaps
+     72257  Mismatches
+     37019  Fwd errs
+     35238  Rev errs
+     73813  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:00  71Mb  100.0% 27.8% merged
+                                
+Merged length min 255, lowq 263, median 275, mean 287.2, higq 304, max 443
+     Merge length    Reads
+-----------------  -------
+    250 -     274     5039  ********************************
+    275 -     299     2450  ***************
+    300 -     324     1500  *********
+    325 -     349     1122  *******
+    350 -     374      178  *
+    375 -     399        1  
+    400 -     424        5  
+    425 -     449       84  
+
+     37076  Pairs
+     10308  Converted (27.8%)
+      4659  Exact overlaps (12.57%)
+      3822  Not aligned (10.31%)
+        71  Too many gaps (max=0) (0.19%)
+      1004  Gaps
+     73744  Mismatches
+     39012  Fwd errs
+     34732  Rev errs
+     22875  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   11.1% 48.0% merged00:01  71Mb  100.0% 48.4% merged
+                                
+Merged length min 255, lowq 268, median 268, mean 283.8, higq 311, max 438
+     Merge length    Reads
+-----------------  -------
+    250 -     274    19809  ********************************
+    275 -     299      284  
+    300 -     324    10555  *****************
+    325 -     349      299  
+    350 -     374      159  
+    375 -     399       33  
+    400 -     424      145  
+    425 -     449        2  
+
+     64296  Pairs
+     31120  Converted (48.4%)
+     14552  Exact overlaps (22.63%)
+      6381  Not aligned (9.92%)
+       166  Too many gaps (max=0) (0.26%)
+      3395  Gaps
+    223034  Mismatches
+    106780  Fwd errs
+    116254  Rev errs
+     26629  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    0.2% 0.0% merged00:02  71Mb   83.9% 22.8% merged00:02  71Mb  100.0% 23.0% merged
+                                
+Merged length min 255, lowq 272, median 300, mean 295.1, higq 305, max 442
+     Merge length    Reads
+-----------------  -------
+    250 -     274     4580  ********************
+    275 -     299     3464  ***************
+    300 -     324     7128  ********************************
+    325 -     349     1508  ******
+    350 -     374      109  
+    375 -     399       62  
+    400 -     424       35  
+    425 -     449        1  
+
+     72856  Pairs
+     16724  Converted (23.0%)
+      6138  Exact overlaps (8.42%)
+      4945  Not aligned (6.79%)
+       163  Too many gaps (max=0) (0.22%)
+      2098  Gaps
+    147998  Mismatches
+     86314  Fwd errs
+     61684  Rev errs
+     51024  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   79.2% 14.2% merged00:01  71Mb  100.0% 14.5% merged
+                                
+Merged length min 255, lowq 284, median 308, mean 307.1, higq 309, max 446
+     Merge length    Reads
+-----------------  -------
+    250 -     274     2127  *************
+    275 -     299     1052  ******
+    300 -     324     4903  ********************************
+    325 -     349      195  *
+    350 -     374     1733  ***********
+    375 -     399       11  
+    400 -     424        7  
+    425 -     449       23  
+
+     69015  Pairs
+      9979  Converted (14.5%)
+      4666  Exact overlaps (6.76%)
+      2566  Not aligned (3.72%)
+        72  Too many gaps (max=0) (0.10%)
+      1290  Gaps
+     71404  Mismatches
+     35939  Fwd errs
+     35465  Rev errs
+     56398  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   77.1% 20.6% merged00:01  71Mb  100.0% 20.7% merged
+                                
+Merged length min 255, lowq 264, median 264, mean 277.4, higq 278, max 449
+     Merge length    Reads
+-----------------  -------
+    250 -     274     9232  ********************************
+    275 -     299     3162  **********
+    300 -     324      295  *
+    325 -     349      431  *
+    350 -     374       25  
+    375 -     399        6  
+    400 -     424        4  
+    425 -     449      441  *
+
+     65352  Pairs
+     13518  Converted (20.7%)
+      7076  Exact overlaps (10.83%)
+      2768  Not aligned (4.24%)
+        78  Too many gaps (max=0) (0.12%)
+      1564  Gaps
+     89907  Mismatches
+     44983  Fwd errs
+     44924  Rev errs
+     48988  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   65.1% 18.2% merged00:01  71Mb  100.0% 18.3% merged
+                                
+Merged length min 255, lowq 308, median 308, mean 312.4, higq 309, max 441
+     Merge length    Reads
+-----------------  -------
+    250 -     274      507  *
+    275 -     299      183  
+    300 -     324    12084  ********************************
+    325 -     349     1150  ***
+    350 -     374       27  
+    375 -     399      552  *
+    400 -     424        2  
+    425 -     449        4  
+
+     78986  Pairs
+     14459  Converted (18.3%)
+      7029  Exact overlaps (8.90%)
+      2885  Not aligned (3.65%)
+        50  Too many gaps (max=0) (0.06%)
+      1076  Gaps
+     88416  Mismatches
+     45970  Fwd errs
+     42446  Rev errs
+     61592  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   76.2% 8.9% merged00:01  71Mb  100.0% 8.9% merged
+                               
+Merged length min 255, lowq 258, median 287, mean 291.3, higq 310, max 445
+     Merge length    Reads
+-----------------  -------
+    250 -     274     2075  ********************************
+    275 -     299      928  **************
+    300 -     324     1794  ***************************
+    325 -     349      163  **
+    350 -     374      101  *
+    375 -     399        1  
+    400 -     424       14  
+    425 -     449      116  *
+
+     58206  Pairs
+      5158  Converted (8.9%)
+      2593  Exact overlaps (4.45%)
+      4649  Not aligned (7.99%)
+        34  Too many gaps (max=0) (0.06%)
+       604  Gaps
+     33050  Mismatches
+     18183  Fwd errs
+     14867  Rev errs
+     48365  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:00  71Mb  100.0% 19.2% merged
+                                
+Merged length min 255, lowq 271, median 306, mean 320.9, higq 360, max 446
+     Merge length    Reads
+-----------------  -------
+    250 -     274     2381  ******************************
+    275 -     299      652  ********
+    300 -     324     2493  ********************************
+    325 -     349      745  *********
+    350 -     374      881  ***********
+    375 -     399        2  
+    400 -     424        0  
+    425 -     449     1292  ****************
+
+     43729  Pairs
+      8413  Converted (19.2%)
+      4243  Exact overlaps (9.70%)
+      4273  Not aligned (9.77%)
+        33  Too many gaps (max=0) (0.08%)
+       654  Gaps
+     45184  Mismatches
+     22959  Fwd errs
+     22225  Rev errs
+     31010  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    0.2% 100.0% merged00:01  71Mb  100.0% 27.7% merged 
+                                
+Merged length min 255, lowq 280, median 327, mean 337.1, higq 433, max 441
+     Merge length    Reads
+-----------------  -------
+    250 -     274     1162  **********
+    275 -     299     3416  ********************************
+    300 -     324      402  ***
+    325 -     349     3095  ****************************
+    350 -     374       24  
+    375 -     399        0  
+    400 -     424       33  
+    425 -     449     3220  ******************************
+
+     40865  Pairs
+     11312  Converted (27.7%)
+      5637  Exact overlaps (13.79%)
+      8436  Not aligned (20.64%)
+        40  Too many gaps (max=0) (0.10%)
+       919  Gaps
+     56759  Mismatches
+     29676  Fwd errs
+     27083  Rev errs
+     21077  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    4.8% 70.6% merged00:02  71Mb   67.5% 70.5% merged00:02  71Mb  100.0% 70.9% merged
+                                
+Merged length min 255, lowq 263, median 263, mean 264.5, higq 263, max 428
+     Merge length    Reads
+-----------------  -------
+    250 -     274    56925  ********************************
+    275 -     299      410  
+    300 -     324     1895  *
+    325 -     349       42  
+    350 -     374        1  
+    375 -     399        0  
+    400 -     424       10  
+    425 -     449        2  
+
+     83372  Pairs
+     59077  Converted (70.9%)
+     31679  Exact overlaps (38.00%)
+      1986  Not aligned (2.38%)
+       208  Too many gaps (max=0) (0.25%)
+      2785  Gaps
+    352602  Mismatches
+    201935  Fwd errs
+    150667  Rev errs
+     22101  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   23.3% 54.7% merged00:01  71Mb  100.0% 55.3% merged
+                                
+Merged length min 255, lowq 279, median 296, mean 291.6, higq 296, max 443
+     Merge length    Reads
+-----------------  -------
+    250 -     274     4441  ****
+    275 -     299    31697  ********************************
+    300 -     324     4219  ****
+    325 -     349     1175  *
+    350 -     374      175  
+    375 -     399       34  
+    400 -     424        3  
+    425 -     449        5  
+
+     74762  Pairs
+     41312  Converted (55.3%)
+     19186  Exact overlaps (25.66%)
+      6405  Not aligned (8.57%)
+       437  Too many gaps (max=0) (0.58%)
+      3045  Gaps
+    367142  Mismatches
+    242568  Fwd errs
+    124574  Rev errs
+     26608  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:00  71Mb  100.0% 19.4% merged
+                                
+Merged length min 255, lowq 260, median 269, mean 276.2, higq 287, max 446
+     Merge length    Reads
+-----------------  -------
+    250 -     274     7236  ********************************
+    275 -     299     4190  ******************
+    300 -     324      388  *
+    325 -     349      304  *
+    350 -     374        8  
+    375 -     399       58  
+    400 -     424       18  
+    425 -     449       22  
+
+     62508  Pairs
+     12124  Converted (19.4%)
+      5456  Exact overlaps (8.73%)
+      4007  Not aligned (6.41%)
+       100  Too many gaps (max=0) (0.16%)
+      1457  Gaps
+     96231  Mismatches
+     47588  Fwd errs
+     48643  Rev errs
+     46277  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    0.2% 100.0% merged00:01  71Mb  100.0% 42.2% merged 
+                                
+Merged length min 255, lowq 264, median 264, mean 279.4, higq 296, max 448
+     Merge length    Reads
+-----------------  -------
+    250 -     274    17210  ********************************
+    275 -     299     2008  ***
+    300 -     324     2042  ***
+    325 -     349     2960  *****
+    350 -     374       19  
+    375 -     399       13  
+    400 -     424        1  
+    425 -     449      237  
+
+     57530  Pairs
+     24271  Converted (42.2%)
+      9725  Exact overlaps (16.90%)
+      6485  Not aligned (11.27%)
+       219  Too many gaps (max=0) (0.38%)
+      3454  Gaps
+    195657  Mismatches
+     82650  Fwd errs
+    113007  Rev errs
+     26555  Staggered
+00:01  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:06  71Mb    0.2% 0.0% merged00:07  71Mb    6.7% 23.3% merged00:08  71Mb   59.8% 23.4% merged00:08  71Mb  100.0% 23.3% merged
+                                
+Merged length min 255, lowq 286, median 321, mean 308.4, higq 321, max 443
+     Merge length    Reads
+-----------------  -------
+    250 -     274     1150  ****
+    275 -     299     2906  ************
+    300 -     324     7457  ********************************
+    325 -     349     3128  *************
+    350 -     374      103  
+    375 -     399       17  
+    400 -     424       13  
+    425 -     449       32  
+
+     63005  Pairs
+     14694  Converted (23.3%)
+      5513  Exact overlaps (8.75%)
+     26278  Not aligned (41.71%)
+       112  Too many gaps (max=0) (0.18%)
+      2175  Gaps
+    119475  Mismatches
+     53250  Fwd errs
+     66225  Rev errs
+     21921  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:04  71Mb    0.2% 100.0% merged00:05  71Mb   97.3% 67.3% merged 00:05  71Mb  100.0% 67.2% merged
+                                
+Merged length min 255, lowq 320, median 321, mean 314.2, higq 321, max 406
+     Merge length    Reads
+-----------------  -------
+    250 -     274      969  ***
+    275 -     299      548  *
+    300 -     324    10276  ********************************
+    325 -     349      116  
+    350 -     374       95  
+    375 -     399        0  
+    400 -     424       16  
+
+     17773  Pairs
+     11952  Converted (67.2%)
+      3132  Exact overlaps (17.62%)
+      1538  Not aligned (8.65%)
+        68  Too many gaps (max=0) (0.38%)
+      1094  Gaps
+    107656  Mismatches
+     46240  Fwd errs
+     61416  Rev errs
+      4215  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:05  71Mb    0.2% 0.0% merged00:06  71Mb   61.6% 48.3% merged00:06  71Mb  100.0% 48.4% merged
+                                
+Merged length min 255, lowq 267, median 297, mean 292.3, higq 304, max 433
+     Merge length    Reads
+-----------------  -------
+    250 -     274     5347  **************************
+    275 -     299     6391  ********************************
+    300 -     324     3826  *******************
+    325 -     349     2346  ***********
+    350 -     374      567  **
+    375 -     399       48  
+    400 -     424        1  
+    425 -     449        1  
+
+     37503  Pairs
+     18140  Converted (48.4%)
+      6898  Exact overlaps (18.39%)
+      5205  Not aligned (13.88%)
+       387  Too many gaps (max=0) (1.03%)
+      1995  Gaps
+    241838  Mismatches
+    179892  Fwd errs
+     61946  Rev errs
+     13771  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:04  71Mb    0.2% 0.0% merged00:05  71Mb   14.6% 30.9% merged00:05  71Mb  100.0% 29.8% merged
+                                
+Merged length min 255, lowq 276, median 297, mean 294.6, higq 304, max 445
+     Merge length    Reads
+-----------------  -------
+    250 -     274     2254  *****************
+    275 -     299     4152  ********************************
+    300 -     324     3531  ***************************
+    325 -     349     1241  *********
+    350 -     374      102  
+    375 -     399       59  
+    400 -     424       38  
+    425 -     449       83  
+
+     37400  Pairs
+     11157  Converted (29.8%)
+      4085  Exact overlaps (10.92%)
+      3655  Not aligned (9.77%)
+       303  Too many gaps (max=0) (0.81%)
+      2369  Gaps
+    168825  Mismatches
+    124601  Fwd errs
+     44224  Rev errs
+     22285  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    0.2% 0.0% merged00:05  71Mb    0.2% 0.0% merged00:06  71Mb   41.4% 26.2% merged00:06  71Mb  100.0% 26.2% merged
+                                
+Merged length min 255, lowq 269, median 294, mean 299.1, higq 330, max 442
+     Merge length    Reads
+-----------------  -------
+    250 -     274     3103  ********************************
+    275 -     299     2093  *********************
+    300 -     324     1750  ******************
+    325 -     349     2005  ********************
+    350 -     374      585  ******
+    375 -     399       87  
+    400 -     424        0  
+    425 -     449       70  
+
+     36527  Pairs
+      9568  Converted (26.2%)
+      3660  Exact overlaps (10.02%)
+      3045  Not aligned (8.34%)
+       125  Too many gaps (max=0) (0.34%)
+      1295  Gaps
+     89555  Mismatches
+     55477  Fwd errs
+     34078  Rev errs
+     23789  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   35.3% 27.1% merged00:01  71Mb  100.0% 27.4% merged
+                                
+Merged length min 255, lowq 283, median 296, mean 291.6, higq 297, max 445
+     Merge length    Reads
+-----------------  -------
+    250 -     274     2328  *********
+    275 -     299     8246  ********************************
+    300 -     324      836  ***
+    325 -     349      681  **
+    350 -     374        2  
+    375 -     399       42  
+    400 -     424        1  
+    425 -     449       11  
+
+     44050  Pairs
+     12053  Converted (27.4%)
+      5538  Exact overlaps (12.57%)
+     11459  Not aligned (26.01%)
+        94  Too many gaps (max=0) (0.21%)
+       721  Gaps
+     94292  Mismatches
+     59723  Fwd errs
+     34569  Rev errs
+     20444  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   38.1% 35.0% merged00:02  71Mb   86.7% 35.4% merged00:02  71Mb  100.0% 35.4% merged
+                                
+Merged length min 255, lowq 266, median 277, mean 289.5, higq 304, max 449
+     Merge length    Reads
+-----------------  -------
+    250 -     274     8814  ********************************
+    275 -     299     4986  ******************
+    300 -     324     2191  *******
+    325 -     349      715  **
+    350 -     374     2155  *******
+    375 -     399      116  
+    400 -     424        6  
+    425 -     449       50  
+
+     53189  Pairs
+     18849  Converted (35.4%)
+      8177  Exact overlaps (15.37%)
+      5534  Not aligned (10.40%)
+       184  Too many gaps (max=0) (0.35%)
+      1775  Gaps
+    162426  Mismatches
+     93325  Fwd errs
+     69101  Rev errs
+     28622  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   90.2% 32.8% merged00:01  71Mb  100.0% 32.8% merged
+                                
+Merged length min 255, lowq 296, median 298, mean 303.2, higq 328, max 446
+     Merge length    Reads
+-----------------  -------
+    250 -     274     1627  *******
+    275 -     299     7064  ********************************
+    300 -     324      148  
+    325 -     349     3228  **************
+    350 -     374       74  
+    375 -     399        0  
+    400 -     424        0  
+    425 -     449      184  
+
+     37413  Pairs
+     12268  Converted (32.8%)
+      5122  Exact overlaps (13.69%)
+      2952  Not aligned (7.89%)
+        57  Too many gaps (max=0) (0.15%)
+       403  Gaps
+     69690  Mismatches
+     30021  Fwd errs
+     39669  Rev errs
+     22136  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   73.4% 44.6% merged00:01  71Mb  100.0% 44.4% merged
+                                
+Merged length min 255, lowq 295, median 297, mean 294.8, higq 297, max 439
+     Merge length    Reads
+-----------------  -------
+    250 -     274     5171  *********
+    275 -     299    16732  ********************************
+    300 -     324     1875  ***
+    325 -     349      803  *
+    350 -     374       38  
+    375 -     399       28  
+    400 -     424      114  
+    425 -     449      395  
+
+     56290  Pairs
+     25006  Converted (44.4%)
+     11852  Exact overlaps (21.06%)
+      7857  Not aligned (13.96%)
+       150  Too many gaps (max=0) (0.27%)
+      1250  Gaps
+    174598  Mismatches
+    107904  Fwd errs
+     66694  Rev errs
+     23277  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:00  71Mb  100.0% 43.5% merged
+                                
+Merged length min 255, lowq 269, median 278, mean 287.8, higq 304, max 430
+     Merge length    Reads
+-----------------  -------
+    250 -     274     5628  ********************************
+    275 -     299     2801  ***************
+    300 -     324     2477  **************
+    325 -     349      906  *****
+    350 -     374        3  
+    375 -     399       69  
+    400 -     424      115  
+    425 -     449       33  
+
+     27370  Pairs
+     11906  Converted (43.5%)
+      5323  Exact overlaps (19.45%)
+      2839  Not aligned (10.37%)
+       126  Too many gaps (max=0) (0.46%)
+      1046  Gaps
+    110499  Mismatches
+     72472  Fwd errs
+     38027  Rev errs
+     12499  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    0.2% 100.0% merged00:01  71Mb  100.0% 46.0% merged 
+                                
+Merged length min 255, lowq 327, median 362, mean 344.0, higq 362, max 444
+     Merge length    Reads
+-----------------  -------
+    250 -     274      734  **
+    275 -     299     1445  *****
+    300 -     324      138  
+    325 -     349      679  **
+    350 -     374     8599  ********************************
+    375 -     399        0  
+    400 -     424        0  
+    425 -     449       58  
+
+     25258  Pairs
+     11609  Converted (46.0%)
+      5639  Exact overlaps (22.33%)
+      1038  Not aligned (4.11%)
+        44  Too many gaps (max=0) (0.17%)
+       714  Gaps
+     60945  Mismatches
+     30007  Fwd errs
+     30938  Rev errs
+     12567  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   32.1% 71.7% merged00:01  71Mb  100.0% 71.4% merged
+                                
+Merged length min 255, lowq 287, median 287, mean 306.7, higq 339, max 400
+     Merge length    Reads
+-----------------  -------
+    250 -     274     2418  *****
+    275 -     299    14150  ********************************
+    300 -     324     2195  ****
+    325 -     349    12187  ***************************
+    350 -     374       23  
+    375 -     399        0  
+    400 -     424       15  
+
+     43194  Pairs
+     30841  Converted (71.4%)
+     13875  Exact overlaps (32.12%)
+      2737  Not aligned (6.34%)
+       147  Too many gaps (max=0) (0.34%)
+      2343  Gaps
+    203608  Mismatches
+     99448  Fwd errs
+    104160  Rev errs
+      9469  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   33.2% 27.7% merged00:01  71Mb  100.0% 28.2% merged
+                                
+Merged length min 255, lowq 275, median 321, mean 313.8, higq 341, max 439
+     Merge length    Reads
+-----------------  -------
+    250 -     274     2964  *******************************
+    275 -     299     1431  **************
+    300 -     324     2037  *********************
+    325 -     349     3055  ********************************
+    350 -     374     2503  **************************
+    375 -     399        6  
+    400 -     424        1  
+    425 -     449       19  
+
+     42254  Pairs
+     11919  Converted (28.2%)
+      5227  Exact overlaps (12.37%)
+      2146  Not aligned (5.08%)
+        97  Too many gaps (max=0) (0.23%)
+      2260  Gaps
+     80537  Mismatches
+     42258  Fwd errs
+     38279  Rev errs
+     28092  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   57.0% 42.7% merged00:01  71Mb  100.0% 42.7% merged
+                                
+Merged length min 255, lowq 284, median 295, mean 291.6, higq 304, max 443
+     Merge length    Reads
+-----------------  -------
+    250 -     274     3561  ************
+    275 -     299     8899  ********************************
+    300 -     324     4133  **************
+    325 -     349      247  
+    350 -     374       14  
+    375 -     399       14  
+    400 -     424       15  
+    425 -     449       61  
+
+     38612  Pairs
+     16500  Converted (42.7%)
+      6156  Exact overlaps (15.94%)
+      6011  Not aligned (15.57%)
+       444  Too many gaps (max=0) (1.15%)
+      2668  Gaps
+    250405  Mismatches
+    192316  Fwd errs
+     58089  Rev errs
+     15657  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   62.3% 39.6% merged00:01  71Mb  100.0% 39.3% merged
+                                
+Merged length min 255, lowq 293, median 329, mean 314.3, higq 339, max 445
+     Merge length    Reads
+-----------------  -------
+    250 -     274     2745  ***********
+    275 -     299     4049  ****************
+    300 -     324     1318  *****
+    325 -     349     7958  ********************************
+    350 -     374      524  **
+    375 -     399       11  
+    400 -     424        5  
+    425 -     449       77  
+
+     42164  Pairs
+     16577  Converted (39.3%)
+      8055  Exact overlaps (19.10%)
+      1986  Not aligned (4.71%)
+       110  Too many gaps (max=0) (0.26%)
+      1968  Gaps
+    111302  Mismatches
+     54566  Fwd errs
+     56736  Rev errs
+     23491  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   33.8% 83.3% merged00:01  71Mb  100.0% 83.9% merged
+                                
+Merged length min 255, lowq 296, median 296, mean 296.8, higq 296, max 443
+     Merge length    Reads
+-----------------  -------
+    250 -     274      185  
+    275 -     299    49271  ********************************
+    300 -     324     4128  **
+    325 -     349      442  
+    350 -     374        9  
+    375 -     399        0  
+    400 -     424        0  
+    425 -     449       40  
+
+     64278  Pairs
+     53914  Converted (83.9%)
+     28724  Exact overlaps (44.69%)
+      2450  Not aligned (3.81%)
+       161  Too many gaps (max=0) (0.25%)
+      1238  Gaps
+    304829  Mismatches
+    159174  Fwd errs
+    145655  Rev errs
+      7753  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    8.3% 23.2% merged00:01  71Mb  100.0% 23.2% merged
+                                
+Merged length min 255, lowq 277, median 277, mean 280.8, higq 288, max 435
+     Merge length    Reads
+-----------------  -------
+    250 -     274     2918  *********
+    275 -     299     9580  ********************************
+    300 -     324      623  **
+    325 -     349      492  *
+    350 -     374       16  
+    375 -     399       14  
+    400 -     424        7  
+    425 -     449       16  
+
+     58588  Pairs
+     13574  Converted (23.2%)
+      6841  Exact overlaps (11.68%)
+     10601  Not aligned (18.09%)
+        92  Too many gaps (max=0) (0.16%)
+      1917  Gaps
+     97682  Mismatches
+     53668  Fwd errs
+     44014  Rev errs
+     34321  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   19.2% 16.3% merged00:01  71Mb  100.0% 16.7% merged
+                                
+Merged length min 255, lowq 267, median 267, mean 272.7, higq 267, max 449
+     Merge length    Reads
+-----------------  -------
+    250 -     274     8845  ********************************
+    275 -     299     1109  ****
+    300 -     324      496  *
+    325 -     349       99  
+    350 -     374        9  
+    375 -     399       13  
+    400 -     424        6  
+    425 -     449       22  
+
+     63070  Pairs
+     10530  Converted (16.7%)
+      5492  Exact overlaps (8.71%)
+      3799  Not aligned (6.02%)
+        69  Too many gaps (max=0) (0.11%)
+      1592  Gaps
+     74975  Mismatches
+     42789  Fwd errs
+     32186  Rev errs
+     48672  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   14.2% 89.8% merged00:02  71Mb   88.4% 89.8% merged00:02  71Mb  100.0% 89.8% merged
+                                
+Merged length min 255, lowq 261, median 268, mean 267.0, higq 268, max 444
+     Merge length    Reads
+-----------------  -------
+    250 -     274    61414  ********************************
+    275 -     299     1196  
+    300 -     324      468  
+    325 -     349      176  
+    350 -     374      413  
+    375 -     399       14  
+    400 -     424        2  
+    425 -     449        2  
+
+     70456  Pairs
+     63246  Converted (89.8%)
+     29680  Exact overlaps (42.13%)
+      3361  Not aligned (4.77%)
+       439  Too many gaps (max=0) (0.62%)
+      8676  Gaps
+    502272  Mismatches
+    245567  Fwd errs
+    256705  Rev errs
+      3410  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   87.7% 27.0% merged00:01  71Mb  100.0% 27.0% merged
+                                
+Merged length min 255, lowq 271, median 291, mean 298.0, higq 311, max 446
+     Merge length    Reads
+-----------------  -------
+    250 -     274     3765  ***************************
+    275 -     299     4368  ********************************
+    300 -     324     2862  ********************
+    325 -     349     2500  ******************
+    350 -     374       65  
+    375 -     399        1  
+    400 -     424        0  
+    425 -     449      511  ***
+
+     51853  Pairs
+     13980  Converted (27.0%)
+      6757  Exact overlaps (13.03%)
+      3740  Not aligned (7.21%)
+        92  Too many gaps (max=0) (0.18%)
+      1632  Gaps
+     97433  Mismatches
+     51471  Fwd errs
+     45962  Rev errs
+     34041  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:00  71Mb  100.0% 17.6% merged
+                                
+Merged length min 255, lowq 289, median 290, mean 294.1, higq 304, max 442
+     Merge length    Reads
+-----------------  -------
+    250 -     274     1558  ************
+    275 -     299     3954  ********************************
+    300 -     324     1081  ********
+    325 -     349     1152  *********
+    350 -     374       17  
+    375 -     399        1  
+    400 -     424        2  
+    425 -     449       26  
+
+     43488  Pairs
+      7667  Converted (17.6%)
+      3435  Exact overlaps (7.90%)
+     18360  Not aligned (42.22%)
+       124  Too many gaps (max=0) (0.29%)
+       553  Gaps
+     80401  Mismatches
+     55965  Fwd errs
+     24436  Rev errs
+     17337  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   11.4% 25.7% merged00:01  71Mb  100.0% 25.4% merged
+                                
+Merged length min 255, lowq 270, median 291, mean 295.7, higq 317, max 441
+     Merge length    Reads
+-----------------  -------
+    250 -     274     3427  ******************************
+    275 -     299     3603  ********************************
+    300 -     324     2377  *********************
+    325 -     349     2245  *******************
+    350 -     374      347  ***
+    375 -     399        1  
+    400 -     424        5  
+    425 -     449       17  
+
+     47038  Pairs
+     11935  Converted (25.4%)
+      4908  Exact overlaps (10.43%)
+      5586  Not aligned (11.88%)
+        87  Too many gaps (max=0) (0.18%)
+      1228  Gaps
+     98712  Mismatches
+     53982  Fwd errs
+     44730  Rev errs
+     29430  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   28.6% 57.7% merged00:01  71Mb  100.0% 58.4% merged
+                                
+Merged length min 255, lowq 290, median 296, mean 294.0, higq 296, max 445
+     Merge length    Reads
+-----------------  -------
+    250 -     274     3586  ****
+    275 -     299    25033  ********************************
+    300 -     324      869  *
+    325 -     349     2252  **
+    350 -     374      138  
+    375 -     399        0  
+    400 -     424        0  
+    425 -     449       70  
+
+     54387  Pairs
+     31752  Converted (58.4%)
+     14391  Exact overlaps (26.46%)
+      2879  Not aligned (5.29%)
+       196  Too many gaps (max=0) (0.36%)
+      1599  Gaps
+    250144  Mismatches
+    146597  Fwd errs
+    103547  Rev errs
+     19560  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:00  71Mb  100.0% 28.7% merged
+                                
+Merged length min 256, lowq 268, median 270, mean 286.1, higq 288, max 435
+     Merge length    Reads
+-----------------  -------
+    250 -     274      424  ********************************
+    275 -     299       92  ******
+    300 -     324       97  *******
+    325 -     349        3  
+    350 -     374        0  
+    375 -     399        1  
+    400 -     424        0  
+    425 -     449       34  **
+
+      2234  Pairs
+       641  Converted (28.7%)
+       302  Exact overlaps (13.52%)
+       142  Not aligned (6.36%)
+        10  Too many gaps (max=0) (0.45%)
+       222  Gaps
+      5553  Mismatches
+      3082  Fwd errs
+      2471  Rev errs
+      1441  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb    0.6% 35.0% merged00:02  71Mb   68.9% 34.3% merged00:02  71Mb  100.0% 34.1% merged
+                                
+Merged length min 255, lowq 273, median 285, mean 282.2, higq 293, max 437
+     Merge length    Reads
+-----------------  -------
+    250 -     274    14280  ********************************
+    275 -     299    10341  ***********************
+    300 -     324     4576  **********
+    325 -     349       12  
+    350 -     374        3  
+    375 -     399        1  
+    400 -     424        0  
+    425 -     449        4  
+
+     85319  Pairs
+     29061  Converted (34.1%)
+     13001  Exact overlaps (15.24%)
+      3986  Not aligned (4.67%)
+       156  Too many gaps (max=0) (0.18%)
+      2537  Gaps
+    207952  Mismatches
+    103669  Fwd errs
+    104283  Rev errs
+     52116  Staggered
+00:00  70Mb    0.1% Converting
+WARNING: Max OMP threads 1
+
+00:01  71Mb   29.3% 50.2% merged00:01  71Mb  100.0% 50.6% merged
+                                
+Merged length min 255, lowq 256, median 269, mean 277.0, higq 285, max 442
+     Merge length    Reads
+-----------------  -------
+    250 -     274    18032  ********************************
+    275 -     299     6328  ***********
+    300 -     324     3559  ******
+    325 -     349        7  
+    350 -     374        4  
+    375 -     399        2  
+    400 -     424        0  
+    425 -     449      499  
+
+     55995  Pairs
+     28318  Converted (50.6%)
+     14388  Exact overlaps (25.70%)
+      1674  Not aligned (2.99%)
+       113  Too many gaps (max=0) (0.20%)
+      1857  Gaps
+    178993  Mismatches
+     98177  Fwd errs
+     80816  Rev errs
+     25890  Staggered

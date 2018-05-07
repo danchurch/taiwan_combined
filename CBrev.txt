@@ -163,3 +163,187 @@ for forward in $R1d*; do
 done
 
 ###########################
+
+## did that work?
+
+## looks good. So what was our largest file size?
+
+ls -Slhr
+
+## 51 meg. 
+
+## our leaf files after trimming are 10 and 6.8 gig. 
+
+## this largest file size is 374560 lines 
+
+## let's split up the leaves in to files with line
+## numbers in multiples of four.
+
+## pipeline: 
+
+## 1) split leaf and wood reads down to ~1 gig files
+## 2) run usearch on all
+## 3) combine with cat
+
+## 1) split leaf into 1 gig files:
+
+## trimmed, unpaired leaves are here in talapas:
+
+cd /projects/xylaria/dthomas/leaf
+
+## how many lines in these leaf read files?
+
+wc -l Roo_R1_trimmed.fastq ## 72806460
+
+wc -l Roo_R2_trimmed.fastq ## same, 72806460
+
+expr 72806460 / 4 ## 18201615 reads... is that about right? 
+
+## anyway, multiple of four
+
+## we should probably write a script for this, get off the 
+## head node:
+
+## split_leaf.sh
+################################
+
+#!/bin/bash
+
+#SBATCH --job-name=split_leaf
+#SBATCH --output=split_leaf.out
+#SBATCH --error=split_leaf.err
+#SBATCH --time=0-05:00:00
+#SBATCH --nodes=1
+
+cd /projects/xylaria/dthomas/leaf/split_leaf
+
+for i in ../Roo_R*_*; do 
+    ls $i 
+    split -d -l 500000 $i ${i/fastq/split\.fastq}
+done
+
+
+###########################
+
+
+## Submitted batch job 1731251
+
+## worked?:
+
+
+cd /projects/xylaria/dthomas/leaf/split_leaf
+
+
+expr 72806460 / 500000 ## should be 145 or so files:
+
+for i in *; do
+wc -l $i
+done
+
+## looks good, matches up
+## can we cycle through these and merge?
+
+######################
+
+#!/bin/bash
+
+#SBATCH --job-name=leaf_merge
+#SBATCH --output=leaf_merge.out
+#SBATCH --error=leaf_merge.err
+#SBATCH --time=0-05:00:00
+#SBATCH --nodes=1
+
+module load usearch/8.0
+
+cd /projects/xylaria/dthomas/leaf/split_leaf/
+
+for i in Roo_R2_trimmed.split.fastq*; do
+    usearch -fastq_mergepairs $i -reverse ${i/_R2_/_R1_}  -fastqout "merged/"${i/_R2_/_merged_} 
+done
+
+###################################
+
+## seems like it worked...
+
+scp dthomas@talapas-login.uoregon.edu:/home/dthomas/leaf_merge.out ./
+scp dthomas@talapas-login.uoregon.edu:/home/dthomas/leaf_merge.err ./
+
+## okay, can we recombine these? or is there an order issue now?
+
+cat * > Roo_merged_trimmed.split.fastq
+
+## that may be a bit much for the head node ...
+
+srun --pty --partition=short --mem=1024M --time=60 bash
+
+## rerun
+
+ls -l Roo_merged_trimmed.split.fastq
+
+wc -l Roo_merged_trimmed.split.fastq ## 65858336
+
+expr 65858336 / 4 ## 16,464,584 reads. 
+
+echo $((18201615 - 16464584)) ## 1,737,031 reads lost. 
+
+## anyway, what happens next? 
+## I think we next demultiplex our leaf reads. 
+
+## but let's catch up the jupyter notebook...
+
+## it looks like more than half of our wood reads didn't pair. 
+## check this:
+
+cd /projects/xylaria/dthomas/merged_wood
+
+tot=0
+for i in *; do
+    tot=$(( $tot + $(wc -l $i | cut -f 1 -d " ") ))
+done
+
+echo $(( tot / 4 )) reads
+
+## 1.86 million reads. Something is fucked. 
+
+## so... what happened?
+
+## if we rerun just one of our merges, do we get the same result?
+
+## for instance, we got really bad results from our second file, 33% matched
+## this is ... 
+
+## lane1-s161-index-AAGCACTG-TTCGTACGNNNN-Dc-PosG_S161_L001_R1_trimmed.fastq
+
+## to rerun this:
+
+forward="/projects/xylaria/dthomas/trimmed_wood/R1/lane1-s161-index-AAGCACTG-TTCGTACGNNNN-Dc-PosG_S161_L001_R1_trimmed.fastq"
+reverse="/projects/xylaria/dthomas/trimmed_wood/R2/lane1-s161-index-AAGCACTG-TTCGTACGNNNN-Dc-PosG_S161_L001_R2_trimmed.fastq"
+
+module load usearch/8.0
+
+usearch -fastq_mergepairs $forward -reverse $reverse -fastqout ./test.fastq
+
+usearch -fastq_mergepairs $forward -reverse $reverse -fastqout ./test.fastq -notrunclabels
+
+## get some error reports:
+
+usearch -fastq_mergepairs $forward -reverse $reverse  -alnout aln.txt
+
+usearch -fastq_mergepairs $forward -reverse $reverse -fastqout ./test.fastq -alnout aln.txt
+
+## it looks like most of our reads aligned, ~95%, and they looks pretty good on visual 
+## inspection, but we need to relax our permitted numbers of mismatches. 
+## in newer versions, this is the  "-fastq_maxdiffs" parameter, defautl = 5. 
+## True for 8.0?
+
+usearch -fastq_mergepairs $forward -reverse $reverse -fastq_maxdiffs 10 -alnout aln_10.txt
+
+usearch -fastq_mergepairs $forward -reverse $reverse -fastq_maxdiffs 20 -alnout aln_20.txt
+
+## none of this is helping. "mismatches" and "differences" are different types of error in 
+## this version, though not in the more recent versions. And I can't find documentation 
+## for older versions. What is the difference between these errors? Most of our reads aligned
+## very well.  
+
+
+
