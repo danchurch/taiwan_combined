@@ -1,0 +1,5 @@
+
+Merge
+  Fwd lane1-s161-index-AAGCACTG-TTCGTACGNNNN-Dc-PosG_S161_L001_R1_trimmed.fastq
+  Rev lane1-s161-index-AAGCACTG-TTCGTACGNNNN-Dc-PosG_S161_L001_R2_trimmed.fastq
+  Keep read labels

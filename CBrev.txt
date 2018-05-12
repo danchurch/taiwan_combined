@@ -385,4 +385,15 @@ usearch -fastq_mergepairs $forward \
 ## split up leaf files on the optiplex?
 ## run the merge on all of them?
 
+## we need to 
 
+## 1 get all trimmed wood onto the optiplex
+## 2 and all trimmed leaves
+## 3 install usearch 8.1 onto optiplex
+## 4 split up the leaves
+## 5 run mergepair on on all wood
+## 6 run mergepair on on all leaf
+## 7 recombine leaves
+ 
+
+## or just sleep. Let's do that. 
