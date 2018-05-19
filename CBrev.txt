@@ -347,6 +347,8 @@ usearch -fastq_mergepairs $forward -reverse $reverse -fastq_maxdiffs 20 -alnout 
 
 ## let's try this on my own computer, with v8.1.x of usearch
 
+cd mergetest 
+
 forward='lane1-s161-index-AAGCACTG-TTCGTACGNNNN-Dc-PosG_S161_L001_R1_trimmed.fastq'
 reverse='lane1-s161-index-AAGCACTG-TTCGTACGNNNN-Dc-PosG_S161_L001_R2_trimmed.fastq'
 
@@ -397,3 +399,279 @@ usearch -fastq_mergepairs $forward \
  
 
 ## or just sleep. Let's do that. 
+
+##### try again #########
+
+## get trimmed wood onto optiplex ...
+
+scp -r ./trimmed_wood/ daniel@192.168.1.7:/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/
+
+## trimmed leaves - better to do the trimming on site? or copy?
+
+## where are our leaves? put them on optiplex
+
+scp dthomas@talapas-login.uoregon.edu:/projects/xylaria/dthomas/leaf/Roo_R{1..2}_trimmed.fastq ./
+
+## so we're loading the trimmed wood and leaves onto the optiplex 
+
+## split up the leaves:
+
+
+## split_leaf.sh
+################################
+
+#!/usr/bin/env bash
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves
+
+for i in Roo_R*_*; do 
+    ls $i 
+    split -d -l 500000 $i ${i/fastq/split\.fastq}
+done
+
+
+###########################
+
+## can we record our outputs from usearch?
+
+cd mergetest 
+
+forward='lane1-s161-index-AAGCACTG-TTCGTACGNNNN-Dc-PosG_S161_L001_R1_trimmed.fastq'
+reverse='lane1-s161-index-AAGCACTG-TTCGTACGNNNN-Dc-PosG_S161_L001_R2_trimmed.fastq'
+
+usearch -fastq_mergepairs $forward \
+    -reverse $reverse \
+    -fastq_maxdiffpct 40 \
+    -alnout aln_3.txt \
+    -report reports/$i.report.txt \
+    -fastqout ./test3.fastq
+
+## merge wood on optiplex
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/R1
+
+for forward in *fastq; do
+    ls -l $forward
+    reverse="../R2/${forward/R1/R2}"
+    usearch -fastq_mergepairs $forward \
+        -reverse $reverse \
+        -fastq_maxdiffpct 40 \
+        -alnout aln_3.txt \ ## oops, fix this if reused
+        -report ../reports/$forward.report.txt \
+        -fastqout ./$forward.merged.fastq
+    echo $reverse
+done
+
+## oops, deleted a file - redo just this:
+
+forward=lane1-s257-index-GAGGACTT-CCTAAGTCNNNN-PosI_S257_L001_R1_trimmed.fastq
+ls -l $forward
+reverse="../R2/${forward/R1/R2}"
+ls -l $reverse
+usearch -fastq_mergepairs $forward \
+    -reverse $reverse \
+    -fastq_maxdiffpct 40 \
+    -report ../reports/$forward.report.txt \
+    -fastqout ./$forward.merged.fastq
+
+## look, this publication and the others need to get out. 
+## the expedition needs to happen. 
+## then I can move on the next los Cedros project... some
+## thing beautiful for Rosa in this dying world. 
+
+
+## I think we're ready to merge wood reads ...
+
+## and the leaves, still on optiplex:
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/split
+
+## did the splitting mess up order?
+head -n 1 Roo_R1_trimmed.split.fastq9054
+head -n 1 Roo_R2_trimmed.split.fastq9054
+
+tail -n 4 Roo_R1_trimmed.split.fastq72
+tail -n 4 Roo_R2_trimmed.split.fastq72
+
+## looks good
+
+for forward in *_R1_*; do
+    #ls $forward
+    reverse=${forward/_R1_/_R2_}
+    usearch -fastq_mergepairs $forward \
+        -reverse $reverse \
+        -fastq_maxdiffpct 40 \
+        -alnout aln_3.txt \ ## oops, fix this if reused
+        -report ../reports/$forward.report.txt \
+        -fastqout ../merged/$forward.merged.fastq
+    #ls $reverse
+done
+
+## seems to be working ...
+
+## okay, so to revisit the wood
+
+## did we lose a lot?
+
+cat lane1-s160-index-AAGCACTG-GTGATCCANNNN-Dc-X_S160_L001_R1_trimmed.fastq.report.txt
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/merged
+
+clear
+wc -l lane1-s257-index-GAGGACTT-CCTAAGTCNNNN-PosI_S257_L001_R1_trimmed.fastq.merged.fastq 
+
+grep "^@M" lane1-s257-index-GAGGACTT-CCTAAGTCNNNN-PosI_S257_L001_R1_trimmed.fastq.merged.fastq  | wc -l
+
+head lane1-s257-index-GAGGACTT-CCTAAGTCNNNN-PosI_S257_L001_R1_trimmed.fastq.merged.fastq 
+
+bb=$(wc -l lane1-s257-index-GAGGACTT-CCTAAGTCNNNN-PosI_S257_L001_R1_trimmed.fastq.merged.fastq | cut -f 1 -d " ")
+echo "bb="$bb
+aa=$(( $bb / 4 ))
+echo aa=$aa
+echo aaX4=$(( $aa * 4 ))
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/merged
+
+lines=0
+for i in *; do
+    bb=$(wc -l $i | cut -f 1 -d " ")
+    aa=$(( $bb / 4 ))
+    lines=$(( aa + lines ))
+done
+
+echo $lines ## 3745085
+
+## or maybe just 
+grep "^@M" -r | wc -l ## yeah. 3745085
+
+## vs..
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/R1
+grep "^@M" -r | wc -l ## 5608274
+
+## 3745085 / 5608274 = ## 66%. Hmm, not great, but what can I do? Why is this so different 
+## from when we did this last year? What did I do differently?
+
+## And the leaves?
+
+## merged
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/merged
+(grep "^@HWI" -r | wc -l &)
+## 14813290
+## 14,813,290
+
+## unmerged:
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/
+(grep "^@HWI" Roo_R2_trimmed.fastq | wc -l &)
+## 18201615
+## 18,201,615
+
+## 81%, a lot better. Why? The wood library has generally better qscores. And when we
+## merged them before with the 64-bit version of usearch, we had nearly 100% merging
+## with the wood. Something seems off. 
+
+## Oh well, let's march through to the biom table, and see how biom tables compare. 
+## If they are drastically different from last years results, we'll see what can be 
+## tweaked. 
+
+## onward
+
+## cat the leaf files:
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/merged
+
+cat * > leaf_trimmed_merged.fastq
+
+## cat the wood files, for quality charts:
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/merged
+
+cat * > wood_trimmed_merged.fastq
+
+
+## then what? 
+## get trimmed, merged files onto laptop
+## visualize qualities
+## quality filter
+## go to fasta
+## demultiplex leaves
+## remove leaf primers
+## remove floating primers
+## chimera check
+## combine 
+## trim to ITS1 region
+## combine 
+
+## oh, lotsa shit. I'm far from finished. Trek on. 
+
+
+## tonight
+## run fastq stats on optiplex
+## get all files onto laptop
+
+## after visualization, organize files, update github and notebook
+
+## stats, on optiplex. What do we want to look at? Unmerged forward 
+## and reverse, both trimmmed and un-. The merged, trimmed reads. 
+
+## leaves:
+
+## leafQcharts.sh
+#####################################
+
+#!/usr/bin/env bash
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/qCharts/leaf
+
+rawLeafReadsR1="/home/daniel/Documents/taiwan_supp/roo_reads/TaiwanFA_R1.fastq"
+rawLeafReadsR2="/home/daniel/Documents/taiwan_supp/roo_reads/TaiwanFA_R2.fastq"
+trimmedLeafReadsR1="/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/Roo_R1_trimmed.fastq"
+trimmedLeafReadsR2="/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/Roo_R2_trimmed.fastq"
+leafmerg="/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/merged/leaf_trimmed_merged.fastq"
+
+## leaf quality stats:
+fastx_quality_stats -i $rawLeafReadsR1 -o rawLeafReadsR1_fastxstats.txt
+fastx_quality_stats -i $rawLeafReadsR2 -o rawLeafReadsR2_fastxstats.txt
+fastx_quality_stats -i $trimmedLeafReadsR1 -o trimmedLeafReadsR1_fastxstats.txt
+fastx_quality_stats -i $trimmedLeafReadsR2 -o trimmedLeafReadsR2_fastxstats.txt
+fastx_quality_stats -i $leafmerg -o leafmerged_fastxstats.txt
+
+
+#####################################
+
+(./leafQcharts.sh &) &
+
+## wood reads
+
+## make a combined files for the various prep stages so far:
+
+cat /home/daniel/Documents/taiwan_supp/wood_reads/*R1* > /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/rawWoodReadsR1.fastq
+
+cat /home/daniel/Documents/taiwan_supp/wood_reads/*R2* > /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/rawWoodReadsR2.fastq
+
+cat /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/R1/* > /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmedWoodR1.fastq
+
+cat /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/R2/* > /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmedWoodR2.fastq
+
+cat /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/merged/* > /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/woodMerged.fastq
+
+## how?
+
+
+## woodQcharts.sh
+############################
+#!/usr/bin/env bash
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom
+
+fastx_quality_stats -i rawWoodReadsR1.fastq -o qCharts/wood/rawWoodReadsR1_fastxstats.txt
+fastx_quality_stats -i rawWoodReadsR2.fastq -o qCharts/wood/rawWoodReadsR2_fastxstats.txt
+fastx_quality_stats -i trimmedWoodR1.fastq -o qCharts/wood/trimmedWoodR1_fastxstats.txt
+fastx_quality_stats -i trimmedWoodR2.fastq -o qCharts/wood/trimmedWoodR2_fastxstats.txt
+fastx_quality_stats -i woodMerged.fastq -o qCharts/wood/woodMerged_fastxstats.txt
+
+##########################
+
+(./woodQcharts.sh &) &
+
+
+
