@@ -674,4 +674,187 @@ fastx_quality_stats -i woodMerged.fastq -o qCharts/wood/woodMerged_fastxstats.tx
 (./woodQcharts.sh &) &
 
 
+#################### quality filtering ######################
+
+## get an example file
+scp daniel@192.168.1.7:/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/merged/lane1-s255-index-TGCGAACT-CCTAAGTCNNNN-Neg_S255_L001_R1_trimmed.fastq.merged.fastq ./
+
+exFastq='lane1-s255-index-TGCGAACT-CCTAAGTCNNNN-Neg_S255_L001_R1_trimmed.fastq.merged.fastq'
+
+## let's try quality filtering 
+## and what if we want to pipe out the screen messages to a file?
+
+usearch -fastq_filter $exFastq -fastq_maxee_rate .01 -fastqout exampleOut.fastq -notrunclabels 2> exError.txt
+
+## doesn't catch the licensing, but everything else. 
+
+## can we do both - see the sterr on the screen and in file?
+
+usearch -fastq_filter $exFastq -fastq_maxee_rate .01 -fastqout exampleOut.fastq -notrunclabels 1> exStdout.txt 2> exError.txt  
+
+## works, but can we put them on the same file?
+
+usearch -fastq_filter $exFastq -fastq_maxee_rate .01 -fastqout exampleOut.fastq -notrunclabels &> exStdout.txt   
+
+## yeah, that's what I need. To remember all this, 0 is input, 1 in stdout, 2 is stderr, & is both 1 & 2. 
+
+## anyway, do this on the optiplex, all wood files. Where are they?
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/merged
+
+for i in *; do
+    out=${i/.fastq.merged.fastq/\.merge\.filt\.fastq}
+    usearch -fastq_filter $i -fastq_maxee_rate .01 -fastqout $out -notrunclabels &>> mergeStdout.txt   
+done
+
+## looks like we kept almost all, so maybe the hard filtering happened in the pairing step. 
+
+scp daniel@192.168.1.7/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/merged/mergeStdout.txt ./
+## do we need to use our split up leaves? probably.
+
+## try the single merged file first:
+
+usearch -fastq_filter leaf_trimmed_merged.fastq -fastq_maxee_rate 0.01 -fastqout leaf_filtered.fastq
+
+## yeah, too big. So go through the split files:
+
+
+mkdir ../filtered
+
+#!/usr/bin/env bash
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/merged
+
+for i in *; do
+    out=${i/.merged.fastq/\.merged\.filt\.fastq}
+    #echo $i $out
+    usearch -fastq_filter $i -fastq_maxee_rate .01 -fastqout "../filtered/"$out -notrunclabels &>> ../filtered/leaf_mergeStdout.txt   
+done
+
+(./filterleaves.sh &) &
+
+
+## so  as I understand it, we should have quality filtered reads, for both leaves and wood. 
+
+## check out these reports:
+
+## leaves:
+
+lR=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/filtered/leaf_mergeStdout.txt
+
+less $lR
+
+
+grep "....\%.passed" $lR 
+
+## looks generally successful 
+
+## leaves?
+lL=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/merged/mergeStdout.txt
+
+less $lL
+
+grep "....\%.passed" $lL
+
+## whoah, way higher...
+
+grep "....\%.passed" $lL | cut -d " " -f 8
+
+## can we convert these to fasta, then update the notebook?
+
+## let's do this with bbmap:
+
+## got to bbmap directory on my laptop, put it on the optiplex:
+scp -r ./bbmap daniel@192.168.1.7:/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom 
+
+bb=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap
+
+## let's do leaves first. Recombine the leaf reads:
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/filtered
+
+cat *fastq > leaf_merged_filt.fastq
+
+$bb/reformat.sh in=leaf_merged_filt.fastq out=leaf_merged_filt.fasta
+
+## this worked?
+head -n 1 leaf_merged_filt.fastq 
+head -n 1 leaf_merged_filt.fasta
+
+tail -n 20 leaf_merged_filt.fasta | grep ">HWI"
+tail -n 40 leaf_merged_filt.fastq | grep "@HWI"
+
+## looks okay. Onward...
+
+## let's demultiplex and update the notebook if there is still time:
+
+## to dumultiplex - which script, if any, will do the job?
+
+## on the dada pipeline I had to split up the file, apply one of the
+## python scripts, and reassemble...
+
+## huh. confused. Looks like I should have done this a while ago, before 
+## merging...
+
+## shit. can we do this now? Were these barcodes lost in trimming or 
+## merging?
+
+## how to tell?
+
+## look at a few?
+
+head leafread_fastx_map.txt
+
+head 
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/filtered
+
+sed -n '4000000,4000001p' leaf_merged_filt.fasta
+
+head leaf_merged_filt.fasta 
+
+
+grep ^ACCCAT leaf_merged_filt.fasta -B 1 | grep ">HWI" | wc -l ## 780,301 reads, makes sense. 
+
+
+## do the other ends of these reads still have the other half of these barcodes?
+
+grep ">HWI" leaf_merged_filt.fasta -B 1 | grep ATATCC$ 
+
+grep ">HWI" leaf_merged_filt.fasta -B 1 | grep ATATCC$ | wc -l ## 301, not many. 
+
+## Reverse compliment?
+
+grep ">HWI" leaf_merged_filt.fasta -B 1 | grep GGATAT$ | wc -l ## 499. Fuck. 
+
+grep ">HWI" leaf_merged_filt.fasta -B 1 | grep TATAGG$ | wc -l ## 184. 
+
+
+## oh, shoot, it looks like I did do this, already
+## I'm going nuts. 
+
+## check that really quick:
+
+grep ">HWI" leaf_merged_filt.fasta -A 1 | grep ^ACCCATATATCC | wc -l ## two million. More like it...
+
+## okay, so we're good to start the demultiplexing then. We can use fastx to do this:
+
+ld="/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/demult/"
+
+cat leaf_merged_filt.fasta | fastx_barcode_splitter.pl \
+    --bcfile leafread_fastx_map.txt \
+    --prefix $ld"leaf_"  \
+    --suffix ".fa"  \
+    --bol --mismatches 1 --partial 1 \
+    &>> "leaf_demult_log.txt" 
+
+## don't need to do this for wood. 
+## so where are we now? 
+
+## next step is to trim off the primers from the wood. But the 
+## demultiplexing is taking a while. So let's catch up our notebook.
+
+
+
+
 

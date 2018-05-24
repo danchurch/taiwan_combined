@@ -1,0 +1,882 @@
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     61717  FASTQ recs (61.7k)              
+     61717  Converted (61.7k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     44977  FASTQ recs (45.0k)              
+     44975  Converted (45.0k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb   66.0% Filtering, 99.8% passed00:01  32Mb  100.0% Filtering, 99.8% passed
+     37537  FASTQ recs (37.5k)             
+     37462  Converted (37.5k, 99.8%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 99.6% passed
+     17141  FASTQ recs (17.1k)             
+     17079  Converted (17.1k, 99.6%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 99.9% passed
+     30977  FASTQ recs (31.0k)             
+     30951  Converted (31.0k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     44386  FASTQ recs (44.4k)              
+     44377  Converted (44.4k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  66Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     26557  FASTQ recs (26.6k)              
+     26545  Converted (26.5k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb   16.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     48013  FASTQ recs (48.0k)              
+     48010  Converted (48.0k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 99.8% passed
+     29113  FASTQ recs (29.1k)             
+     29049  Converted (29.0k, 99.8%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb   90.1% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     51790  FASTQ recs (51.8k)              
+     51778  Converted (51.8k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     45330  FASTQ recs (45.3k)              
+     45329  Converted (45.3k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     44558  FASTQ recs (44.6k)              
+     44550  Converted (44.5k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  66Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     32725  FASTQ recs (32.7k)              
+     32720  Converted (32.7k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     26854  FASTQ recs (26.9k)              
+     26853  Converted (26.9k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     32122  FASTQ recs (32.1k)              
+     32106  Converted (32.1k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 99.9% passed 
+     29772  FASTQ recs (29.8k)             
+     29733  Converted (29.7k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 99.9% passed
+     18812  FASTQ recs (18.8k)             
+     18788  Converted (18.8k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     49402  FASTQ recs (49.4k)              
+     49393  Converted (49.4k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 99.9% passed 
+     48397  FASTQ recs (48.4k)             
+     48365  Converted (48.4k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 99.8% passed
+     27577  FASTQ recs (27.6k)             
+     27511  Converted (27.5k, 99.8%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     16388  FASTQ recs (16.4k)              
+     16381  Converted (16.4k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 99.9% passed 
+     44077  FASTQ recs (44.1k)             
+     44017  Converted (44.0k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     52684  FASTQ recs (52.7k)              
+     52683  Converted (52.7k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  66Mb    0.1% Filtering00:01  65Mb   10.7% Filtering, 99.8% passed00:01  32Mb  100.0% Filtering, 99.9% passed
+     36068  FASTQ recs (36.1k)             
+     36037  Converted (36.0k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     65064  FASTQ recs (65.1k)              
+     65050  Converted (65.0k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     43556  FASTQ recs (43.6k)              
+     43556  Converted (43.6k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 99.9% passed
+     43527  FASTQ recs (43.5k)             
+     43484  Converted (43.5k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     56663  FASTQ recs (56.7k)              
+     56656  Converted (56.7k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     55294  FASTQ recs (55.3k)              
+     55293  Converted (55.3k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     68878  FASTQ recs (68.9k)              
+     68876  Converted (68.9k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     34954  FASTQ recs (35.0k)              
+     34952  Converted (35.0k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     32874  FASTQ recs (32.9k)              
+     32858  Converted (32.9k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  66Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 99.9% passed
+     40077  FASTQ recs (40.1k)             
+     40056  Converted (40.1k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb   42.8% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     55539  FASTQ recs (55.5k)              
+     55535  Converted (55.5k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 99.8% passed
+     36211  FASTQ recs (36.2k)             
+     36142  Converted (36.1k, 99.8%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb   72.9% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     53462  FASTQ recs (53.5k)              
+     53459  Converted (53.5k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     42950  FASTQ recs (43.0k)              
+     42947  Converted (42.9k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     20790  FASTQ recs (20.8k)              
+     20785  Converted (20.8k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb   13.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     40009  FASTQ recs (40.0k)              
+     40003  Converted (40.0k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     32756  FASTQ recs (32.8k)              
+     32744  Converted (32.7k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb   51.3% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     64570  FASTQ recs (64.6k)              
+     64561  Converted (64.6k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 99.9% passed
+     30739  FASTQ recs (30.7k)             
+     30722  Converted (30.7k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 99.9% passed
+     34855  FASTQ recs (34.9k)             
+     34837  Converted (34.8k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     43982  FASTQ recs (44.0k)              
+     43974  Converted (44.0k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     38801  FASTQ recs (38.8k)              
+     38789  Converted (38.8k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb    4.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     56721  FASTQ recs (56.7k)              
+     56706  Converted (56.7k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 99.9% passed
+     35445  FASTQ recs (35.4k)             
+     35412  Converted (35.4k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb   83.6% Filtering, 99.9% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     38195  FASTQ recs (38.2k)              
+     38176  Converted (38.2k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     45208  FASTQ recs (45.2k)              
+     45202  Converted (45.2k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb   93.3% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     52051  FASTQ recs (52.1k)              
+     52038  Converted (52.0k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     23129  FASTQ recs (23.1k)              
+     23127  Converted (23.1k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 99.7% passed
+      8938  FASTQ recs (8938)              
+      8913  Converted (8913, 99.7%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     42057  FASTQ recs (42.1k)              
+     42053  Converted (42.1k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     38095  FASTQ recs (38.1k)              
+     38085  Converted (38.1k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  66Mb    0.1% Filtering00:01  65Mb    5.0% Filtering, 99.9% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     34455  FASTQ recs (34.5k)              
+     34443  Converted (34.4k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     42656  FASTQ recs (42.7k)              
+     42640  Converted (42.6k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     44886  FASTQ recs (44.9k)              
+     44885  Converted (44.9k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     43179  FASTQ recs (43.2k)              
+     43172  Converted (43.2k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     61191  FASTQ recs (61.2k)              
+     61181  Converted (61.2k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 99.9% passed
+     24712  FASTQ recs (24.7k)             
+     24691  Converted (24.7k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     42988  FASTQ recs (43.0k)              
+     42984  Converted (43.0k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  66Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     50513  FASTQ recs (50.5k)              
+     50505  Converted (50.5k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     49224  FASTQ recs (49.2k)              
+     49211  Converted (49.2k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:01  65Mb    0.1% Filtering00:01  32Mb  100.0% Filtering, 99.9% passed
+     48041  FASTQ recs (48.0k)             
+     47997  Converted (48.0k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     59350  FASTQ recs (59.4k)              
+     59336  Converted (59.3k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     41318  FASTQ recs (41.3k)              
+     41299  Converted (41.3k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 99.6% passed 
+     30394  FASTQ recs (30.4k)             
+     30271  Converted (30.3k, 99.6%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 98.9% passed
+     25361  FASTQ recs (25.4k)             
+     25083  Converted (25.1k, 98.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:01  65Mb    0.1% Filtering00:01  32Mb  100.0% Filtering, 100.0% passed
+     62723  FASTQ recs (62.7k)              
+     62721  Converted (62.7k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:01  65Mb    0.1% Filtering00:01  32Mb  100.0% Filtering, 100.0% passed
+     49128  FASTQ recs (49.1k)              
+     49122  Converted (49.1k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:01  65Mb    0.1% Filtering00:01  32Mb  100.0% Filtering, 100.0% passed
+     44147  FASTQ recs (44.1k)              
+     44144  Converted (44.1k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  66Mb    0.1% Filtering00:01  65Mb   70.8% Filtering, 99.9% passed00:01  32Mb  100.0% Filtering, 99.9% passed
+     37231  FASTQ recs (37.2k)             
+     37202  Converted (37.2k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     26737  FASTQ recs (26.7k)              
+     26731  Converted (26.7k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  66Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     10642  FASTQ recs (10.6k)              
+     10641  Converted (10.6k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:01  65Mb    0.1% Filtering00:01  32Mb  100.0% Filtering, 100.0% passed
+     21253  FASTQ recs (21.3k)              
+     21248  Converted (21.2k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 99.9% passed
+     23286  FASTQ recs (23.3k)             
+     23268  Converted (23.3k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 99.9% passed 
+     24924  FASTQ recs (24.9k)             
+     24908  Converted (24.9k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     24709  FASTQ recs (24.7k)              
+     24703  Converted (24.7k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb   54.0% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     35103  FASTQ recs (35.1k)              
+     35091  Converted (35.1k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 99.9% passed
+     26257  FASTQ recs (26.3k)             
+     26224  Converted (26.2k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 99.9% passed 
+     36638  FASTQ recs (36.6k)             
+     36597  Converted (36.6k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     18107  FASTQ recs (18.1k)              
+     18100  Converted (18.1k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  67Mb    0.1% Filtering00:01  65Mb   30.5% Filtering, 99.8% passed00:01  32Mb  100.0% Filtering, 99.8% passed
+     18586  FASTQ recs (18.6k)             
+     18552  Converted (18.6k, 99.8%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     29724  FASTQ recs (29.7k)              
+     29723  Converted (29.7k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  66Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 99.9% passed
+     29888  FASTQ recs (29.9k)             
+     29872  Converted (29.9k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:01  65Mb    0.1% Filtering00:01  32Mb  100.0% Filtering, 100.0% passed
+     21269  FASTQ recs (21.3k)              
+     21261  Converted (21.3k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 99.9% passed
+     30675  FASTQ recs (30.7k)             
+     30651  Converted (30.7k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:01  65Mb    0.1% Filtering00:01  32Mb  100.0% Filtering, 100.0% passed
+     47727  FASTQ recs (47.7k)              
+     47719  Converted (47.7k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     35795  FASTQ recs (35.8k)              
+     35793  Converted (35.8k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     44893  FASTQ recs (44.9k)              
+     44891  Converted (44.9k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:01  65Mb    0.1% Filtering00:01  32Mb  100.0% Filtering, 100.0% passed
+     48832  FASTQ recs (48.8k)              
+     48829  Converted (48.8k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  66Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 99.9% passed 
+     36067  FASTQ recs (36.1k)             
+     36013  Converted (36.0k, 99.9%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     18556  FASTQ recs (18.6k)              
+     18551  Converted (18.6k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  66Mb    0.1% Filtering00:01  65Mb    8.3% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     31750  FASTQ recs (31.8k)              
+     31741  Converted (31.7k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 100.0% passed
+     37531  FASTQ recs (37.5k)              
+     37523  Converted (37.5k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  66Mb    0.1% Filtering00:00  32Mb  100.0% Filtering, 99.7% passed
+      1519  FASTQ recs (1519)              
+      1514  Converted (1514, 99.7%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb    0.2% Filtering, 100.0% passed00:01  32Mb  100.0% Filtering, 100.0% passed
+     60281  FASTQ recs (60.3k)              
+     60280  Converted (60.3k, 100.0%)
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  65Mb    0.1% Filtering00:01  65Mb   73.6% Filtering, 99.9% passed00:01  32Mb  100.0% Filtering, 99.9% passed
+     40475  FASTQ recs (40.5k)             
+     40424  Converted (40.4k, 99.9%)
