@@ -1,0 +1,10 @@
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=leaf_merged_filt.fastq out=leaf_merged_filt.fasta fastawrap=0
+Executing jgi.ReformatReads [in=leaf_merged_filt.fastq, out=leaf_merged_filt.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	14372164 reads          	4600246850 bases
+Output:                 	14372164 reads (100.00%) 	4600246850 bases (100.00%)
+
+Time:                         	151.584 seconds.
+Reads Processed:      14372k 	94.81k reads/sec
+Bases Processed:       4600m 	30.35m bases/sec

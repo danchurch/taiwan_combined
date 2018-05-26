@@ -1,0 +1,980 @@
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s160-index-AAGCACTG-GTGATCCANNNN-Dc-X_S160_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s160-index-AAGCACTG-GTGATCCANNNN-Dc-X_S160_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s160-index-AAGCACTG-GTGATCCANNNN-Dc-X_S160_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s160-index-AAGCACTG-GTGATCCANNNN-Dc-X_S160_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	61717 reads          	15788419 bases
+Output:                 	61717 reads (100.00%) 	15788419 bases (100.00%)
+
+Time:                         	0.638 seconds.
+Reads Processed:       61717 	96.76k reads/sec
+Bases Processed:      15788k 	24.75m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s161-index-AAGCACTG-TTCGTACGNNNN-Dc-PosG_S161_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s161-index-AAGCACTG-TTCGTACGNNNN-Dc-PosG_S161_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s161-index-AAGCACTG-TTCGTACGNNNN-Dc-PosG_S161_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s161-index-AAGCACTG-TTCGTACGNNNN-Dc-PosG_S161_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	44975 reads          	11367722 bases
+Output:                 	44975 reads (100.00%) 	11367722 bases (100.00%)
+
+Time:                         	0.582 seconds.
+Reads Processed:       44975 	77.23k reads/sec
+Bases Processed:      11367k 	19.52m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s162-index-AAGCACTG-ATGACAGGNNNN-Dc-PosI_S162_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s162-index-AAGCACTG-ATGACAGGNNNN-Dc-PosI_S162_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s162-index-AAGCACTG-ATGACAGGNNNN-Dc-PosI_S162_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s162-index-AAGCACTG-ATGACAGGNNNN-Dc-PosI_S162_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	37462 reads          	9759644 bases
+Output:                 	37462 reads (100.00%) 	9759644 bases (100.00%)
+
+Time:                         	0.344 seconds.
+Reads Processed:       37462 	109.05k reads/sec
+Bases Processed:       9759k 	28.41m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s163-index-AAGCACTG-CGACCTAANNNN-Dc-Neg_S163_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s163-index-AAGCACTG-CGACCTAANNNN-Dc-Neg_S163_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s163-index-AAGCACTG-CGACCTAANNNN-Dc-Neg_S163_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s163-index-AAGCACTG-CGACCTAANNNN-Dc-Neg_S163_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	17079 reads          	4126258 bases
+Output:                 	17079 reads (100.00%) 	4126258 bases (100.00%)
+
+Time:                         	0.256 seconds.
+Reads Processed:       17079 	66.74k reads/sec
+Bases Processed:       4126k 	16.12m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s164-index-CTAGGTGA-GACACAGTNNNN-1w_S164_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s164-index-CTAGGTGA-GACACAGTNNNN-1w_S164_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s164-index-CTAGGTGA-GACACAGTNNNN-1w_S164_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s164-index-CTAGGTGA-GACACAGTNNNN-1w_S164_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	30951 reads          	7473449 bases
+Output:                 	30951 reads (100.00%) 	7473449 bases (100.00%)
+
+Time:                         	0.300 seconds.
+Reads Processed:       30951 	103.28k reads/sec
+Bases Processed:       7473k 	24.94m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s165-index-ACGACTTG-GACACAGTNNNN-2w_S165_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s165-index-ACGACTTG-GACACAGTNNNN-2w_S165_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s165-index-ACGACTTG-GACACAGTNNNN-2w_S165_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s165-index-ACGACTTG-GACACAGTNNNN-2w_S165_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	44377 reads          	11192488 bases
+Output:                 	44377 reads (100.00%) 	11192488 bases (100.00%)
+
+Time:                         	0.356 seconds.
+Reads Processed:       44377 	124.67k reads/sec
+Bases Processed:      11192k 	31.44m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s166-index-GCATACAG-GACACAGTNNNN-3w_S166_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s166-index-GCATACAG-GACACAGTNNNN-3w_S166_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s166-index-GCATACAG-GACACAGTNNNN-3w_S166_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s166-index-GCATACAG-GACACAGTNNNN-3w_S166_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	26545 reads          	6140107 bases
+Output:                 	26545 reads (100.00%) 	6140107 bases (100.00%)
+
+Time:                         	0.281 seconds.
+Reads Processed:       26545 	94.33k reads/sec
+Bases Processed:       6140k 	21.82m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s167-index-TGCGAACT-GACACAGTNNNN-4w_S167_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s167-index-TGCGAACT-GACACAGTNNNN-4w_S167_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s167-index-TGCGAACT-GACACAGTNNNN-4w_S167_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s167-index-TGCGAACT-GACACAGTNNNN-4w_S167_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	48010 reads          	11900026 bases
+Output:                 	48010 reads (100.00%) 	11900026 bases (100.00%)
+
+Time:                         	0.374 seconds.
+Reads Processed:       48010 	128.37k reads/sec
+Bases Processed:      11900k 	31.82m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s168-index-TCTCCGAT-GACACAGTNNNN-5w_S168_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s168-index-TCTCCGAT-GACACAGTNNNN-5w_S168_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s168-index-TCTCCGAT-GACACAGTNNNN-5w_S168_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s168-index-TCTCCGAT-GACACAGTNNNN-5w_S168_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	29049 reads          	7036714 bases
+Output:                 	29049 reads (100.00%) 	7036714 bases (100.00%)
+
+Time:                         	0.284 seconds.
+Reads Processed:       29049 	102.32k reads/sec
+Bases Processed:       7036k 	24.79m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s169-index-GAGGACTT-GACACAGTNNNN-7w_S169_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s169-index-GAGGACTT-GACACAGTNNNN-7w_S169_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s169-index-GAGGACTT-GACACAGTNNNN-7w_S169_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s169-index-GAGGACTT-GACACAGTNNNN-7w_S169_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	51778 reads          	12868924 bases
+Output:                 	51778 reads (100.00%) 	12868924 bases (100.00%)
+
+Time:                         	0.448 seconds.
+Reads Processed:       51778 	115.58k reads/sec
+Bases Processed:      12868k 	28.73m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s170-index-ACCATCCA-GACACAGTNNNN-9w_S170_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s170-index-ACCATCCA-GACACAGTNNNN-9w_S170_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s170-index-ACCATCCA-GACACAGTNNNN-9w_S170_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s170-index-ACCATCCA-GACACAGTNNNN-9w_S170_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	45329 reads          	12205947 bases
+Output:                 	45329 reads (100.00%) 	12205947 bases (100.00%)
+
+Time:                         	0.373 seconds.
+Reads Processed:       45329 	121.68k reads/sec
+Bases Processed:      12205k 	32.77m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s171-index-CAACACCT-GACACAGTNNNN-10w_S171_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s171-index-CAACACCT-GACACAGTNNNN-10w_S171_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s171-index-CAACACCT-GACACAGTNNNN-10w_S171_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s171-index-CAACACCT-GACACAGTNNNN-10w_S171_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	44550 reads          	12653456 bases
+Output:                 	44550 reads (100.00%) 	12653456 bases (100.00%)
+
+Time:                         	0.560 seconds.
+Reads Processed:       44550 	79.56k reads/sec
+Bases Processed:      12653k 	22.60m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s172-index-CTAGGTGA-GCATAACGNNNN-11w_S172_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s172-index-CTAGGTGA-GCATAACGNNNN-11w_S172_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s172-index-CTAGGTGA-GCATAACGNNNN-11w_S172_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s172-index-CTAGGTGA-GCATAACGNNNN-11w_S172_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	32720 reads          	8010782 bases
+Output:                 	32720 reads (100.00%) 	8010782 bases (100.00%)
+
+Time:                         	0.318 seconds.
+Reads Processed:       32720 	102.78k reads/sec
+Bases Processed:       8010k 	25.16m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s173-index-ACGACTTG-GCATAACGNNNN-13w_S173_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s173-index-ACGACTTG-GCATAACGNNNN-13w_S173_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s173-index-ACGACTTG-GCATAACGNNNN-13w_S173_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s173-index-ACGACTTG-GCATAACGNNNN-13w_S173_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	26853 reads          	6609581 bases
+Output:                 	26853 reads (100.00%) 	6609581 bases (100.00%)
+
+Time:                         	0.292 seconds.
+Reads Processed:       26853 	91.97k reads/sec
+Bases Processed:       6609k 	22.64m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s174-index-GCATACAG-GCATAACGNNNN-14w_S174_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s174-index-GCATACAG-GCATAACGNNNN-14w_S174_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s174-index-GCATACAG-GCATAACGNNNN-14w_S174_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s174-index-GCATACAG-GCATAACGNNNN-14w_S174_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	32106 reads          	7892523 bases
+Output:                 	32106 reads (100.00%) 	7892523 bases (100.00%)
+
+Time:                         	0.320 seconds.
+Reads Processed:       32106 	100.41k reads/sec
+Bases Processed:       7892k 	24.68m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s175-index-TGCGAACT-GCATAACGNNNN-15w_S175_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s175-index-TGCGAACT-GCATAACGNNNN-15w_S175_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s175-index-TGCGAACT-GCATAACGNNNN-15w_S175_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s175-index-TGCGAACT-GCATAACGNNNN-15w_S175_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	29733 reads          	7310003 bases
+Output:                 	29733 reads (100.00%) 	7310003 bases (100.00%)
+
+Time:                         	0.305 seconds.
+Reads Processed:       29733 	97.51k reads/sec
+Bases Processed:       7310k 	23.97m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s176-index-TCTCCGAT-GCATAACGNNNN-16w_S176_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s176-index-TCTCCGAT-GCATAACGNNNN-16w_S176_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s176-index-TCTCCGAT-GCATAACGNNNN-16w_S176_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s176-index-TCTCCGAT-GCATAACGNNNN-16w_S176_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	18788 reads          	4705213 bases
+Output:                 	18788 reads (100.00%) 	4705213 bases (100.00%)
+
+Time:                         	0.253 seconds.
+Reads Processed:       18788 	74.20k reads/sec
+Bases Processed:       4705k 	18.58m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s177-index-GAGGACTT-GCATAACGNNNN-17w_S177_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s177-index-GAGGACTT-GCATAACGNNNN-17w_S177_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s177-index-GAGGACTT-GCATAACGNNNN-17w_S177_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s177-index-GAGGACTT-GCATAACGNNNN-17w_S177_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	49393 reads          	11925772 bases
+Output:                 	49393 reads (100.00%) 	11925772 bases (100.00%)
+
+Time:                         	0.364 seconds.
+Reads Processed:       49393 	135.73k reads/sec
+Bases Processed:      11925k 	32.77m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s178-index-ACCATCCA-GCATAACGNNNN-18w_S178_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s178-index-ACCATCCA-GCATAACGNNNN-18w_S178_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s178-index-ACCATCCA-GCATAACGNNNN-18w_S178_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s178-index-ACCATCCA-GCATAACGNNNN-18w_S178_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	48365 reads          	11220304 bases
+Output:                 	48365 reads (100.00%) 	11220304 bases (100.00%)
+
+Time:                         	0.392 seconds.
+Reads Processed:       48365 	123.48k reads/sec
+Bases Processed:      11220k 	28.65m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s179-index-CAACACCT-GCATAACGNNNN-19w_S179_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s179-index-CAACACCT-GCATAACGNNNN-19w_S179_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s179-index-CAACACCT-GCATAACGNNNN-19w_S179_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s179-index-CAACACCT-GCATAACGNNNN-19w_S179_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	27511 reads          	6815101 bases
+Output:                 	27511 reads (100.00%) 	6815101 bases (100.00%)
+
+Time:                         	0.295 seconds.
+Reads Processed:       27511 	93.18k reads/sec
+Bases Processed:       6815k 	23.08m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s180-index-CTAGGTGA-ACAGAGGTNNNN-20w_S180_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s180-index-CTAGGTGA-ACAGAGGTNNNN-20w_S180_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s180-index-CTAGGTGA-ACAGAGGTNNNN-20w_S180_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s180-index-CTAGGTGA-ACAGAGGTNNNN-20w_S180_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	16381 reads          	3977850 bases
+Output:                 	16381 reads (100.00%) 	3977850 bases (100.00%)
+
+Time:                         	0.246 seconds.
+Reads Processed:       16381 	66.65k reads/sec
+Bases Processed:       3977k 	16.19m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s181-index-ACGACTTG-ACAGAGGTNNNN-21w_S181_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s181-index-ACGACTTG-ACAGAGGTNNNN-21w_S181_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s181-index-ACGACTTG-ACAGAGGTNNNN-21w_S181_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s181-index-ACGACTTG-ACAGAGGTNNNN-21w_S181_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	44017 reads          	10552175 bases
+Output:                 	44017 reads (100.00%) 	10552175 bases (100.00%)
+
+Time:                         	0.583 seconds.
+Reads Processed:       44017 	75.51k reads/sec
+Bases Processed:      10552k 	18.10m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s182-index-GCATACAG-ACAGAGGTNNNN-23w_S182_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s182-index-GCATACAG-ACAGAGGTNNNN-23w_S182_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s182-index-GCATACAG-ACAGAGGTNNNN-23w_S182_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s182-index-GCATACAG-ACAGAGGTNNNN-23w_S182_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	52683 reads          	10889043 bases
+Output:                 	52683 reads (100.00%) 	10889043 bases (100.00%)
+
+Time:                         	0.388 seconds.
+Reads Processed:       52683 	135.91k reads/sec
+Bases Processed:      10889k 	28.09m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s183-index-TGCGAACT-ACAGAGGTNNNN-25w_S183_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s183-index-TGCGAACT-ACAGAGGTNNNN-25w_S183_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s183-index-TGCGAACT-ACAGAGGTNNNN-25w_S183_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s183-index-TGCGAACT-ACAGAGGTNNNN-25w_S183_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	36037 reads          	10035894 bases
+Output:                 	36037 reads (100.00%) 	10035894 bases (100.00%)
+
+Time:                         	0.320 seconds.
+Reads Processed:       36037 	112.51k reads/sec
+Bases Processed:      10035k 	31.33m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s184-index-TCTCCGAT-ACAGAGGTNNNN-26w_S184_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s184-index-TCTCCGAT-ACAGAGGTNNNN-26w_S184_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s184-index-TCTCCGAT-ACAGAGGTNNNN-26w_S184_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s184-index-TCTCCGAT-ACAGAGGTNNNN-26w_S184_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	65050 reads          	17811677 bases
+Output:                 	65050 reads (100.00%) 	17811677 bases (100.00%)
+
+Time:                         	0.908 seconds.
+Reads Processed:       65050 	71.66k reads/sec
+Bases Processed:      17811k 	19.62m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s185-index-GAGGACTT-ACAGAGGTNNNN-27w_S185_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s185-index-GAGGACTT-ACAGAGGTNNNN-27w_S185_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s185-index-GAGGACTT-ACAGAGGTNNNN-27w_S185_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s185-index-GAGGACTT-ACAGAGGTNNNN-27w_S185_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	43556 reads          	10767375 bases
+Output:                 	43556 reads (100.00%) 	10767375 bases (100.00%)
+
+Time:                         	0.357 seconds.
+Reads Processed:       43556 	121.95k reads/sec
+Bases Processed:      10767k 	30.15m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s186-index-ACCATCCA-ACAGAGGTNNNN-28w_S186_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s186-index-ACCATCCA-ACAGAGGTNNNN-28w_S186_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s186-index-ACCATCCA-ACAGAGGTNNNN-28w_S186_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s186-index-ACCATCCA-ACAGAGGTNNNN-28w_S186_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	43484 reads          	11231013 bases
+Output:                 	43484 reads (100.00%) 	11231013 bases (100.00%)
+
+Time:                         	0.372 seconds.
+Reads Processed:       43484 	116.89k reads/sec
+Bases Processed:      11231k 	30.19m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s187-index-CAACACCT-ACAGAGGTNNNN-29w_S187_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s187-index-CAACACCT-ACAGAGGTNNNN-29w_S187_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s187-index-CAACACCT-ACAGAGGTNNNN-29w_S187_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s187-index-CAACACCT-ACAGAGGTNNNN-29w_S187_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	56656 reads          	13838702 bases
+Output:                 	56656 reads (100.00%) 	13838702 bases (100.00%)
+
+Time:                         	0.712 seconds.
+Reads Processed:       56656 	79.55k reads/sec
+Bases Processed:      13838k 	19.43m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s188-index-CTAGGTGA-CCACTAAGNNNN-30w_S188_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s188-index-CTAGGTGA-CCACTAAGNNNN-30w_S188_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s188-index-CTAGGTGA-CCACTAAGNNNN-30w_S188_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s188-index-CTAGGTGA-CCACTAAGNNNN-30w_S188_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	55293 reads          	13069296 bases
+Output:                 	55293 reads (100.00%) 	13069296 bases (100.00%)
+
+Time:                         	0.456 seconds.
+Reads Processed:       55293 	121.39k reads/sec
+Bases Processed:      13069k 	28.69m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s189-index-ACGACTTG-CCACTAAGNNNN-31w_S189_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s189-index-ACGACTTG-CCACTAAGNNNN-31w_S189_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s189-index-ACGACTTG-CCACTAAGNNNN-31w_S189_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s189-index-ACGACTTG-CCACTAAGNNNN-31w_S189_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	68876 reads          	16977054 bases
+Output:                 	68876 reads (100.00%) 	16977054 bases (100.00%)
+
+Time:                         	0.667 seconds.
+Reads Processed:       68876 	103.33k reads/sec
+Bases Processed:      16977k 	25.47m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s190-index-GCATACAG-CCACTAAGNNNN-32w_S190_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s190-index-GCATACAG-CCACTAAGNNNN-32w_S190_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s190-index-GCATACAG-CCACTAAGNNNN-32w_S190_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s190-index-GCATACAG-CCACTAAGNNNN-32w_S190_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	34952 reads          	8574381 bases
+Output:                 	34952 reads (100.00%) 	8574381 bases (100.00%)
+
+Time:                         	0.520 seconds.
+Reads Processed:       34952 	67.19k reads/sec
+Bases Processed:       8574k 	16.48m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s191-index-TGCGAACT-CCACTAAGNNNN-35w_S191_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s191-index-TGCGAACT-CCACTAAGNNNN-35w_S191_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s191-index-TGCGAACT-CCACTAAGNNNN-35w_S191_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s191-index-TGCGAACT-CCACTAAGNNNN-35w_S191_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	32858 reads          	7828477 bases
+Output:                 	32858 reads (100.00%) 	7828477 bases (100.00%)
+
+Time:                         	0.493 seconds.
+Reads Processed:       32858 	66.69k reads/sec
+Bases Processed:       7828k 	15.89m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s192-index-TCTCCGAT-CCACTAAGNNNN-36w_S192_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s192-index-TCTCCGAT-CCACTAAGNNNN-36w_S192_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s192-index-TCTCCGAT-CCACTAAGNNNN-36w_S192_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s192-index-TCTCCGAT-CCACTAAGNNNN-36w_S192_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	40056 reads          	9917635 bases
+Output:                 	40056 reads (100.00%) 	9917635 bases (100.00%)
+
+Time:                         	0.346 seconds.
+Reads Processed:       40056 	115.64k reads/sec
+Bases Processed:       9917k 	28.63m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s193-index-GAGGACTT-CCACTAAGNNNN-37w_S193_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s193-index-GAGGACTT-CCACTAAGNNNN-37w_S193_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s193-index-GAGGACTT-CCACTAAGNNNN-37w_S193_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s193-index-GAGGACTT-CCACTAAGNNNN-37w_S193_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	55535 reads          	13779964 bases
+Output:                 	55535 reads (100.00%) 	13779964 bases (100.00%)
+
+Time:                         	0.453 seconds.
+Reads Processed:       55535 	122.64k reads/sec
+Bases Processed:      13779k 	30.43m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s194-index-ACCATCCA-CCACTAAGNNNN-38w_S194_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s194-index-ACCATCCA-CCACTAAGNNNN-38w_S194_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s194-index-ACCATCCA-CCACTAAGNNNN-38w_S194_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s194-index-ACCATCCA-CCACTAAGNNNN-38w_S194_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	36142 reads          	9145609 bases
+Output:                 	36142 reads (100.00%) 	9145609 bases (100.00%)
+
+Time:                         	0.317 seconds.
+Reads Processed:       36142 	113.86k reads/sec
+Bases Processed:       9145k 	28.81m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s195-index-CAACACCT-CCACTAAGNNNN-39w_S195_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s195-index-CAACACCT-CCACTAAGNNNN-39w_S195_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s195-index-CAACACCT-CCACTAAGNNNN-39w_S195_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s195-index-CAACACCT-CCACTAAGNNNN-39w_S195_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	53459 reads          	12626651 bases
+Output:                 	53459 reads (100.00%) 	12626651 bases (100.00%)
+
+Time:                         	0.379 seconds.
+Reads Processed:       53459 	141.19k reads/sec
+Bases Processed:      12626k 	33.35m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s196-index-CTAGGTGA-TGTTCCGTNNNN-42w_S196_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s196-index-CTAGGTGA-TGTTCCGTNNNN-42w_S196_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s196-index-CTAGGTGA-TGTTCCGTNNNN-42w_S196_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s196-index-CTAGGTGA-TGTTCCGTNNNN-42w_S196_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	42947 reads          	10600505 bases
+Output:                 	42947 reads (100.00%) 	10600505 bases (100.00%)
+
+Time:                         	0.376 seconds.
+Reads Processed:       42947 	114.09k reads/sec
+Bases Processed:      10600k 	28.16m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s197-index-ACGACTTG-TGTTCCGTNNNN-45w_S197_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s197-index-ACGACTTG-TGTTCCGTNNNN-45w_S197_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s197-index-ACGACTTG-TGTTCCGTNNNN-45w_S197_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s197-index-ACGACTTG-TGTTCCGTNNNN-45w_S197_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	20785 reads          	4887387 bases
+Output:                 	20785 reads (100.00%) 	4887387 bases (100.00%)
+
+Time:                         	0.465 seconds.
+Reads Processed:       20785 	44.70k reads/sec
+Bases Processed:       4887k 	10.51m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s198-index-GCATACAG-TGTTCCGTNNNN-46w_S198_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s198-index-GCATACAG-TGTTCCGTNNNN-46w_S198_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s198-index-GCATACAG-TGTTCCGTNNNN-46w_S198_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s198-index-GCATACAG-TGTTCCGTNNNN-46w_S198_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	40003 reads          	9918210 bases
+Output:                 	40003 reads (100.00%) 	9918210 bases (100.00%)
+
+Time:                         	0.552 seconds.
+Reads Processed:       40003 	72.50k reads/sec
+Bases Processed:       9918k 	17.98m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s199-index-TGCGAACT-TGTTCCGTNNNN-49w_S199_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s199-index-TGCGAACT-TGTTCCGTNNNN-49w_S199_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s199-index-TGCGAACT-TGTTCCGTNNNN-49w_S199_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s199-index-TGCGAACT-TGTTCCGTNNNN-49w_S199_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	32744 reads          	8114086 bases
+Output:                 	32744 reads (100.00%) 	8114086 bases (100.00%)
+
+Time:                         	0.341 seconds.
+Reads Processed:       32744 	96.00k reads/sec
+Bases Processed:       8114k 	23.79m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s200-index-TCTCCGAT-TGTTCCGTNNNN-50w_S200_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s200-index-TCTCCGAT-TGTTCCGTNNNN-50w_S200_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s200-index-TCTCCGAT-TGTTCCGTNNNN-50w_S200_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s200-index-TCTCCGAT-TGTTCCGTNNNN-50w_S200_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	64561 reads          	15098028 bases
+Output:                 	64561 reads (100.00%) 	15098028 bases (100.00%)
+
+Time:                         	0.785 seconds.
+Reads Processed:       64561 	82.24k reads/sec
+Bases Processed:      15098k 	19.23m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s201-index-GAGGACTT-TGTTCCGTNNNN-52w_S201_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s201-index-GAGGACTT-TGTTCCGTNNNN-52w_S201_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s201-index-GAGGACTT-TGTTCCGTNNNN-52w_S201_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s201-index-GAGGACTT-TGTTCCGTNNNN-52w_S201_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	30722 reads          	7780545 bases
+Output:                 	30722 reads (100.00%) 	7780545 bases (100.00%)
+
+Time:                         	0.303 seconds.
+Reads Processed:       30722 	101.47k reads/sec
+Bases Processed:       7780k 	25.70m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s202-index-ACCATCCA-TGTTCCGTNNNN-55w_S202_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s202-index-ACCATCCA-TGTTCCGTNNNN-55w_S202_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s202-index-ACCATCCA-TGTTCCGTNNNN-55w_S202_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s202-index-ACCATCCA-TGTTCCGTNNNN-55w_S202_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	34837 reads          	8267255 bases
+Output:                 	34837 reads (100.00%) 	8267255 bases (100.00%)
+
+Time:                         	0.320 seconds.
+Reads Processed:       34837 	108.75k reads/sec
+Bases Processed:       8267k 	25.81m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s203-index-CAACACCT-TGTTCCGTNNNN-56w_S203_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s203-index-CAACACCT-TGTTCCGTNNNN-56w_S203_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s203-index-CAACACCT-TGTTCCGTNNNN-56w_S203_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s203-index-CAACACCT-TGTTCCGTNNNN-56w_S203_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	43974 reads          	10301118 bases
+Output:                 	43974 reads (100.00%) 	10301118 bases (100.00%)
+
+Time:                         	0.373 seconds.
+Reads Processed:       43974 	117.90k reads/sec
+Bases Processed:      10301k 	27.62m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s204-index-CTAGGTGA-GATACCTGNNNN-57w_S204_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s204-index-CTAGGTGA-GATACCTGNNNN-57w_S204_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s204-index-CTAGGTGA-GATACCTGNNNN-57w_S204_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s204-index-CTAGGTGA-GATACCTGNNNN-57w_S204_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	38789 reads          	8938472 bases
+Output:                 	38789 reads (100.00%) 	8938472 bases (100.00%)
+
+Time:                         	0.339 seconds.
+Reads Processed:       38789 	114.32k reads/sec
+Bases Processed:       8938k 	26.34m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s205-index-ACGACTTG-GATACCTGNNNN-58w_S205_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s205-index-ACGACTTG-GATACCTGNNNN-58w_S205_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s205-index-ACGACTTG-GATACCTGNNNN-58w_S205_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s205-index-ACGACTTG-GATACCTGNNNN-58w_S205_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	56706 reads          	13264989 bases
+Output:                 	56706 reads (100.00%) 	13264989 bases (100.00%)
+
+Time:                         	0.479 seconds.
+Reads Processed:       56706 	118.45k reads/sec
+Bases Processed:      13264k 	27.71m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s206-index-GCATACAG-GATACCTGNNNN-59w_S206_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s206-index-GCATACAG-GATACCTGNNNN-59w_S206_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s206-index-GCATACAG-GATACCTGNNNN-59w_S206_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s206-index-GCATACAG-GATACCTGNNNN-59w_S206_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	35412 reads          	8545801 bases
+Output:                 	35412 reads (100.00%) 	8545801 bases (100.00%)
+
+Time:                         	0.351 seconds.
+Reads Processed:       35412 	100.92k reads/sec
+Bases Processed:       8545k 	24.35m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s207-index-TGCGAACT-GATACCTGNNNN-60w_S207_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s207-index-TGCGAACT-GATACCTGNNNN-60w_S207_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s207-index-TGCGAACT-GATACCTGNNNN-60w_S207_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s207-index-TGCGAACT-GATACCTGNNNN-60w_S207_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	38176 reads          	9956923 bases
+Output:                 	38176 reads (100.00%) 	9956923 bases (100.00%)
+
+Time:                         	0.344 seconds.
+Reads Processed:       38176 	110.88k reads/sec
+Bases Processed:       9956k 	28.92m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s208-index-TCTCCGAT-GATACCTGNNNN-61w_S208_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s208-index-TCTCCGAT-GATACCTGNNNN-61w_S208_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s208-index-TCTCCGAT-GATACCTGNNNN-61w_S208_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s208-index-TCTCCGAT-GATACCTGNNNN-61w_S208_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	45202 reads          	10624141 bases
+Output:                 	45202 reads (100.00%) 	10624141 bases (100.00%)
+
+Time:                         	0.374 seconds.
+Reads Processed:       45202 	120.96k reads/sec
+Bases Processed:      10624k 	28.43m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s209-index-GAGGACTT-GATACCTGNNNN-64w_S209_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s209-index-GAGGACTT-GATACCTGNNNN-64w_S209_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s209-index-GAGGACTT-GATACCTGNNNN-64w_S209_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s209-index-GAGGACTT-GATACCTGNNNN-64w_S209_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	52038 reads          	12955860 bases
+Output:                 	52038 reads (100.00%) 	12955860 bases (100.00%)
+
+Time:                         	0.644 seconds.
+Reads Processed:       52038 	80.81k reads/sec
+Bases Processed:      12955k 	20.12m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s210-index-ACCATCCA-GATACCTGNNNN-66w_S210_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s210-index-ACCATCCA-GATACCTGNNNN-66w_S210_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s210-index-ACCATCCA-GATACCTGNNNN-66w_S210_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s210-index-ACCATCCA-GATACCTGNNNN-66w_S210_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	23127 reads          	5261867 bases
+Output:                 	23127 reads (100.00%) 	5261867 bases (100.00%)
+
+Time:                         	0.451 seconds.
+Reads Processed:       23127 	51.25k reads/sec
+Bases Processed:       5261k 	11.66m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s211-index-CAACACCT-GATACCTGNNNN-67w_S211_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s211-index-CAACACCT-GATACCTGNNNN-67w_S211_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s211-index-CAACACCT-GATACCTGNNNN-67w_S211_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s211-index-CAACACCT-GATACCTGNNNN-67w_S211_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	8913 reads          	2016016 bases
+Output:                 	8913 reads (100.00%) 	2016016 bases (100.00%)
+
+Time:                         	0.234 seconds.
+Reads Processed:        8913 	38.04k reads/sec
+Bases Processed:       2016k 	8.60m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s212-index-CTAGGTGA-AGCCGTAANNNN-68w_S212_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s212-index-CTAGGTGA-AGCCGTAANNNN-68w_S212_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s212-index-CTAGGTGA-AGCCGTAANNNN-68w_S212_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s212-index-CTAGGTGA-AGCCGTAANNNN-68w_S212_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	42053 reads          	11038090 bases
+Output:                 	42053 reads (100.00%) 	11038090 bases (100.00%)
+
+Time:                         	0.346 seconds.
+Reads Processed:       42053 	121.66k reads/sec
+Bases Processed:      11038k 	31.93m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s213-index-ACGACTTG-AGCCGTAANNNN-69w_S213_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s213-index-ACGACTTG-AGCCGTAANNNN-69w_S213_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s213-index-ACGACTTG-AGCCGTAANNNN-69w_S213_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s213-index-ACGACTTG-AGCCGTAANNNN-69w_S213_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	38085 reads          	8622167 bases
+Output:                 	38085 reads (100.00%) 	8622167 bases (100.00%)
+
+Time:                         	0.356 seconds.
+Reads Processed:       38085 	107.00k reads/sec
+Bases Processed:       8622k 	24.22m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s214-index-GCATACAG-AGCCGTAANNNN-70w_S214_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s214-index-GCATACAG-AGCCGTAANNNN-70w_S214_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s214-index-GCATACAG-AGCCGTAANNNN-70w_S214_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s214-index-GCATACAG-AGCCGTAANNNN-70w_S214_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	34443 reads          	8401218 bases
+Output:                 	34443 reads (100.00%) 	8401218 bases (100.00%)
+
+Time:                         	0.304 seconds.
+Reads Processed:       34443 	113.15k reads/sec
+Bases Processed:       8401k 	27.60m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s215-index-TGCGAACT-AGCCGTAANNNN-71w_S215_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s215-index-TGCGAACT-AGCCGTAANNNN-71w_S215_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s215-index-TGCGAACT-AGCCGTAANNNN-71w_S215_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s215-index-TGCGAACT-AGCCGTAANNNN-71w_S215_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	42640 reads          	11107641 bases
+Output:                 	42640 reads (100.00%) 	11107641 bases (100.00%)
+
+Time:                         	0.359 seconds.
+Reads Processed:       42640 	118.91k reads/sec
+Bases Processed:      11107k 	30.98m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s216-index-TCTCCGAT-AGCCGTAANNNN-72w_S216_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s216-index-TCTCCGAT-AGCCGTAANNNN-72w_S216_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s216-index-TCTCCGAT-AGCCGTAANNNN-72w_S216_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s216-index-TCTCCGAT-AGCCGTAANNNN-72w_S216_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	44885 reads          	11539491 bases
+Output:                 	44885 reads (100.00%) 	11539491 bases (100.00%)
+
+Time:                         	0.346 seconds.
+Reads Processed:       44885 	129.57k reads/sec
+Bases Processed:      11539k 	33.31m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s217-index-GAGGACTT-AGCCGTAANNNN-73w_S217_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s217-index-GAGGACTT-AGCCGTAANNNN-73w_S217_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s217-index-GAGGACTT-AGCCGTAANNNN-73w_S217_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s217-index-GAGGACTT-AGCCGTAANNNN-73w_S217_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	43172 reads          	10709359 bases
+Output:                 	43172 reads (100.00%) 	10709359 bases (100.00%)
+
+Time:                         	0.348 seconds.
+Reads Processed:       43172 	124.12k reads/sec
+Bases Processed:      10709k 	30.79m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s218-index-ACCATCCA-AGCCGTAANNNN-74w_S218_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s218-index-ACCATCCA-AGCCGTAANNNN-74w_S218_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s218-index-ACCATCCA-AGCCGTAANNNN-74w_S218_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s218-index-ACCATCCA-AGCCGTAANNNN-74w_S218_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	61181 reads          	14339075 bases
+Output:                 	61181 reads (100.00%) 	14339075 bases (100.00%)
+
+Time:                         	0.726 seconds.
+Reads Processed:       61181 	84.31k reads/sec
+Bases Processed:      14339k 	19.76m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s219-index-CAACACCT-AGCCGTAANNNN-75w_S219_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s219-index-CAACACCT-AGCCGTAANNNN-75w_S219_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s219-index-CAACACCT-AGCCGTAANNNN-75w_S219_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s219-index-CAACACCT-AGCCGTAANNNN-75w_S219_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	24691 reads          	5951693 bases
+Output:                 	24691 reads (100.00%) 	5951693 bases (100.00%)
+
+Time:                         	0.479 seconds.
+Reads Processed:       24691 	51.54k reads/sec
+Bases Processed:       5951k 	12.42m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s220-index-CTAGGTGA-CTCCTGAANNNN-76w_S220_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s220-index-CTAGGTGA-CTCCTGAANNNN-76w_S220_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s220-index-CTAGGTGA-CTCCTGAANNNN-76w_S220_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s220-index-CTAGGTGA-CTCCTGAANNNN-76w_S220_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	42984 reads          	11182364 bases
+Output:                 	42984 reads (100.00%) 	11182364 bases (100.00%)
+
+Time:                         	0.371 seconds.
+Reads Processed:       42984 	115.80k reads/sec
+Bases Processed:      11182k 	30.13m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s221-index-ACGACTTG-CTCCTGAANNNN-79w_S221_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s221-index-ACGACTTG-CTCCTGAANNNN-79w_S221_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s221-index-ACGACTTG-CTCCTGAANNNN-79w_S221_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s221-index-ACGACTTG-CTCCTGAANNNN-79w_S221_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	50505 reads          	12091847 bases
+Output:                 	50505 reads (100.00%) 	12091847 bases (100.00%)
+
+Time:                         	0.386 seconds.
+Reads Processed:       50505 	130.67k reads/sec
+Bases Processed:      12091k 	31.29m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s222-index-GCATACAG-CTCCTGAANNNN-81w_S222_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s222-index-GCATACAG-CTCCTGAANNNN-81w_S222_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s222-index-GCATACAG-CTCCTGAANNNN-81w_S222_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s222-index-GCATACAG-CTCCTGAANNNN-81w_S222_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	49211 reads          	11893193 bases
+Output:                 	49211 reads (100.00%) 	11893193 bases (100.00%)
+
+Time:                         	0.385 seconds.
+Reads Processed:       49211 	127.66k reads/sec
+Bases Processed:      11893k 	30.85m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s223-index-TGCGAACT-CTCCTGAANNNN-82w_S223_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s223-index-TGCGAACT-CTCCTGAANNNN-82w_S223_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s223-index-TGCGAACT-CTCCTGAANNNN-82w_S223_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s223-index-TGCGAACT-CTCCTGAANNNN-82w_S223_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	47997 reads          	11734415 bases
+Output:                 	47997 reads (100.00%) 	11734415 bases (100.00%)
+
+Time:                         	0.404 seconds.
+Reads Processed:       47997 	118.81k reads/sec
+Bases Processed:      11734k 	29.05m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s224-index-TCTCCGAT-CTCCTGAANNNN-84w_S224_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s224-index-TCTCCGAT-CTCCTGAANNNN-84w_S224_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s224-index-TCTCCGAT-CTCCTGAANNNN-84w_S224_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s224-index-TCTCCGAT-CTCCTGAANNNN-84w_S224_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	59336 reads          	14685640 bases
+Output:                 	59336 reads (100.00%) 	14685640 bases (100.00%)
+
+Time:                         	0.770 seconds.
+Reads Processed:       59336 	77.10k reads/sec
+Bases Processed:      14685k 	19.08m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s225-index-GAGGACTT-CTCCTGAANNNN-85w_S225_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s225-index-GAGGACTT-CTCCTGAANNNN-85w_S225_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s225-index-GAGGACTT-CTCCTGAANNNN-85w_S225_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s225-index-GAGGACTT-CTCCTGAANNNN-85w_S225_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	41299 reads          	9815193 bases
+Output:                 	41299 reads (100.00%) 	9815193 bases (100.00%)
+
+Time:                         	0.350 seconds.
+Reads Processed:       41299 	117.92k reads/sec
+Bases Processed:       9815k 	28.02m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s226-index-ACCATCCA-CTCCTGAANNNN-86w_S226_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s226-index-ACCATCCA-CTCCTGAANNNN-86w_S226_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s226-index-ACCATCCA-CTCCTGAANNNN-86w_S226_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s226-index-ACCATCCA-CTCCTGAANNNN-86w_S226_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	30271 reads          	7521534 bases
+Output:                 	30271 reads (100.00%) 	7521534 bases (100.00%)
+
+Time:                         	0.297 seconds.
+Reads Processed:       30271 	101.84k reads/sec
+Bases Processed:       7521k 	25.30m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s227-index-CAACACCT-CTCCTGAANNNN-87w_S227_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s227-index-CAACACCT-CTCCTGAANNNN-87w_S227_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s227-index-CAACACCT-CTCCTGAANNNN-87w_S227_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s227-index-CAACACCT-CTCCTGAANNNN-87w_S227_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	25083 reads          	6552514 bases
+Output:                 	25083 reads (100.00%) 	6552514 bases (100.00%)
+
+Time:                         	0.488 seconds.
+Reads Processed:       25083 	51.38k reads/sec
+Bases Processed:       6552k 	13.42m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s228-index-CTAGGTGA-ACGAATCCNNNN-88w_S228_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s228-index-CTAGGTGA-ACGAATCCNNNN-88w_S228_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s228-index-CTAGGTGA-ACGAATCCNNNN-88w_S228_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s228-index-CTAGGTGA-ACGAATCCNNNN-88w_S228_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	62721 reads          	16050391 bases
+Output:                 	62721 reads (100.00%) 	16050391 bases (100.00%)
+
+Time:                         	0.448 seconds.
+Reads Processed:       62721 	139.92k reads/sec
+Bases Processed:      16050k 	35.81m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s229-index-ACGACTTG-ACGAATCCNNNN-89w_S229_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s229-index-ACGACTTG-ACGAATCCNNNN-89w_S229_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s229-index-ACGACTTG-ACGAATCCNNNN-89w_S229_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s229-index-ACGACTTG-ACGAATCCNNNN-89w_S229_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	49122 reads          	12916117 bases
+Output:                 	49122 reads (100.00%) 	12916117 bases (100.00%)
+
+Time:                         	0.389 seconds.
+Reads Processed:       49122 	126.30k reads/sec
+Bases Processed:      12916k 	33.21m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s230-index-GCATACAG-ACGAATCCNNNN-92w_S230_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s230-index-GCATACAG-ACGAATCCNNNN-92w_S230_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s230-index-GCATACAG-ACGAATCCNNNN-92w_S230_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s230-index-GCATACAG-ACGAATCCNNNN-92w_S230_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	44144 reads          	10963508 bases
+Output:                 	44144 reads (100.00%) 	10963508 bases (100.00%)
+
+Time:                         	0.374 seconds.
+Reads Processed:       44144 	117.89k reads/sec
+Bases Processed:      10963k 	29.28m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s231-index-TGCGAACT-ACGAATCCNNNN-93w_S231_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s231-index-TGCGAACT-ACGAATCCNNNN-93w_S231_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s231-index-TGCGAACT-ACGAATCCNNNN-93w_S231_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s231-index-TGCGAACT-ACGAATCCNNNN-93w_S231_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	37202 reads          	9266267 bases
+Output:                 	37202 reads (100.00%) 	9266267 bases (100.00%)
+
+Time:                         	0.546 seconds.
+Reads Processed:       37202 	68.18k reads/sec
+Bases Processed:       9266k 	16.98m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s232-index-TCTCCGAT-ACGAATCCNNNN-94w_S232_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s232-index-TCTCCGAT-ACGAATCCNNNN-94w_S232_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s232-index-TCTCCGAT-ACGAATCCNNNN-94w_S232_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s232-index-TCTCCGAT-ACGAATCCNNNN-94w_S232_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	26731 reads          	6784289 bases
+Output:                 	26731 reads (100.00%) 	6784289 bases (100.00%)
+
+Time:                         	0.293 seconds.
+Reads Processed:       26731 	91.11k reads/sec
+Bases Processed:       6784k 	23.12m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s233-index-GAGGACTT-ACGAATCCNNNN-95w_S233_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s233-index-GAGGACTT-ACGAATCCNNNN-95w_S233_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s233-index-GAGGACTT-ACGAATCCNNNN-95w_S233_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s233-index-GAGGACTT-ACGAATCCNNNN-95w_S233_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	10641 reads          	3037417 bases
+Output:                 	10641 reads (100.00%) 	3037417 bases (100.00%)
+
+Time:                         	0.430 seconds.
+Reads Processed:       10641 	24.75k reads/sec
+Bases Processed:       3037k 	7.07m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s234-index-ACCATCCA-ACGAATCCNNNN-96w_S234_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s234-index-ACCATCCA-ACGAATCCNNNN-96w_S234_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s234-index-ACCATCCA-ACGAATCCNNNN-96w_S234_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s234-index-ACCATCCA-ACGAATCCNNNN-96w_S234_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	21248 reads          	5464274 bases
+Output:                 	21248 reads (100.00%) 	5464274 bases (100.00%)
+
+Time:                         	0.271 seconds.
+Reads Processed:       21248 	78.39k reads/sec
+Bases Processed:       5464k 	20.16m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s235-index-CAACACCT-ACGAATCCNNNN-97w_S235_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s235-index-CAACACCT-ACGAATCCNNNN-97w_S235_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s235-index-CAACACCT-ACGAATCCNNNN-97w_S235_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s235-index-CAACACCT-ACGAATCCNNNN-97w_S235_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	23268 reads          	5679623 bases
+Output:                 	23268 reads (100.00%) 	5679623 bases (100.00%)
+
+Time:                         	0.474 seconds.
+Reads Processed:       23268 	49.11k reads/sec
+Bases Processed:       5679k 	11.99m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s236-index-CTAGGTGA-AATGGTCGNNNN-99w_S236_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s236-index-CTAGGTGA-AATGGTCGNNNN-99w_S236_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s236-index-CTAGGTGA-AATGGTCGNNNN-99w_S236_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s236-index-CTAGGTGA-AATGGTCGNNNN-99w_S236_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	24908 reads          	6003207 bases
+Output:                 	24908 reads (100.00%) 	6003207 bases (100.00%)
+
+Time:                         	0.271 seconds.
+Reads Processed:       24908 	91.87k reads/sec
+Bases Processed:       6003k 	22.14m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s237-index-ACGACTTG-AATGGTCGNNNN-100w_S237_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s237-index-ACGACTTG-AATGGTCGNNNN-100w_S237_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s237-index-ACGACTTG-AATGGTCGNNNN-100w_S237_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s237-index-ACGACTTG-AATGGTCGNNNN-100w_S237_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	24703 reads          	6149228 bases
+Output:                 	24703 reads (100.00%) 	6149228 bases (100.00%)
+
+Time:                         	0.278 seconds.
+Reads Processed:       24703 	88.84k reads/sec
+Bases Processed:       6149k 	22.12m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s238-index-GCATACAG-AATGGTCGNNNN-101w_S238_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s238-index-GCATACAG-AATGGTCGNNNN-101w_S238_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s238-index-GCATACAG-AATGGTCGNNNN-101w_S238_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s238-index-GCATACAG-AATGGTCGNNNN-101w_S238_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	35091 reads          	8719762 bases
+Output:                 	35091 reads (100.00%) 	8719762 bases (100.00%)
+
+Time:                         	0.320 seconds.
+Reads Processed:       35091 	109.55k reads/sec
+Bases Processed:       8719k 	27.22m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s239-index-TGCGAACT-AATGGTCGNNNN-102w_S239_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s239-index-TGCGAACT-AATGGTCGNNNN-102w_S239_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s239-index-TGCGAACT-AATGGTCGNNNN-102w_S239_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s239-index-TGCGAACT-AATGGTCGNNNN-102w_S239_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	26224 reads          	6819140 bases
+Output:                 	26224 reads (100.00%) 	6819140 bases (100.00%)
+
+Time:                         	0.296 seconds.
+Reads Processed:       26224 	88.73k reads/sec
+Bases Processed:       6819k 	23.07m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s240-index-TCTCCGAT-AATGGTCGNNNN-104w_S240_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s240-index-TCTCCGAT-AATGGTCGNNNN-104w_S240_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s240-index-TCTCCGAT-AATGGTCGNNNN-104w_S240_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s240-index-TCTCCGAT-AATGGTCGNNNN-104w_S240_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	36597 reads          	9471889 bases
+Output:                 	36597 reads (100.00%) 	9471889 bases (100.00%)
+
+Time:                         	0.359 seconds.
+Reads Processed:       36597 	101.99k reads/sec
+Bases Processed:       9471k 	26.40m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s241-index-GAGGACTT-AATGGTCGNNNN-106w_S241_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s241-index-GAGGACTT-AATGGTCGNNNN-106w_S241_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s241-index-GAGGACTT-AATGGTCGNNNN-106w_S241_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s241-index-GAGGACTT-AATGGTCGNNNN-106w_S241_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	18100 reads          	4518090 bases
+Output:                 	18100 reads (100.00%) 	4518090 bases (100.00%)
+
+Time:                         	0.251 seconds.
+Reads Processed:       18100 	72.02k reads/sec
+Bases Processed:       4518k 	17.98m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s242-index-ACCATCCA-AATGGTCGNNNN-107w_S242_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s242-index-ACCATCCA-AATGGTCGNNNN-107w_S242_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s242-index-ACCATCCA-AATGGTCGNNNN-107w_S242_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s242-index-ACCATCCA-AATGGTCGNNNN-107w_S242_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	18552 reads          	5196874 bases
+Output:                 	18552 reads (100.00%) 	5196874 bases (100.00%)
+
+Time:                         	0.456 seconds.
+Reads Processed:       18552 	40.65k reads/sec
+Bases Processed:       5196k 	11.39m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s243-index-CAACACCT-AATGGTCGNNNN-108w_S243_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s243-index-CAACACCT-AATGGTCGNNNN-108w_S243_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s243-index-CAACACCT-AATGGTCGNNNN-108w_S243_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s243-index-CAACACCT-AATGGTCGNNNN-108w_S243_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	29723 reads          	8509437 bases
+Output:                 	29723 reads (100.00%) 	8509437 bases (100.00%)
+
+Time:                         	0.308 seconds.
+Reads Processed:       29723 	96.41k reads/sec
+Bases Processed:       8509k 	27.60m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s244-index-CTAGGTGA-CGCTACATNNNN-109w_S244_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s244-index-CTAGGTGA-CGCTACATNNNN-109w_S244_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s244-index-CTAGGTGA-CGCTACATNNNN-109w_S244_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s244-index-CTAGGTGA-CGCTACATNNNN-109w_S244_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	29872 reads          	7567558 bases
+Output:                 	29872 reads (100.00%) 	7567558 bases (100.00%)
+
+Time:                         	0.305 seconds.
+Reads Processed:       29872 	97.83k reads/sec
+Bases Processed:       7567k 	24.78m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s245-index-ACGACTTG-CGCTACATNNNN-114w_S245_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s245-index-ACGACTTG-CGCTACATNNNN-114w_S245_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s245-index-ACGACTTG-CGCTACATNNNN-114w_S245_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s245-index-ACGACTTG-CGCTACATNNNN-114w_S245_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	21261 reads          	5458254 bases
+Output:                 	21261 reads (100.00%) 	5458254 bases (100.00%)
+
+Time:                         	0.270 seconds.
+Reads Processed:       21261 	78.76k reads/sec
+Bases Processed:       5458k 	20.22m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s246-index-GCATACAG-CGCTACATNNNN-115w_S246_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s246-index-GCATACAG-CGCTACATNNNN-115w_S246_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s246-index-GCATACAG-CGCTACATNNNN-115w_S246_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s246-index-GCATACAG-CGCTACATNNNN-115w_S246_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	30651 reads          	7604374 bases
+Output:                 	30651 reads (100.00%) 	7604374 bases (100.00%)
+
+Time:                         	0.331 seconds.
+Reads Processed:       30651 	92.52k reads/sec
+Bases Processed:       7604k 	22.96m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s247-index-TGCGAACT-CGCTACATNNNN-121w_S247_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s247-index-TGCGAACT-CGCTACATNNNN-121w_S247_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s247-index-TGCGAACT-CGCTACATNNNN-121w_S247_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s247-index-TGCGAACT-CGCTACATNNNN-121w_S247_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	47719 reads          	13825315 bases
+Output:                 	47719 reads (100.00%) 	13825315 bases (100.00%)
+
+Time:                         	0.448 seconds.
+Reads Processed:       47719 	106.50k reads/sec
+Bases Processed:      13825k 	30.85m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s248-index-TCTCCGAT-CGCTACATNNNN-124w_S248_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s248-index-TCTCCGAT-CGCTACATNNNN-124w_S248_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s248-index-TCTCCGAT-CGCTACATNNNN-124w_S248_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s248-index-TCTCCGAT-CGCTACATNNNN-124w_S248_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	35793 reads          	8767687 bases
+Output:                 	35793 reads (100.00%) 	8767687 bases (100.00%)
+
+Time:                         	0.343 seconds.
+Reads Processed:       35793 	104.40k reads/sec
+Bases Processed:       8767k 	25.57m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s249-index-GAGGACTT-CGCTACATNNNN-125w_S249_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s249-index-GAGGACTT-CGCTACATNNNN-125w_S249_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s249-index-GAGGACTT-CGCTACATNNNN-125w_S249_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s249-index-GAGGACTT-CGCTACATNNNN-125w_S249_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	44891 reads          	10664168 bases
+Output:                 	44891 reads (100.00%) 	10664168 bases (100.00%)
+
+Time:                         	0.563 seconds.
+Reads Processed:       44891 	79.69k reads/sec
+Bases Processed:      10664k 	18.93m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s250-index-ACCATCCA-CGCTACATNNNN-128w_S250_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s250-index-ACCATCCA-CGCTACATNNNN-128w_S250_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s250-index-ACCATCCA-CGCTACATNNNN-128w_S250_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s250-index-ACCATCCA-CGCTACATNNNN-128w_S250_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	48829 reads          	12922422 bases
+Output:                 	48829 reads (100.00%) 	12922422 bases (100.00%)
+
+Time:                         	0.630 seconds.
+Reads Processed:       48829 	77.47k reads/sec
+Bases Processed:      12922k 	20.50m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s251-index-CAACACCT-CGCTACATNNNN-129w_S251_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s251-index-CAACACCT-CGCTACATNNNN-129w_S251_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s251-index-CAACACCT-CGCTACATNNNN-129w_S251_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s251-index-CAACACCT-CGCTACATNNNN-129w_S251_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	36013 reads          	8829441 bases
+Output:                 	36013 reads (100.00%) 	8829441 bases (100.00%)
+
+Time:                         	0.534 seconds.
+Reads Processed:       36013 	67.44k reads/sec
+Bases Processed:       8829k 	16.54m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s252-index-CTAGGTGA-CCTAAGTCNNNN-130w_S252_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s252-index-CTAGGTGA-CCTAAGTCNNNN-130w_S252_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s252-index-CTAGGTGA-CCTAAGTCNNNN-130w_S252_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s252-index-CTAGGTGA-CCTAAGTCNNNN-130w_S252_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	18551 reads          	4500023 bases
+Output:                 	18551 reads (100.00%) 	4500023 bases (100.00%)
+
+Time:                         	0.271 seconds.
+Reads Processed:       18551 	68.48k reads/sec
+Bases Processed:       4500k 	16.61m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s253-index-ACGACTTG-CCTAAGTCNNNN-131w_S253_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s253-index-ACGACTTG-CCTAAGTCNNNN-131w_S253_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s253-index-ACGACTTG-CCTAAGTCNNNN-131w_S253_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s253-index-ACGACTTG-CCTAAGTCNNNN-131w_S253_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	31741 reads          	7315738 bases
+Output:                 	31741 reads (100.00%) 	7315738 bases (100.00%)
+
+Time:                         	0.297 seconds.
+Reads Processed:       31741 	106.96k reads/sec
+Bases Processed:       7315k 	24.65m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s254-index-GCATACAG-CCTAAGTCNNNN-133w_S254_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s254-index-GCATACAG-CCTAAGTCNNNN-133w_S254_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s254-index-GCATACAG-CCTAAGTCNNNN-133w_S254_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s254-index-GCATACAG-CCTAAGTCNNNN-133w_S254_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	37523 reads          	9979333 bases
+Output:                 	37523 reads (100.00%) 	9979333 bases (100.00%)
+
+Time:                         	0.560 seconds.
+Reads Processed:       37523 	67.01k reads/sec
+Bases Processed:       9979k 	17.82m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s255-index-TGCGAACT-CCTAAGTCNNNN-Neg_S255_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s255-index-TGCGAACT-CCTAAGTCNNNN-Neg_S255_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s255-index-TGCGAACT-CCTAAGTCNNNN-Neg_S255_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s255-index-TGCGAACT-CCTAAGTCNNNN-Neg_S255_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	1514 reads          	371147 bases
+Output:                 	1514 reads (100.00%) 	371147 bases (100.00%)
+
+Time:                         	0.156 seconds.
+Reads Processed:        1514 	9.72k reads/sec
+Bases Processed:        371k 	2.38m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s256-index-TCTCCGAT-CCTAAGTCNNNN-PosG_S256_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s256-index-TCTCCGAT-CCTAAGTCNNNN-PosG_S256_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s256-index-TCTCCGAT-CCTAAGTCNNNN-PosG_S256_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s256-index-TCTCCGAT-CCTAAGTCNNNN-PosG_S256_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	60280 reads          	15209056 bases
+Output:                 	60280 reads (100.00%) 	15209056 bases (100.00%)
+
+Time:                         	0.415 seconds.
+Reads Processed:       60280 	145.29k reads/sec
+Bases Processed:      15209k 	36.66m bases/sec
+java -ea -Xmx200m -cp /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap/current/ jgi.ReformatReads in=lane1-s257-index-GAGGACTT-CCTAAGTCNNNN-PosI_S257_L001_R1_trimmed.merge.filt.fastq out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s257-index-GAGGACTT-CCTAAGTCNNNN-PosI_S257_L001.fasta fastawrap=0
+Executing jgi.ReformatReads [in=lane1-s257-index-GAGGACTT-CCTAAGTCNNNN-PosI_S257_L001_R1_trimmed.merge.filt.fastq, out=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/lane1-s257-index-GAGGACTT-CCTAAGTCNNNN-PosI_S257_L001.fasta, fastawrap=0]
+
+Input is being processed as unpaired
+Input:                  	40424 reads          	10530033 bases
+Output:                 	40424 reads (100.00%) 	10530033 bases (100.00%)
+
+Time:                         	0.354 seconds.
+Reads Processed:       40424 	114.13k reads/sec
+Bases Processed:      10530k 	29.73m bases/sec

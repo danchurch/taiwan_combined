@@ -777,6 +777,20 @@ cat *fastq > leaf_merged_filt.fastq
 
 $bb/reformat.sh in=leaf_merged_filt.fastq out=leaf_merged_filt.fasta
 
+## worked, but can we get rid of the line breaks? maybe by setting 
+## "fastawrap" to 0? Or 600?  
+
+head -n 20 leaf_merged_filt.fastq > submergedLeaf.fastq
+$bb/reformat.sh in=submergedLeaf.fastq out=test.fasta fastawrap=600
+
+## that worked. Just curious, how about 0?
+
+$bb/reformat.sh in=submergedLeaf.fastq out=test.fasta fastawrap=0
+
+## also works, let's go with this.
+
+$bb/reformat.sh in=leaf_merged_filt.fastq out=leaf_merged_filt.fasta fastawrap=0 &> makeLeafFasta.txt
+
 ## this worked?
 head -n 1 leaf_merged_filt.fastq 
 head -n 1 leaf_merged_filt.fasta
@@ -835,26 +849,48 @@ grep ">HWI" leaf_merged_filt.fasta -B 1 | grep TATAGG$ | wc -l ## 184.
 
 ## check that really quick:
 
-grep ">HWI" leaf_merged_filt.fasta -A 1 | grep ^ACCCATATATCC | wc -l ## two million. More like it...
+grep ">HWI" leaf_merged_filt.fasta -A 1 | grep ^ACCCATATATCC | wc -l ## 227,705 seems reasonable. Maybe low, but possible. 
 
 ## okay, so we're good to start the demultiplexing then. We can use fastx to do this:
 
 ld="/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/demult/"
 
-cat leaf_merged_filt.fasta | fastx_barcode_splitter.pl \
+(cat leaf_merged_filt.fasta | fastx_barcode_splitter.pl \
     --bcfile leafread_fastx_map.txt \
     --prefix $ld"leaf_"  \
     --suffix ".fa"  \
     --bol --mismatches 1 --partial 1 \
-    &>> "leaf_demult_log.txt" 
+    &>> "leaf_demult_log.txt" &) &
 
-## don't need to do this for wood. 
+## don't need to do this for wood. But I think we do need the FASTA versions
+## of the wood...
+
+bb=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/bbmap
+wfd=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta/
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/filtered
+
+for i in *; do 
+$bb/reformat.sh in=$i \
+    out=$wfd${i/_R1_trimmed.merge.filt.fastq/.fasta} \
+    fastawrap=0 \
+    &>> ../../woodFastaStdout.txt
+done
+
+
+
 ## so where are we now? 
 
-## next step is to trim off the primers from the wood. But the 
+## next step is to trim off the primers from the leaves. But the 
 ## demultiplexing is taking a while. So let's catch up our notebook.
 
+tail leaf_merged_filt.fasta
 
+head leaf_merged_filt.fasta
 
+## did we get reasonable results from the demultiplexing?
 
+cd $ld
+
+less leaf_104.fa
 
