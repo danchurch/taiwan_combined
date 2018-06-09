@@ -1,0 +1,10 @@
+vsearch v2.8.0_linux_x86_64, 11.5GB RAM, 4 cores
+https://github.com/torognes/vsearch
+
+Reading file allReads.fasta 100%
+3203788852 nt in 18101955 seqs, min 2, max 373, avg 177
+Dereplicating 100%
+Sorting 100%
+2961231 unique sequences, avg cluster 6.1, median 1, max 472437
+Writing output file 100%
+748827 uniques written, 2212404 clusters discarded (74.7%)

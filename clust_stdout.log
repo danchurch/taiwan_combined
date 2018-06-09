@@ -1,0 +1,19 @@
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  38Mb    0.1% 0 clusters, max size 0, avg 0.000:01  45Mb    0.3% 677 clusters, max size 514883, avg 13880.000:02  47Mb    0.7% 1665 clusters, max size 591210, avg 6615.200:03  48Mb    1.3% 2584 clusters, max size 610399, avg 4581.500:04  49Mb    2.1% 3447 clusters, max size 622435, avg 3585.100:05  50Mb    3.1% 4245 clusters, max size 638316, avg 3000.100:06  50Mb    4.2% 5006 clusters, max size 645947, avg 2601.000:07  51Mb    5.3% 5644 clusters, max size 650466, avg 2346.300:08  52Mb    6.7% 6197 clusters, max size 654426, avg 2169.000:09  52Mb    8.2% 6705 clusters, max size 657068, avg 2029.400:10  53Mb    9.7% 7115 clusters, max size 659520, avg 1932.400:11  53Mb   11.5% 7573 clusters, max size 660945, avg 1832.700:12  54Mb   13.4% 7931 clusters, max size 662234, avg 1765.100:13  54Mb   15.5% 8234 clusters, max size 663487, avg 1714.000:14  54Mb   17.9% 8450 clusters, max size 663946, avg 1683.000:15  54Mb   20.2% 8686 clusters, max size 665112, avg 1648.100:16  55Mb   22.9% 8862 clusters, max size 665337, avg 1626.200:17  55Mb   24.8% 9082 clusters, max size 666432, avg 1595.400:18  55Mb   28.0% 9156 clusters, max size 667015, avg 1592.000:19  55Mb   31.2% 9268 clusters, max size 667019, avg 1581.900:20  55Mb   33.0% 9571 clusters, max size 667351, avg 1538.400:21  56Mb   34.8% 9752 clusters, max size 668783, avg 1516.100:22  56Mb   38.0% 9801 clusters, max size 669140, avg 1515.000:23  56Mb   41.4% 9831 clusters, max size 669155, avg 1517.200:24  56Mb   44.9% 9867 clusters, max size 669176, avg 1518.400:25  56Mb   47.2% 10110 clusters, max size 669320, avg 1487.200:26  56Mb   49.1% 10342 clusters, max size 669662, avg 1458.400:27  56Mb   50.9% 10485 clusters, max size 670241, avg 1443.100:28  57Mb   52.8% 10697 clusters, max size 671708, avg 1418.700:29  57Mb   54.7% 10758 clusters, max size 672727, avg 1414.800:30  57Mb   58.0% 10794 clusters, max size 672759, avg 1414.000:31  57Mb   61.1% 10855 clusters, max size 672821, avg 1409.700:32  57Mb   62.9% 10902 clusters, max size 674837, avg 1406.400:33  57Mb   65.6% 11027 clusters, max size 675787, avg 1393.800:34  57Mb   68.7% 11080 clusters, max size 675825, avg 1390.800:35  57Mb   71.9% 11118 clusters, max size 675859, avg 1389.800:36  57Mb   75.1% 11150 clusters, max size 675875, avg 1389.600:37  57Mb   78.3% 11193 clusters, max size 675891, avg 1387.900:38  57Mb   80.8% 11292 clusters, max size 675899, avg 1379.100:39  58Mb   82.7% 11444 clusters, max size 675899, avg 1363.700:40  58Mb   84.5% 11599 clusters, max size 675913, avg 1348.300:41  58Mb   86.6% 11721 clusters, max size 675913, avg 1337.200:42  58Mb   88.5% 11879 clusters, max size 675913, avg 1322.200:43  58Mb   90.2% 11950 clusters, max size 676221, avg 1316.800:44  58Mb   91.9% 11978 clusters, max size 677129, avg 1316.000:45  58Mb   93.6% 12019 clusters, max size 677867, avg 1313.900:46  58Mb   95.2% 12151 clusters, max size 678239, avg 1301.900:47  59Mb   96.9% 12393 clusters, max size 678949, avg 1278.600:48  59Mb   98.6% 12471 clusters, max size 679475, avg 1272.700:48  59Mb  100.0% 12601 clusters, max size 681167, avg 1261.0
+00:48  59Mb    0.0% Writing centroids to otus_95_combo.fasta   00:48  59Mb  100.0% Writing centroids to otus_95_combo.fasta
+                                                            
+      Seqs  748827 (748827 ()
+  Clusters  12601 (12601 (12601 (126)
+  Max size  681167 (681167 (681167 (681167 (6)
+  Avg size  1261.0
+  Min size  2
+Singletons  0, 0.0% of seqs, 0.0% of clusters
+   Max mem  59Mb
+      Time  48.0s
+Throughput  15.6k seqs/sec.
+

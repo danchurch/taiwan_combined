@@ -1,0 +1,10 @@
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  37Mb    0.1% Reading allReads_derep.fasta00:01 108Mb   36.6% Reading allReads_derep.fasta00:02 181Mb   75.7% Reading allReads_derep.fasta00:02 224Mb  100.0% Reading allReads_derep.fasta
+00:02 191Mb Getting sizes                       
+00:03 197Mb Sorting 748827 sequences
+00:03 200Mb    0.0% Writing output00:04 200Mb   11.7% Writing output00:05 200Mb   48.5% Writing output00:06 200Mb   85.3% Writing output00:06 200Mb  100.0% Writing output

@@ -7,3 +7,5 @@ trimmed_wood
 trimmed_leaf
 *.fastq
 demult/
+leafNoPrim/
+leaf_notchim/

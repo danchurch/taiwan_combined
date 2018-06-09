@@ -888,9 +888,594 @@ tail leaf_merged_filt.fasta
 
 head leaf_merged_filt.fasta
 
+## did the barcodes on the opposite ends of our merged pairs 
+## remain?
+
+
 ## did we get reasonable results from the demultiplexing?
 
 cd $ld
 
 less leaf_104.fa
+
+## now what?
+
+## trim primers off of leaf reads. 
+
+## did the barcodes on the opposite ends of our merged pairs 
+## remain?
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/demult
+
+
+## sample 94 should have a barcode of CGTGATAAGACG
+
+cd demult
+
+wc leaf_94.fa -l
+
+grep >HWI leaf_94.fa -l ## 91439 reads
+
+grep CGTGATAAGACG leaf_94.fa | wc -l ## 84480
+
+grep CGTCTTATCACG leaf_94.fa | wc -l ## 84462
+
+grep CGTCTTATCACG$ leaf_94.fa  | wc -l ## 84462, all at the end
+
+## so these plus primers will need to be cut. Are the primers still
+## on there? 
+
+## check, primers still there? ITS2 was our linker primer for 
+## the leaf run, so it should be our forward primer:
+
+grep GCTGCGTTCTTCATCGATGC leaf_94.fa | wc -l ## 87084 yup
+
+grep GCTGCGTTCTTCATCGATGC <(head leaf_94.fa)
+
+aa=CGTGATAAGACGGCTGCGTTCTTCATCGATGC
+echo ${#aa}
+
+
+grep TTACTTCCTCTAAATGACCAAG leaf_94.fa | wc -l
+
+grep TTACTTCCTCTAAATGACCAAG <(head -n 1000 leaf_94.fa)
+
+bb=TTACTTCCTCTAAATGACCAAGCGTCTTATCACG
+echo ${#bb}
+
+grep TTACTTCCTCTAAATGACCAAG.{1} <(head leaf_94.fa)
+
+
+## anyway, trim the primers off the leaves:
+for i in *; do
+    fastx_trimmer -i $i -f 33 | fastx_trimmer -t 34 -o ../leafNoPrim/${i/leaf/leafNoPrim}
+done
+
+## wood has no primers, don't need to do this. 
+
+## the next step would be? 
+
+## chimera checks.
+
+wget https://unite.ut.ee/sh_files/uchime_reference_dataset_28.06.2017.zip
+
+## where to put this...
+
+ITS1_ref='/home/daniel/Documents/taiwan/uchime_reference_dataset_28.06.2017/'\
+'ITS1_ITS2_datasets/uchime_reference_dataset_ITS1_28.06.2017.fasta'
+
+## do the check. Try one.
+
+cd /home/daniel/Documents/taiwan/taiwan_combined_biom/leafNoPrim 
+
+usearch -uchime_ref leafNoPrim_89.fa \
+-db $ITS1_ref \
+-nonchimeras test_notchim.fasta \
+-uchimeout test.log \
+-strand plus \
+-notrunclabels \
+&> uchime_stdout.txt
+
+
+less uchime_stdout.txt
+
+## works. do with all files, leaf reads:
+
+cd /home/daniel/Documents/taiwan/taiwan_combined_biom/leafNoPrim 
+
+for i in *; do
+echo $i
+j="../leaf_notchim/"${i/NoPrim/NotChim}
+k=${j/\.fa/\.log}
+#echo $j
+#echo $k
+usearch -uchime_ref $i \
+-db $ITS1_ref \
+-nonchimeras $j \
+-uchimeout $k \
+-strand plus \
+-notrunclabels \
+&>> uchime_stdout.txt
+done
+
+## huh, probably should have done that on the optiplex.
+
+## onto the wood reads. Where are they again?
+
+## on optiplex:
+
+ITS1_ref='/home/daniel/Documents/submissions/taibioinfo/UNITE/uchime_reference_dataset_28.06.2017/ITS1_ITS2_datasets/uchime_reference_dataset_ITS1_28.06.2017.fasta'
+
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta
+
+(for i in *; do
+echo $i
+j="../woodNotChim/"${i/\.fasta/\.notChim\.fasta}
+k=${j/\.fasta/\.log}
+echo $j
+echo $k
+usearch -uchime_ref $i \
+-db $ITS1_ref \
+-nonchimeras $j \
+-uchimeout $k \
+-strand plus \
+-notrunclabels \
+&>> uchime_stdout.txt
+done &) &
+
+## leaf reads crashed my laptop. not sure if I can trust them. Rerun on the optiplex.
+
+ITS1_ref='/home/daniel/Documents/submissions/taibioinfo/UNITE/uchime_reference_dataset_28.06.2017/ITS1_ITS2_datasets/uchime_reference_dataset_ITS1_28.06.2017.fasta'
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/demult
+
+( for i in *; do
+echo $i
+j="../leafNotChim/"${i/NoPrim/NotChim}
+k=${j/\.fa/\.log}
+echo $j
+echo $k
+usearch -uchime_ref $i \
+-db $ITS1_ref \
+-nonchimeras $j \
+-uchimeout $k \
+-strand plus \
+-notrunclabels \
+&>> ../leafNotChim/leafUchime_stdout.txt
+done &) &
+
+## how much did we lose?
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafNotChim/ 
+
+## leaves
+grep -r '>' /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafNotChim/ | wc -l
+## 14372161
+grep -r '>' /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/demult/ | wc -l
+## 14372164
+
+
+
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodNotChim
+
+## 
+grep -r '>' /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodFasta | wc -l
+
+grep -r '>' /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodNotChim | wc -l
+
+
+## then what?
+
+## update notebook...
+
+## so we need to think about clustering...
+
+## first, fix labels to prep for the biom table
+
+## second, get ITS1 out of the leaves and wood reads
+
+## what do we need to do to fix labels?
+
+## I think for OTU clustering, we may have problems. We're going to combine all reads,
+## resulting in a pool too large for the 32bit version. 
+
+## but let's try. 
+
+##############
+
+## combine all reads into one big file?
+
+## let's homogenize the labels of the leaves and the wood. 
+## we need them to be +/- the same. 
+ 
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafNotChim/ 
+
+cat *log > ../leafChim.log
+
+head -n 1 leaf_94.fa
+
+head -n 1 leaf_43.fa
+
+## can we create new labels?  
+
+## copy all files to a new directory
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafNotChim/ 
+cp *.fa /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust/
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodNotChim
+cp *.fasta /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust/
+
+## for the leaves:
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust/
+
+## for the leaves:
+for i in *fa; do
+sed -i "s/>HWI.*/>${i%\.fa}/" $i
+done
+
+## check differences:
+ls /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafNotChim/ 
+
+head -n 1 /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafNotChim/leaf_100.fa
+head -n 1 leaf_100.fa
+
+head -n 1 /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafNotChim/leaf_27.fa
+head -n 1 leaf_27.fa
+
+tail -n 10 /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafNotChim/leaf_27.fa
+tail -n 10 leaf_27.fa
+
+## seems to work
+
+## change read labels for the wood...
+
+for i in *fasta; do 
+j=${i#*NN-}
+k=${j%%_*}
+sed -i "s/>M.*/>$k/" $i
+done
+
+## check this:
+
+ls *fasta
+
+head lane1-s223-index-TGCGAACT-CTCCTGAANNNN-82w_S223_L001.notChim.fasta
+
+head /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodNotChim/lane1-s223-index-TGCGAACT-CTCCTGAANNNN-82w_S223_L001.notChim.fasta
+
+## looks good. Now concatenate...
+
+######## ITSx ###########
+
+## get ITSx going... pain in the ass...
+
+## let's do all this on the optiplex, 
+
+## make soft links to binaries in the usr/bin
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust/hmmer-3.1b2-linux-intel-x86_64/binaries
+
+for i in *; do
+echo $i
+sudo ln -s $PWD/$i /usr/bin/$i
+done
+
+## and repeat for optiplex
+
+## and ITSx?
+
+## for both comps:
+
+cd /home/daniel/ITSx_1.0.11
+
+sudo ln -s $PWD/ITSx /usr/bin/ITSx 
+sudo ln -s $PWD/ITSx_db/ /usr/bin/ITSx_db
+
+## seems to work, but let's try it out on something:
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust
+
+ITSx -i <(head leaf_9.fa) -o ITSx_test.txt
+
+## nope. Is this the old database issue from before? Where are our 
+## 
+
+ITSx -i <(head leaf_9.fa) -p /home/daniel/ITSx_1.0.11/ITSx_db -o ITSx_test.txt --reset T
+
+## doesn't work. Is it looking for the hmm directory?
+
+## clean out binaries, let's just do this locally
+
+cd /usr/bin
+
+find ./ -type l -name "*hmm*"
+
+find ./ -type l -ctime -2 
+
+find ./ -type l -ctime -2 -exec sudo rm '{}' ';'
+
+## mv ITSx to where we want it:
+
+mv /home/daniel/hmmer-3.1b2-linux-intel-x86_64/ /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust
+mv /home/daniel/ITSx_1.0.11/ /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust
+
+
+../ITSx_1.0.11/ITSx -i <(head leaf_9.fa) -o ITSx_test.txt
+
+
+## shit. go back and relink hmm binaries... ugh...
+
+## try again:
+
+../ITSx_1.0.11/ITSx -i <(head leaf_9.fa) -o ITSx_test.txt
+
+find -type f -cmin -10
+
+../ITSx_1.0.11/ITSx -i <(head -n 100 leaf_9.fa) -o ITSx_test.txt
+
+## eh? no errors but outputs empty. Something about outdated hmms...
+
+## this is supposed to fix the problem
+../ITSx_1.0.11/ITSx -i <(head leaf_9.fa) --reset T -o ITSx_test.txt
+
+## yup, that worked. Now a bigger subset:
+
+head -n 200 leaf_9.fa
+
+../ITSx_1.0.11/ITSx -i <(head -n 200 leaf_9.fa) --reset T -o ITSx_test.txt
+
+less ITSx_test.txt.positions.txt
+
+## oops, only read first line
+
+../ITSx_1.0.11/ITSx -i <(head -n 200 leaf_9.fa) --preserve T --allow_single_domain -t F -o ITSx_test.txt
+
+## huh. still only first line... can ITSx handle line breaks in the fasta?
+## or is the identical labels? Check:
+
+leaf9old=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafNotChim/leaf_9.fa
+
+../ITSx_1.0.11/ITSx -i <(head -n 200 $leaf9old) --preserve T --allow_single_domain -t F -o ITSx_test2.txt
+
+## yup, that worked. It's the labels...
+## but it's also the line breaks - this is saying that 
+## the SSU is 1-80 on every read, which happens to be
+## how many characters are in a line. 
+
+## how to get rid of line breaks? I know I wrote a script for this...
+
+wget https://raw.githubusercontent.com/danchurch/taiwan_combined_biom/master/scripts/fasta_remove_linebreaks.py
+
+./fasta_remove_linebreaks.py $leaf9old leaf9noLB.fasta
+
+clear
+
+head $leaf9old 
+head -n 4 leaf9noLB.fasta
+
+clear
+tail $leaf9old 
+tail -n 4 leaf9noLB.fasta
+
+## looks okay. So... 
+
+../ITSx_1.0.11/ITSx -i <(head -n 100 leaf9noLB.fasta) --preserve T --allow_single_domain -t F -o ITSx_test3.txt
+
+#rm leaf9noLB.fasta
+
+## still getting 80. Coincidence? Why doesn't this match our old results of ITS starting at BP 47?
+
+## try another:
+
+leaf90old=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafNotChim/leaf_90.fa
+
+./fasta_remove_linebreaks.py $leaf90old leaf90noLB.fasta
+
+../ITSx_1.0.11/ITSx -i <(head -n 100 leaf90noLB.fasta) --preserve T --allow_single_domain -t F -o ITSx_test4.txt
+
+## same, 80 bp for the ssu.
+## also, 62 bp of 5.8s
+
+ls /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodNotChim 
+
+## yup. 
+
+
+leaf23old=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafNotChim/leaf_23.fa
+./fasta_remove_linebreaks.py $leaf23old leaf23noLB.fasta
+../ITSx_1.0.11/ITSx -i <(head -n 100 leaf23noLB.fasta) --preserve T --allow_single_domain -t F -o ITSx_test6.txt
+
+## same.
+
+## hmmm. Why would this be different? The old pipeline showed us 46 bp into the ssu, and 30 bp
+## into the 5.8s. ITS1 was usually ~180 bp long. 
+
+## why would this be 80 bp instead of 46? where did we get the extra 34 bp? 
+
+## not sure. Check wood:
+
+ls /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodNotChim/
+
+w49=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodNotChim/lane1-s199-index-TGCGAACT-TGTTCCGTNNNN-49w_S199_L001.notChim.fasta
+
+./fasta_remove_linebreaks.py $w49 w49_noLB.fasta
+
+../ITSx_1.0.11/ITSx -i <(head -n 200 w49_noLB.fasta) --preserve T --allow_single_domain -t F -o ITSx_w49.txt
+
+less ITSx_w49.txt.positions.txt
+
+## ah. Wood is back to the old numbers - 46 bp of ssu, 30 bp into 5.8s
+
+## why not the leaves? Should be the same primers... does this have
+## something with how we demultiplexed? 
+
+## other differences?:  demultiplexing, previous script was qiime, current 
+## is from 
+
+## beh. not sure if it matters. 
+
+head w49_noLB.fasta
+
+## we have to go with what the ITSx extractor says. So chop off the first 80 reads and 
+## the last 62? seems odd. 
+
+## let's go with it, and return to this spot if there are problems downstream.
+
+## clip off 80 reads from 5' and 62 from 3' in the leaf reads?
+
+## ugh, something just seems weird. Just to check, do we know that our reads 
+## are pointing the right way? Do we get a different answer from ITSx if they 
+## are? Let's check.... 
+
+## one read, the first from leaf_94:
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/demult
+head -n 2 leaf_94.fa
+
+../../ITSx_1.0.11/ITSx -i <(head -n 2 leaf_94.fa) --preserve T --allow_single_domain -t F -o ../../OTUclust/aa.txt
+
+less /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust/less aa.txt.ITS1.fasta
+
+## the rc of this read is:
+
+>leaf9line1_RC
+CGTGATAAGACGCTTGGTNATTTAGAGGAAGTAAAAGTCGTAACAAGGTCTCCGTTGGTGAACCAGCGGAGGGATCATTACTGAGTTACCGCTCTATAACCCTTTGTGAACGTACCTAACCGTTGCTTCGGCGGGCAGGGGAAGCCTCTCGCGGGCCTCCCCTCCCGGCGCCGGCCCCCACCACGGGGACGGGGCGCCCGCCGGAGGAAACCAAACTCTATTTACACGACGTCTCTTCTGAGTGGCACAAGCAAATAATTAAAACTTTTAACAACGGATCTCTTGGTTCTGGCATCGATGAAGAACGCAGCCGTCTTATCACG
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust
+
+../ITSx_1.0.11/ITSx -i leaf9line1_RC.fasta --preserve T --allow_single_domain -t F -o bb.txt
+
+cat  aa.txt.ITS1.fasta
+
+aaa=$(sed -n '2p'  aa.txt.ITS1.fasta)
+
+cat  bb.txt.ITS1.fasta
+
+bbb=$(sed -n '2p'  bb.txt.ITS1.fasta)
+
+echo $aaa
+echo $bbb
+
+if [ "$aaa" == "$bbb" ]
+then 
+echo matches!
+else
+echo zoop!
+fi
+
+
+## seems able to find ITS with 5-3 or RC. 
+
+## but oops, I think I found the bug - the 
+## wrong reads were used to check for ITS. 
+## I used reads from before the chimera check
+## for the leaves...it looks like we did not 
+## have the noprimer leaves on the optiplex...
+
+## let's see if using the newer files fixes things:
+find ~ -type f -name "uchime_reference_dataset_ITS1_28.06.2017.fasta"
+
+ITS1_ref='/home/daniel/Documents/submissions/taibioinfo/UNITE/uchime_reference_dataset_28.06.2017/ITS1_ITS2_datasets/uchime_reference_dataset_ITS1_28.06.2017.fasta'
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafNoPrim
+
+( for i in *; do
+# echo $i
+j="../leafNotChim/"${i/NoPrim/NotChim}
+k=${j/\.fa/\.log}
+# echo $j
+# echo $k
+usearch -uchime_ref $i \
+-db $ITS1_ref \
+-nonchimeras $j \
+-uchimeout $k \
+-strand plus \
+-notrunclabels \
+&>> ../leafNotChim/leafUchime_stdout.txt
+done &) &
+
+cat *log > leafChimlog.txt && rm *log
+
+## where were we? We need to check these new chimera-checked
+## leaf reads with ITSx:
+
+
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafNotChim
+
+
+ff=leafNotChim_95.fa
+head -n 2 $ff
+
+for i in *; do
+echo $i
+../../ITSx_1.0.11/ITSx \
+-i <(head -n 2 $i) \
+--preserve T \
+--allow_single_domain \
+-t F \
+-o $checkITS/${i/\.fa/\.ITSx} \
+&>> ITSx.stdout.txt
+done
+
+## okay, that didn't work. Why don't we add the first read of all fasta files into one:
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafNotChim
+
+## we gotta get rid of the linebreaks:
+#wget https://raw.githubusercontent.com/danchurch/taiwan_combined_biom/master/scripts/fasta_remove_linebreaks.py
+
+for i in *; do
+echo $i
+j=checkITS/${i/\.fa/_noLB\.fa}
+#echo checkITS/${i/\.fa/_noLB\.fa}
+fasta_remove_linebreaks.py $i $j
+head -n 2 $j >> checkITS/allFirstReads.fa
+done
+
+## getting sleepy. 
+
+## what's next? check ITS for all of these:
+
+
+../../ITSx_1.0.11/ITSx \
+-i checkITS/allFirstReads.fa \
+--preserve T \
+--allow_single_domain \
+-t F \
+-o checkITS/allFirstLeafReads
+
+## cool, we are back in business. All of these reads tell us to 
+## trim 46 bp off of the 5' of our leaf reads, and 30 bp off the 3'.
+
+## can we do something like this for wood?
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodNotChim
+
+
+for i in *; do
+echo $i
+j=checkITS/${i/\.fasta/_noLB\.fa}
+#echo $j
+fasta_remove_linebreaks.py $i $j
+head -n 2 $j >> checkITS/allFirstWoodReads.fa
+done
+
+../../ITSx_1.0.11/ITSx \
+-i checkITS/allFirstWoodReads.fa \
+--preserve T \
+--allow_single_domain \
+-t F \
+-o checkITS/allFirstWoodReads
+
+## not perfect, there are exceptions to the 46/30 bo, but mostly there.
+
+## assuming this works, how do we clip these?
+
 
