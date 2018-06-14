@@ -1407,11 +1407,11 @@ cat *log > leafChimlog.txt && rm *log
 
 
 
+## on optiplex
 cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafNotChim
 
-
-ff=leafNotChim_95.fa
-head -n 2 $ff
+## on laptop
+cd /home/daniel/Documents/taiwan/taiwan_combined_biom/leaf_notchim
 
 for i in *; do
 echo $i
@@ -1427,6 +1427,18 @@ done
 ## okay, that didn't work. Why don't we add the first read of all fasta files into one:
 
 cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafNotChim
+
+
+## get this onto the laptop 
+
+## leaves
+cd  /home/daniel/Documents/taiwan/taiwan_combined_biom/leaf_notchim
+scp daniel@192.168.1.7:/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafNotChim/* .
+
+## wood
+cd /home/daniel/Documents/taiwan/taiwan_combined_biom/wood_notchim
+scp daniel@192.168.1.7:/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafNotChim/* .
+
 
 ## we gotta get rid of the linebreaks:
 #wget https://raw.githubusercontent.com/danchurch/taiwan_combined_biom/master/scripts/fasta_remove_linebreaks.py
@@ -1458,7 +1470,6 @@ done
 
 cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodNotChim
 
-
 for i in *; do
 echo $i
 j=checkITS/${i/\.fasta/_noLB\.fa}
@@ -1478,4 +1489,414 @@ done
 
 ## assuming this works, how do we clip these?
 
+## we have two pools of reads with no line breaks...
+
+## can fastx handle line breaks?
+
+## try. Clip notchimera reads. 
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodNotChim
+
+for i in *fasta; do
+#echo $i
+echo ${i/notChim/ITSonly}
+fastx_trimmer -i <(fasta_formatter -i $i)  -f 47 | fastx_trimmer -t 30 -o ../woodITSonly/${i/notChim/ITSonly}
+done
+
+## and leaves:
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafNotChim
+
+for i in *fa; do
+echo $i
+#echo ../leafITSonly/${i/notChim/ITSonly}
+fastx_trimmer -i <(fasta_formatter -i $i)  -f 47 | fastx_trimmer -t 30 -o ../leafITSonly/${i/notChim/ITSonly}
+done
+
+## ok, where did I leave off?
+
+for i in *fa; do 
+mv $i ${i/notChim/ITSonly}
+done
+## looks like all reads have been clipped to +/- the ITS1 region. 
+
+## now we need to change the labels, right?
+
+
+
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafITSonly
+
+## for the leaves:
+for i in *fa; do
+echo $i
+#echo ../leafRelab/${i/NotChim/Relab}
+sed "s/>HWI.*/>${i%\.fa}/" $i 
+done
+
+## seems to work
+
+## change read labels for the wood...
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodITSonly
+
+for i in *fasta; do 
+j=${i#*NN-}
+k=${j%%_*}
+#echo $i
+#echo $k
+sed -i "s/>M.*/>$k/" $i
+done
+
+## looks good. Now what?
+
+## combine them. derep, sort, 
+
+## combine:
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust
+
+leafITSonly=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trim_leaves/leafITSonly
+woodITSonly=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/trimmed_wood/woodITSonly
+
+cat $leafITSonly/* $woodITSonly/* > allReads.fasta
+
+## did they all make it in there?
+wc -l allReads.fasta ## 36203910
+echo $(( 36203910 / 2 )) ## 18101955
+
+## 18,101,955
+
+## is this all the reads we have right now?
+
+## this includes the unmatched reads, I think that's 
+## okay...
+
+## derep:
+
+usearch -derep_fulllength allReads.fasta -fastaout allReads_derep.fasta -sizeout 
+
+usearch -derep_fulllength allReads.fasta -fastaout allReads_derep.fasta -sizeout &> derep.log
+
+## doesn't work. too big
+
+## can we break it up?
+
+w61=lane1-s208-index-TCTCCGAT-GATACCTGNNNN-61w_S208_L001.ITSonly.fasta
+
+echo $woodITSonly/$w61
+
+ls $woodITSonly/$w61
+
+
+usearch -derep_fulllength  $woodITSonly/$w61 -fastaout test.fasta -sizeout 
+
+usearch -derep_fulllength allReads.fasta -fastaout allReads_derep.fasta -sizeout &> derep.log
+
+## what if we split up the reads:
+
+wc -l allReads.fasta
+
+split -l 18101956 allReads.fasta splitReads
+
+tail splitReadsaa
+head splitReadsaa
+
+usearch -derep_fulllength splitReadsaa -fastaout splitReadsaa_derep -sizeout 
+
+usearch -derep_fulllength splitReadsaa -fastaout splitReadsab_derep -sizeout 
+
+## can we now cat this and use derep to check for reads that are in both halves:
+
+cat splitReadsaa_derep splitReadsab_derep > splitReads_recom
+
+
+usearch -derep_fulllength splitReads_recom -fastaout ReadsDupes -sizeout 
+
+head splitReadsaa_derep
+
+head ReadsDupes
+
+grep "^>" ReadsDupes 
+
+grep "^>" splitReadsaa_derep | wc -l ## 9050978
+
+grep "^>" splitReadsab_derep | wc -l ## 9050977
+
+
+
+grep "^>" ReadsDupes | wc -l ## 1114379 reads occur in both halves
+
+## how do we use this?
+
+## the quantity of each one of these should be combined from both files
+
+
+## ah fuck it. Let's try vsearch:
+
+vsearch --derep_fulllength allReads.fasta --output allReads_derep.fasta --sizeout 
+## seems to be a bug, sets default minseqlength to 32?
+
+## get rid of singletons for clustering
+vsearch --derep_fulllength allReads.fasta \
+--output allReads_derep.fasta \
+--sizeout \
+--minseqlength 1 \
+--minuniquesize 2 \
+&> derep_stdout.log
+
+## whoah, that was fast. Did it work?
+
+wc -l allReads_derep.fasta
+
+head allReads_derep.fasta
+
+tail allReads_derep.fasta
+
+## looks good, except the damn line breaks
+## why do some programs insert these, others
+## can't handle them?
+
+## anyway, next step? will usearch work for us now?
+## singletons have already been removed
+
+usearch -sortbysize allReads_derep.fasta -fastaout allReads_sorted.fasta &> usearch_sort_stdout.log
+
+## now try clustering? 
+
+usearch -cluster_smallmem allReads_sorted.fasta \
+-id 0.95 \
+-centroids otus_95_combo.fasta \
+-sizein \
+-sizeout \
+-sortedby size \
+|& tee clust_stdout.log
+
+##  did this work?
+
+head otus_95_combo.fasta
+
+wc -l otus_95_combo.fasta
+
+grep "^>" otus_95_combo.fasta | wc -l
+
+## 12601 OTUs
+
+
+## okay, seems comparable to what we saw previously. Not exactly the same...but (found 10,000 previously)
+## but close enough. 
+
+## okay, let's update the notebook. 
+
+## now what?
+
+
+## get utax unite database 
+## remove anything less than class id?
+## assign tax
+## make biom table 
+
+## but let's be done tonight. 
+
+########## Assign taxonomy  ############
+
+## we didn't have a lot of luck last times 
+## with UTAX's id assignments, never figured out
+## how to train the algorithm, etc. 
+
+## but let's try again. First, we need to get the 
+## UTAX UNITE database:
+
+## we'll follow instructions here: https://drive5.com/usearch/manual/utax_its.html
+
+## download the  UNITE UTAX database version 7, see if it has
+## backwards compatibility with usearch 8.x:
+
+cd /home/daniel/Documents/submissions/taibioinfo/UNITE
+
+wget https://drive5.com/utax/data/utax_unite_v7.tar.gz
+
+tar -xzvf utax_unite_v7.tar.gz
+
+## get the db and taxconfs file for ITS1
+
+## some useful shortcuts:
+ITS1db=/home/daniel/Documents/submissions/taibioinfo/UNITE/utaxref/unite_v7/fasta/refdb.fa
+ITS1tf=/home/daniel/Documents/submissions/taibioinfo/UNITE/utaxref/unite_v7/taxconfs/its1.tc
+OTUs=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust/otus_95_combo.fasta
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/assTax
+
+## now make the UDB... do we have memory for this?
+
+usearch -makeudb_utax $ITS1db  -taxconfsin $ITS1tf -output ITS1tax.udb |& tee assTax.log
+
+## looks okay. Now run UTAX:
+
+usearch -utax $OTUs -db ITS1tax.udb -utaxout OTUtax.txt -strand plus 
+
+usearch -utax $OTUs -db ITS1tax.udb -fastaout OTUs_95_assTaxed.fasta -strand plus 
+
+usearch -utax $OTUs -db ITS1tax.udb -fastaout OTUs_95_assTaxed.fasta -strand plus |& OtuAssTaxed.log
+
+## ugh, these are horrible. 
+
+## let's not invest too much into these. Throw them on there, 
+## but if we want to look closer at them, blast them individually
+
+## so what next? can we make a biom table out of it?
+
+usearch -usearch_global -db OTUs_95_assTaxed.fasta -strand both -id 0.97 -biomout combo_otu_97.biom
+
+usearch -usearch_global combo.fasta -db otus_97_combo_asstax.fasta -strand both -id 0.97 -biomout combo_otu_97.biom
+
+ls -l /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust/otus_95_combo.fasta 
+
+head /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust/otus_95_combo.fasta 
+
+## hmm. don't our OTUs need unique labels? 
+
+## oh yea, we wrote a script for this:
+#wget https://raw.githubusercontent.com/danchurch/taiwan_combined_biom/master/scripts/addOTUtag.py
+
+./addOTUtag.py otus_95_combo.fasta OTU otus_95_combo_relab.fasta
+
+## now redo the taxonomy assignments, even though they suck:
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/assTax
+
+OTUs=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust/otus_95_combo_relab.fasta
+
+usearch -utax $OTUs -db ITS1tax.udb -strand plus -fastaout OTUs_95_assTaxed.fasta
+
+## now try to make a biom table:
+
+cd /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/assTax
+
+allReads=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust/allReads.fasta
+
+usearch -usearch_global $allReads -db OTUs_95_assTaxed.fasta -strand both -id 0.95 -biomout combo_otu.biom |& tee makebiom.log
+
+## that's gotta sit for a while...
+
+chmod 444 combo_otu.biom
+
+########### biom metadata and phyloseq ###############
+
+## okay, how's it look? What will it take to get phyloseq to digest this?
+
+## check it with the biom python package:
+
+biom validate-table -i combo_otu.biom 
+
+## the usual, weird small problems.
+
+grep rows -A 5 combo_otu.biom 
+
+grep "g:Pesotum(0.0202)" combo_otu.biom
+
+grep "g:Pesotum(0.0202)" combo_otu.biom -A 5 -B 5
+
+## not sure why, but this otu isn't identified. Can we find it otherwise?
+ 
+grep "g:Pesotum(0.0202)" /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust/otus_95_combo_relab.fasta
+## oops, no classifications there. 
+
+## actually we want to look here
+grep "g:Pesotum(0.0202)" /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/assTax/OTUs_95_assTaxed.fasta
+## OTU6797:leafNotChim_111
+
+grep '"id":""' combo_otu.biom 
+
+## can we fix this with SED?
+
+sed '/"id":""/ s/"id":"",/"id":"OTU6797:leafNotChim_111",/' combo_otu.biom > combo_otu_corrected.biom
+
+grep '"id":""' combo_otu_corrected.biom 
+
+grep "g:Pesotum(0.0202)" OTUs_95_assTaxed.fasta
+
+grep "g:Pesotum(0.0202)" combo_otu_corrected.biom 
+## okay, looks good. let's just do this with the original file: 
+
+sed '/"id":""/ s/"id":"",/"id":"OTU6797:leafNotChim_111",/' combo_otu.biom -i
+
+grep "g:Pesotum(0.0202)" combo_otu.biom 
+
+## time stamp.. who cares?
+
+## let's see what phyloseq does with it. I think I recall that some 
+## sort of modifications of the tax info are necessary, but let's see.
+
+R 
+
+library('phyloseq')
+
+## ugh, install phyloseq...20 minutes later...
+
+Ubiom <- import_biom('combo_otu.biom', parseFunction=parse_taxonomy_greengenes)
+
+Ubiom <- import_biom('combo_otu.biom', parseFunction=parse_taxonomy_default())
+
+## neither works. 
+
+## we had a script for reformatting our taxonomy. Does this still work?
+
+less ../scripts/format_tax.py
+
+../scripts/format_tax.py combo_otu.biom combo_otu_reformatted.biom
+
+grep rows combo_otu_reformatted.biom -A 10
+
+## not working. Why not? 
+
+## not sure. Can SED do the trick for us? It's late and I don't want to debug:
+
+echo "<b>foo</b>bar" 
+
+echo "<b>foo</b>bar" | sed 's/<.*>//g'
+
+echo "<b>foo</b>bar" | sed 's/<[^>]*>//g'
+
+echo "James Bond" | sed -E 's/(.*) (.*)/The name is \2, \1 \2./'
+
+clear
+
+grep rows combo_otu.biom -A 5
+
+sed '/taxonomy/ s/([0-1]\.[0-9]*)//g' combo_otu.biom |\
+sed -E 's/("taxonomy")(:")/\1:[/' |\
+sed -E 's/"}}/,]}}/' |\
+sed -E '/taxonomy/ s/(d:)([^,]*)/"k__\2"/' |\
+sed -E '/taxonomy/ s/(p:)([^,]*)/"p__\2"/' |\
+sed -E '/taxonomy/ s/(c:)([^,]*)/"c__\2"/' |\
+sed -E '/taxonomy/ s/(o:)([^,]*)/"o__\2"/' |\
+sed -E '/taxonomy/ s/(f:)([^,]*)/"f__\2"/' |\
+sed -E '/taxonomy/ s/(g:)([^,]*)/"g__\2"/' |\
+sed -E '/taxonomy/ s/(s:)([^,]*)/"s__\2"/' |\
+sed -E '/taxonomy/ s/,]}}/]}}/' > combo_otu_relab.biom
+
+
+grep rows combo_otu.biom -A 5
+
+grep rows combo_otu_relab.biom -A 5
+
+
+## work in R?
+
+
+#### R
+
+R 
+
+library("phyloseq")
+
+import_biom("combo_otu.biom", parseFunction=parse_taxonomy_greengenes)
+
+
+biom95 <- import_biom("combo_otu_relab.biom", parseFunction=parse_taxonomy_greengenes)
+
+colnames(tax_table(biom95))
+
+## okay... worked... now sample metadata
 
