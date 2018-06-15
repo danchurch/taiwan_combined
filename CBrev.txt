@@ -1891,12 +1891,107 @@ R
 
 library("phyloseq")
 
-import_biom("combo_otu.biom", parseFunction=parse_taxonomy_greengenes)
-
-
 biom95 <- import_biom("combo_otu_relab.biom", parseFunction=parse_taxonomy_greengenes)
 
 colnames(tax_table(biom95))
 
 ## okay... worked... now sample metadata
 
+##########
+
+## we have a metadata table in the folder - does it work for us?
+
+biom add-metadata -i combo_otu_relab.biom -o combo_otu_wMeta.biom -m meta_2016.1.2.tsv --output-as-json
+
+biom validate-table -i combo_otu_wMeta.biom
+
+vim combo_otu_relab.biom
+
+R 
+library("phyloseq")
+
+biom95 <- import_biom("combo_otu_wMeta.biom", parseFunction=parse_taxonomy_greengenes)
+
+colnames(tax_table(biom95))
+
+########
+
+grep '{"id":' combo_otu_relab.biom
+
+grep columns combo_otu_relab.biom -A 3 -B 3
+
+grep columns combo_otu_relab.biom -A 200
+
+## we need the 
+
+## we can get our new ids off our biom table, put into a separate file, and clean it up a litte:
+
+cut newIDs.txt -d : -f 2 | cut -d , -f 1 
+
+cut newIDs.txt -d : -f 2 | cut -d , -f 1 > IDlabels.txt
+
+
+wc -l IDlabels.txt ## 230
+
+## what do we do with this?
+
+cp meta_2016.1.2.tsv meta_2018.06.14.tsv
+
+head meta_2018.06.14.tsv
+
+## ugh. We got some serious qc to do here. 
+
+cut -f 1 meta_2018.06.14.tsv  | wc -l
+cut -f 1 meta_2018.06.14.tsv  | wc -l
+
+## we need to correct our meta table with new sample names,
+## or the reverse, change the sample names in our biome table. 
+
+## chance for propagating errors seems lower if we leave 
+## our biom table alone. 
+
+## So how do we change our metatable ids to match our new biom table?
+
+## well regardless, we do need to get rid of the "NotChim" in our 
+## leaf labels in the biom table...
+
+
+grep 'NotChim' combo_otu_relab.biom
+
+head -n 20 'NotChim' combo_otu_relab.biom
+
+## right, our OTU centroids are named with this also. Does this 
+## matter? Don't think so, the unique OTU number should be all 
+## we need if we need to come back to these....
+
+head -n 20 combo_otu_relab.biom | sed -E 's/(leaf)(NotChim_)([0-9]*)/\3\1/g'
+
+head -n 2000 combo_otu_relab.biom | sed -E 's/(leaf)(NotChim_)([0-9]*)/\3\1/g'
+
+## actually, that should take care of the main leaf id issue. 
+
+## the wood is probably more easily taken care of on the metadata form, 
+## the old one had the illumina sample name as the id instead of our 
+## experimental sample id. Should be as simple as moving columns around 
+## to use the experimental sample id. 
+
+grep [0-9]*w combo_otu_relab.biom
+
+head meta_2018.06.14.tsv  
+
+tail meta_2018.06.14.tsv  
+
+grep "rows" combo_otu_relab.biom -A 10
+
+grep "columns" combo_otu_relab.biom -A 250 | less
+
+grep '"id":"[0-9]*w"' combo_otu_relab.biom | wc -l
+
+
+grep 'Dc-X' combo_otu_relab.biom 
+
+grep 'Dc-X' allReads_sorted.fasta
+
+grep 'Dc-X' allReads_derep.fasta
+
+grep 'Dc-X' allReads_sorted.fasta

@@ -1,0 +1,16 @@
+usearch v8.1.1861_i86linux32, 4.0Gb RAM (12.1Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: danchurchthomas@gmail.com
+
+00:00  37Mb    0.1% Reading /home/daniel/Documents/submissions/taibioinfo/UNITE/utaxref/unite_v7/fasta/refdb.fa00:01  54Mb   40.9% Reading /home/daniel/Documents/submissions/taibioinfo/UNITE/utaxref/unite_v7/fasta/refdb.fa00:01  76Mb  100.0% Reading /home/daniel/Documents/submissions/taibioinfo/UNITE/utaxref/unite_v7/fasta/refdb.fa
+00:01  42Mb    0.1% Masking                                                                                    00:01  42Mb  100.0% Masking
+00:01  43Mb    0.1% Word stats00:02  43Mb   50.3% Word stats00:02  43Mb  100.0% Word stats
+00:02  43Mb  100.0% Alloc rows
+00:02 163Mb    0.1% Build index00:03 163Mb   16.8% Build index00:04 163Mb   67.7% Build index00:04 163Mb  100.0% Build index
+00:04 163Mb    0.0% Initialize taxonomy data00:05 166Mb   96.1% Initialize taxonomy data00:05 166Mb  100.0% Initialize taxonomy data
+00:05 166Mb    0.0% Building name table     00:05 167Mb  100.0% Building name table
+00:05 167Mb 12840 names, tax levels min 1, avg 5.4, max 7
+00:05 167Mb    0.0% Rows00:05 167Mb Buffers (42004 seqs)
+00:05 184Mb    0.0% Seqs00:05 184Mb  100.0% Seqs
