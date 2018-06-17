@@ -1968,6 +1968,8 @@ head -n 20 combo_otu_relab.biom | sed -E 's/(leaf)(NotChim_)([0-9]*)/\3\1/g'
 
 head -n 2000 combo_otu_relab.biom | sed -E 's/(leaf)(NotChim_)([0-9]*)/\3\1/g'
 
+sed -E -i 's/(leaf)(NotChim_)([0-9]*)/\3\1/g' combo_otu_relab.biom
+
 ## actually, that should take care of the main leaf id issue. 
 
 ## the wood is probably more easily taken care of on the metadata form, 
@@ -1987,11 +1989,275 @@ grep "columns" combo_otu_relab.biom -A 250 | less
 
 grep '"id":"[0-9]*w"' combo_otu_relab.biom | wc -l
 
+## weird, somewhere we lost Graham's controls. Don't really need it, but 
+## we should either include them or redo the clustering. 
 
-grep 'Dc-X' combo_otu_relab.biom 
+## where did we lose them? 
 
-grep 'Dc-X' allReads_sorted.fasta
+grep 'Dc-X' /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/assTax/combo_otu.biom ## they're not in the biom
 
-grep 'Dc-X' allReads_derep.fasta
+vim /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/assTax/combo_otu.biom ## they're not in the biom
 
-grep 'Dc-X' allReads_sorted.fasta
+grep 'Dc-X' combo_otu_relab.biom ## they're not in the biom
+
+grep 'Dc-X' /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust/allReads.fasta
+
+grep 'Dc-X' /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust/allReads_sorted.fasta
+## they're in there
+
+grep 'Dc-X' /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust/allReads_derep.fasta
+## and there
+
+grep 'Dc-X' /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust/allReads_sorted.fasta
+## yup, there too. 
+
+grep 'Dc-X' /home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust/otus_95_combo.fasta
+## yeah, otus are named with these samples
+
+grep 'Dc-X' OTUclust/otus_95_combo_relab.fasta
+## in there...
+
+grep 'Dc-X' ./assTax/OTUs_95_assTaxed.fasta
+
+## it looks like it is the formation of the table itself, using the usearch_global command. What if we 
+## sub out "-" for "_" in these negative controls?
+
+## it is probably getting the sample ids from the headers of the massive, all-read fasta file. Change them here:
+
+allReads=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/OTUclust/allReads.fasta
+
+tail $allReads
+
+grep 'Dc-X' $allReads -A 1 | head 
+
+grep 'Dc-X' $allReads -A 1 | tail
+
+sed -n '/Dc-X/p' 
+
+
+grep 'Dc-PosG' $allReads -A 1 | wc -l
+
+sed -E '/>Dc-X/ s/(Dc)-(X)/\1_\2/g' <(grep 'Dc-X' $allReads -A 1 | head )
+sed -E '/>Dc-PosG/ s/(Dc)-(PosG)/\1_\2/' <(grep 'Dc-PosG' $allReads -A 1 | head )
+sed -E '/>Dc-PosI/ s/(Dc)-(PosI)/\1_\2/' <(grep 'Dc-PosI' $allReads -A 1 | head )
+sed -E '/>Dc-Neg/ s/(Dc)-(Neg)/\1_\2/' <(grep 'Dc-Neg' $allReads -A 1 | head )
+
+## works
+
+## okay, gotta go. But the plan - sed out the hyphens in these
+## graham controls to underscores. Then rerun the usearch global
+## command, see if they retain their individual samples instead 
+## of getting lumped. 
+
+sed -E '/>Dc-X/ s/(Dc)-(X)/\1_\2/g' $allReads |\
+sed -E '/>Dc-PosG/ s/(Dc)-(PosG)/\1_\2/' |\
+sed -E '/>Dc-PosI/ s/(Dc)-(PosI)/\1_\2/' |\
+sed -E '/>Dc-Neg/ s/(Dc)-(Neg)/\1_\2/' > allReads_con.fasta
+
+## did that work?
+
+grep 'Dc-X' allReads_con.fasta
+
+grep 'Dc_X' allReads_con.fasta
+
+## yup
+
+## does that improve our biome table?
+
+allReadsCon=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/assTax/allReads_con.fasta
+
+usearch -usearch_global $allReadsCon -db OTUs_95_assTaxed.fasta -strand plus -id 0.95 -biomout combo_otu_test.biom |& tee makebiom_test.log
+
+grep 'Dc_X' combo_otu_test.biom 
+grep 'Dc-X' combo_otu_test.biom ## OTUs only, not IDs
+
+grep 'Dc-Neg' combo_otu_test.biom 
+
+grep 'Dc_Neg' combo_otu_test.biom 
+
+## seems to have worked. Not going to worry about the OTU names. 
+
+## now push it through the pipeline, replace the old one:
+
+mv combo_otu_test.biom combo_otu.biom
+ 
+sed '/taxonomy/ s/([0-1]\.[0-9]*)//g' combo_otu.biom |\
+sed -E 's/("taxonomy")(:")/\1:[/' |\
+sed -E 's/"}}/,]}}/' |\
+sed -E '/taxonomy/ s/(d:)([^,]*)/"k__\2"/' |\
+sed -E '/taxonomy/ s/(p:)([^,]*)/"p__\2"/' |\
+sed -E '/taxonomy/ s/(c:)([^,]*)/"c__\2"/' |\
+sed -E '/taxonomy/ s/(o:)([^,]*)/"o__\2"/' |\
+sed -E '/taxonomy/ s/(f:)([^,]*)/"f__\2"/' |\
+sed -E '/taxonomy/ s/(g:)([^,]*)/"g__\2"/' |\
+sed -E '/taxonomy/ s/(s:)([^,]*)/"s__\2"/' |\
+sed -E '/taxonomy/ s/,]}}/]}}/' > combo_otu_relab.biom
+
+## look okay?
+
+head -n 20 combo_otu_relab.biom
+
+vim  combo_otu_relab.biom
+
+
+## get this to the laptop
+
+## okay.. so back to getting the metadata into shape:
+
+## strategy? there's only ~ 230 samples... get both and put them 
+## side-by-side, something will hit me...
+
+vim combo_otu_relab.biom
+
+head newIDs.txt
+
+cut -d : -f 2 newIDs.txt | cut -d , -f 1 | sed 's/"//g' > change_these_IDs.txt
+
+
+## these names need to go into the new biom table at the correct spots, so 
+## that the sample metadata can be assigned. 
+
+## not sure what to do with the unmatched reads. Probably should get rid of them 
+## before making the biom table?...
+
+## meh. Keep them in there, remove them with phyloseq. 
+
+## so place the new names into the new metadata file, see if it works:
+
+biom add-metadata -i combo_otu_relab.biom -o combo_otu_wMeta.biom --sample-metadata-fp  meta_2018.06.14.tsv --output-as-json
+
+## did this work?
+
+grep columns combo_otu_wMeta.biom  -A 15
+
+head -n 100 combo_otu_relab.biom  
+
+
+head -n 20 combo_otu_wMeta.biom | sed "s/\[\}\}\,/\[\}\}\,\n/"
+
+head -n 100 combo_otu_relab.biom | sed "s/\[\}\}\,/\[\}\}\,\n/"
+
+## right, it's all one line now, grep sucks for this.
+
+## sooo.... does phyloseq like it?
+
+vim combo_otu_wMeta.biom
+
+R 
+library("phyloseq")
+
+biom95 <- import_biom("combo_otu_wMeta.biom", parseFunction=parse_taxonomy_greengenes)
+
+## nope
+
+## does R still like the file, pre-metadata?
+
+
+biom95 <- import_biom("combo_otu_relab.biom", parseFunction=parse_taxonomy_greengenes)
+
+## nope. What happened? Did we do all of our cleaning steps?
+
+biom validate-table -i combo_otu_relab.biom
+
+
+grep "g__Pesotum" combo_otu_relab.biom -A 2 -B 2
+
+grep "g:Pesotum" combo_otu.biom -A 2 -B 2
+
+## try again to add metadata:
+biom add-metadata -i combo_otu_relab.biom -o combo_otu_wMeta.biom --sample-metadata-fp  meta_2018.06.14.tsv --output-as-json
+
+biom validate-table -i combo_otu_wMeta.biom
+
+## see if this helped with R:
+R 
+library("phyloseq")
+
+biom95 <- import_biom("combo_otu_wMeta.biom", parseFunction=parse_taxonomy_greengenes)
+## doesn't work
+
+biom95 <- import_biom("combo_otu_wMeta.biom")
+
+## still not working. Would like to look at the file but it is a single-line 
+## mess. Can we fix this?
+
+sudo pip install jsbeautifier
+
+js-beautify combo_otu_wMeta.biom > test.biom
+
+biom validate-table -i test.biom
+
+## looks okay. Why won't phyloseq accept this?
+
+R 
+
+library("phyloseq")
+library("biomformat")
+
+biom95 <- import_biom("combo_otu_wMeta.biom", parseFunction=parse_taxonomy_greengenes)
+## don't work 
+
+aa <- read_biom("combo_otu_wMeta.biom")
+
+sample_metadata(aa)
+## read_biom finds the metadata just fine...
+
+## maybe it's our unmatched reads? They have no metadata, could be screwing 
+## with phyloseq's parsing?
+
+## back up to...?
+
+## I think we want to get rid of anything with the unmatched header in our allReads_con.fasta:
+
+## back on optiplex:
+allReadsCon=/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_biom/assTax/allReads_con.fasta
+
+head $allReadsCon
+
+tail $allReadsCon
+
+grep "^>" $allReadsCon | uniq | grep unmatched
+
+## how to delete all of these with the >leafNotChim_unmatched name?
+
+cat <(head $allReadsCon) <(tail $allReadsCon) 
+
+cat <(head $allReadsCon) <(tail $allReadsCon) | sed '/>leafNotChim_100/,+1d'
+
+cat <(head $allReadsCon) <(tail $allReadsCon) | sed '/>PosI/,+1d'
+
+cat <(head $allReadsCon) <(tail $allReadsCon) | sed -e '/>leafNotChim_100/,+1d'
+
+## so if we want to delete reads that start with  "leafNotChim_unmatched"
+
+
+sed '/>leafNotChim_unmatched/,+1d' $allReadsCon > test.fasta
+
+grep "^>" test.fasta | uniq | wc -l
+
+grep "^>" $allReadsCon | uniq | wc -l
+
+## seems to work. do it for real:
+
+sed -i '/>leafNotChim_unmatched/,+1d' $allReadsCon 
+
+## redo biom table:
+
+usearch -usearch_global $allReadsCon -db ./assTax/OTUs_95_assTaxed.fasta -strand plus -id 0.95 -biomout combo_otu.biom |& tee makebiom.log
+
+scp combo_otu.biom makebiom.log daniel@192.168.1.4:/home/daniel/Documents/taiwan/taiwan_combined_biom/
+
+## did that help at all?
+
+
+R 
+library("phyloseq")
+
+library("biomformat")
+
+biom95 <- import_biom("combo_otu_wMeta.biom", parseFunction=parse_taxonomy_greengenes)
+## nope
+
+## not sure. maybe a better approach is to add the metadata in phyloseq?
+
+

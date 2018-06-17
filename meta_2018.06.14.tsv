@@ -1,234 +1,233 @@
-#SampleID	SampleNumber	Library	SampleNumberLibrary	SorC	X	Y	Forest_Type	Host_family	Host_genus	Host_species	Host_genus_species	stream_distance	vegcom
-160wood	Dc-X	W	Dc-XW	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
-161wood	Dc-PosG	W	Dc-PosGW	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
-162wood	Dc-PosI	W	Dc-PosIW	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
-163wood	Dc-Neg	W	Dc-NegW	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
-164wood	1	W	1W	Sample	360	220	7	Juglandaceae	Engelhardtia	roxburghiana	Engelhardtia_roxburghiana	24.11897	2
-165wood	2	W	2W	Sample	360	221	7	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	23.22664	2
-166wood	3	W	3W	Sample	361	221	7	Proteaceae	Helicia	formosana	Helicia_formosana	22.77525	2
-167wood	4	W	4W	Sample	361	220	7	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	23.66758	2
-168wood	5	W	5W	Sample	363	220	7	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	22.7648	2
-169wood	7	W	7W	Sample	360	223	7	Juglandaceae	Engelhardtia	roxburghiana	Engelhardtia_roxburghiana	21.44198	2
-170wood	9	W	9W	Sample	360	235	7	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	10.73405	2
-171wood	10	W	10W	Sample	360	251	7	Lauraceae	Machilus	thunbergii	Machilus_thunbergii	3.54319786	2
-172wood	11	W	11W	Sample	360	283	5	Euphorbiaceae	Antidesma	japonicum var. densiflorum	Antidesma_japonicum_var_densiflorum	25.9008889518	2
-173wood	13	W	13W	Sample	367	220	7	Theaceae	Cleyera	japonica	Cleyera_japonica	20.95925	2
-174wood	14	W	14W	Sample	375	220	7	Proteaceae	Helicia	formosana	Helicia_formosana	17.58541	2
-175wood	15	W	15W	Sample	391	220	7	Theaceae	Adinandra	formosana	Adinandra_formosana	10.15435	2
-176wood	16	W	16W	Sample	423	220	7	Rubiaceae	Randia	cochinchinensis	Randia_cochinchinensis	4.772709	2
-177wood	17	W	17W	Sample	487	220	7	Rubiaceae	Lasianthus	fordii	Lasianthus_fordii	32.99848	2
-178wood	18	W	18W	Sample	487	347	7	Proteaceae	Helicia	formosana	Helicia_formosana	23.69731	3
-179wood	19	W	19W	Sample	423	283	7	Rubiaceae	Tricalysia	dubia	Tricalysia_dubia	10.3363	2
-180wood	20	W	20W	Sample	391	251	7	Cyatheaceae	Cyathea	podophylla	Cyathea_podophylla	6.13463	2
-181wood	21	W	21W	Sample	375	235	7	Theaceae	Cleyera	japonica	Cleyera_japonica	3.963231	2
-182wood	23	W	23W	Sample	360	360	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	61.45643	2
-183wood	25	W	25W	Sample	361	361	7	Proteaceae	Helicia	formosana	Helicia_formosana	62.86933	2
-184wood	26	W	26W	Sample	361	360	7	Verbenaceae	Callicarpa	kochiana	Callicarpa_kochiana	62.19735	2
-185wood	27	W	27W	Sample	360	364	7	Melastomataceae	Melastoma	kochiana	Melastoma_kochiana	62.06171	2
-186wood	28	W	28W	Sample	363	363	7	Proteaceae	Helicia	formosana	Helicia_formosana	61.35912	2
-187wood	29	W	29W	Sample	363	360	7	Verbenaceae	Callicarpa	kochiana	Callicarpa_kochiana	63.70044	2
-188wood	30	W	30W	Sample	367	360	7	Lauraceae	Machilus	japonica var. kusanoi	Machilus_japonica_var_kusanoi	60.32493	2
-189wood	31	W	31W	Sample	376	360	7	Euphorbiaceae	Antidesma	japonicum var. densiflorum	Antidesma_japonicum_var_densiflorum	51.55997	2
-190wood	32	W	32W	Sample	391	360	7	Aquifoliaceae	Ilex	ficoidea	Ilex_ficoidea	36.9517	2
-191wood	35	W	35W	Sample	360	368	7	Lauraceae	Machilus	thunbergii	Machilus_thunbergii	58.68752	2
-192wood	36	W	36W	Sample	360	375	7	Rubiaceae	Randia	cochinchinensis	Randia_cochinchinensis	52.78268	2
-193wood	37	W	37W	Sample	360	391	5	Theaceae	Cleyera	japonica	Cleyera_japonica	38.25516	2
-194wood	38	W	38W	Sample	360	423	7	Proteaceae	Helicia	formosana	Helicia_formosana	11.71607	2
-195wood	39	W	39W	Sample	360	483	5	Symplocaceae	Symplocos	theophrastifolia	Symplocos_theophrastifolia	46.44559	2
-196wood	42	W	42W	Sample	375	375	7	Cyatheaceae	Cyathea	podophylla	Cyathea_podophylla	45.19699	2
-197wood	45	W	45W	Sample	307	360	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	42.2274	2
-198wood	46	W	46W	Sample	243	360	5	Proteaceae	Helicia	formosana	Helicia_formosana	81.93669	3
-199wood	49	W	49W	Sample	188	360	6	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	121.6796	3
-200wood	50	W	50W	Sample	183	360	6	Fagaceae	Castanopsis	cuspidata var. carlesii	Castanopsis_cuspidata_var_carlesii	125.8634	3
-201wood	52	W	52W	Sample	180	360	6	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	128.4017	3
-202wood	55	W	55W	Sample	180	363	6	Proteaceae	Helicia	formosana	Helicia_formosana	130.0099	2
-203wood	56	W	56W	Sample	183	363	6	Rubiaceae	Randia	cochinchinensis	Randia_cochinchinensis	127.5036	2
-204wood	57	W	57W	Sample	180	367	6	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	132.2295	2
-205wood	58	W	58W	Sample	180	375	6	Lauraceae	Machilus	zuihoensis var. mushaensis	Machilus_zuihoensis_var_mushaensis	136.9117	2
-206wood	59	W	59W	Sample	180	391	6	Cyatheaceae	Cyathea	podophylla	Cyathea_podophylla	147.1365	2
-207wood	60	W	60W	Sample	180	423	6	Proteaceae	Helicia	formosana	Helicia_formosana	151.9575	3
-208wood	61	W	61W	Sample	180	487	7	Symplocaceae	Symplocos	glauca	Symplocos_glauca	163.9489	2
-209wood	64	W	64W	Sample	211	391	5	Euphorbiaceae	Glochidion	acuminatum	Glochidion_acuminatum	125.7371	2
-210wood	66	W	66W	Sample	187	367	6	Lauraceae	Machilus	zuihoensis var. mushaensis	Machilus_zuihoensis_var_mushaensis	126.5177	2
-211wood	67	W	67W	Sample	180	220	1	Lauraceae	Machilus	thunbergii	Machilus_thunbergii	130.4595	1
-212wood	68	W	68W	Sample	180	221	2	Theaceae	Eurya	loquaiana	Eurya_loquaiana	129.9135	1
-213wood	69	W	69W	Sample	181	221	2	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	129.0751	1
-214wood	70	W	70W	Sample	181	220	2	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	129.6247	1
-215wood	71	W	71W	Sample	183	220	2	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	127.929	1
-216wood	72	W	72W	Sample	183	223	2	Proteaceae	Helicia	formosana	Helicia_formosana	126.3083	1
-217wood	73	W	73W	Sample	180	223	2	Fagaceae	Castanopsis	cuspidata var. carlesii	Castanopsis_cuspidata_var_carlesii	128.8378	1
-218wood	74	W	74W	Sample	180	227	2	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	126.7538	1
-219wood	75	W	75W	Sample	180	235	2	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	122.8706	1
-220wood	76	W	76W	Sample	180	251	4	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	116.3723	2
-221wood	79	W	79W	Sample	307	347	7	Fagaceae	Pasania	harlandii	Pasania_harlandii	29.53989	2
-222wood	81	W	81W	Sample	211	251	4	Euphorbiaceae	Antidesma	japonicum var. densiflorum	Antidesma_japonicum_var_densiflorum	87.9852	2
-223wood	82	W	82W	Sample	195	235	2	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	109.7734	1
-224wood	84	W	84W	Sample	187	220	1	Theaceae	Cleyera	japonica	Cleyera_japonica	124.4753	1
-225wood	85	W	85W	Sample	195	220	2	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	117.5859	1
-226wood	86	W	86W	Sample	211	220	2	Fagaceae	Limlia	uraiana	Limlia_uraiana	104.2465	1
-227wood	87	W	87W	Sample	243	220	3	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	79.37705	1
-228wood	88	W	88W	Sample	307	220	7	Lauraceae	Cryptocarya	chinensis	Cryptocarya_chinensis	47.36483	2
-229wood	89	W	89W	Sample	287	20	7	Proteaceae	Helicia	formosana	Helicia_formosana	25.33942	2
-230wood	92	W	92W	Sample	195	20	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	31.43415	2
-231wood	93	W	93W	Sample	187	20	6	Rosaceae	Prunus	phaeosticta	Prunus_phaeosticta	27.63549	2
-232wood	94	W	94W	Sample	180	20	6	Moraceae	Ficus	erecta var. beecheyana	Ficus_erecta_var_beecheyana	25.06622	2
-233wood	95	W	95W	Sample	181	20	6	Moraceae	Ficus	erecta var. beecheyana	Ficus_erecta_var_beecheyana	25.33385	2
-234wood	96	W	96W	Sample	181	21	7	Proteaceae	Helicia	formosana	Helicia_formosana	24.37728	3
-235wood	97	W	97W	Sample	180	21	7	Proteaceae	Helicia	formosana	Helicia_formosana	24.09903	3
-236wood	99	W	99W	Sample	183	23	7	Proteaceae	Helicia	formosana	Helicia_formosana	23.19752	3
-237wood	100	W	100W	Sample	183	20	7	Proteaceae	Helicia	formosana	Helicia_formosana	25.97654	2
-238wood	101	W	101W	Sample	180	27	7	Proteaceae	Helicia	formosana	Helicia_formosana	18.36984	3
-239wood	102	W	102W	Sample	187	27	7	Theaceae	Cleyera	japonica	Cleyera_japonica	21.3725	3
-240wood	104	W	104W	Sample	180	51	7	Proteaceae	Helicia	formosana	Helicia_formosana	1.409998	3
-241wood	106	W	106W	Sample	180	147	3	Proteaceae	Helicia	formosana	Helicia_formosana	82.49734	2
-242wood	107	W	107W	Sample	307	147	3	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	64.85876	1
-243wood	108	W	108W	Sample	243	83	3	Theaceae	Cleyera	japonica	Cleyera_japonica	19.02113	1
-244wood	109	W	109W	Sample	209	49	7	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	13.46815	3
-245wood	114	W	114W	Sample	71	40	7	Proteaceae	Helicia	formosana	Helicia_formosana	6.015914	2
-246wood	115	W	115W	Sample	55	40	4	Cyatheaceae	Cyathea	podophylla	Cyathea_podophylla	16.75811	3
-247wood	121	W	121W	Sample	43	40	4	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	27.95829	3
-248wood	124	W	124W	Sample	40	47	7	Euphorbiaceae	Glochidion	acuminatum	Glochidion_acuminatum	28.9161391514	3
-249wood	125	W	125W	Sample	40	55	4	Lauraceae	Litsea	acuminata	Litsea_acuminata	27.32744	3
-250wood	128	W	128W	Sample	40	167	3	Fagaceae	Castanopsis	cuspidata var. carlesii	Castanopsis_cuspidata_var_carlesii	75.54028	3
-251wood	129	W	129W	Sample	167	167	3	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	105.2136	1
-252wood	130	W	130W	Sample	103	103	7	Proteaceae	Helicia	formosana	Helicia_formosana	45.72196	3
-253wood	131	W	131W	Sample	71	71	7	Proteaceae	Helicia	formosana	Helicia_formosana	5.360382	4
-254wood	133	W	133W	Sample	47	47	7	Proteaceae	Helicia	formosana	Helicia_formosana	22.16354	3
-255wood	Neg	W	NegW	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
-256wood	PosG	W	PosGW	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
-257wood	PosI	W	PosIW	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
-1Leaf	1	L	1L	Sample	360	220	7	Juglandaceae	Engelhardtia	roxburghiana	Engelhardtia_roxburghiana	24.11897	2
-2Leaf	2	L	2L	Sample	360	221	7	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	23.22664	2
-3Leaf	3	L	3L	Sample	361	221	7	Proteaceae	Helicia	formosana	Helicia_formosana	22.77525	2
-4Leaf	4	L	4L	Sample	361	220	7	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	23.66758	2
-5Leaf	5	L	5L	Sample	363	220	7	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	22.7648	2
-6Leaf	6	L	6L	Sample	363	223	7	Proteaceae	Helicia	formosana	Helicia_formosana	20.08782	2
-7Leaf	7	L	7L	Sample	360	223	7	Juglandaceae	Engelhardtia	roxburghiana	Engelhardtia_roxburghiana	21.44198	2
-8Leaf	8	L	8L	Sample	360	227	7	Proteaceae	Helicia	formosana	Helicia_formosana	17.87267	2
-9Leaf	9	L	9L	Sample	360	235	7	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	10.73405	2
-12Leaf	12	L	12L	Sample	360	347	7	Rubiaceae	Randia	cochinchinensis	Randia_cochinchinensis	53.53826	2
-13Leaf	13	L	13L	Sample	367	220	7	Theaceae	Cleyera	japonica	Cleyera_japonica	20.95925	2
-14Leaf	14	L	14L	Sample	375	220	7	Proteaceae	Helicia	formosana	Helicia_formosana	17.58541	2
-15Leaf	15	L	15L	Sample	391	220	7	Theaceae	Adinandra	formosana	Adinandra_formosana	10.15435	2
-16Leaf	16	L	16L	Sample	423	220	7	Rubiaceae	Randia	cochinchinensis	Randia_cochinchinensis	4.772709	2
-17Leaf	17	L	17L	Sample	487	220	7	Rubiaceae	Lasianthus	fordii	Lasianthus_fordii	32.99848	2
-18Leaf	18	L	18L	Sample	487	347	7	Proteaceae	Helicia	formosana	Helicia_formosana	23.69731	3
-19Leaf	19	L	19L	Sample	423	283	7	Rubiaceae	Tricalysia	dubia	Tricalysia_dubia	10.3363	2
-20Leaf	20	L	20L	Sample	391	251	7	Cyatheaceae	Cyathea	podophylla	Cyathea_podophylla	6.13463	2
-21Leaf	21	L	21L	Sample	375	235	7	Theaceae	Cleyera	japonica	Cleyera_japonica	3.963231	2
-22Leaf	22	L	22L	Sample	367	227	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	14.71296	2
-23Leaf	23	L	23L	Sample	360	360	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	61.45643	2
-24Leaf	24	L	24L	Sample	360	361	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	62.13642	2
-25Leaf	25	L	25L	Sample	361	361	7	Proteaceae	Helicia	formosana	Helicia_formosana	62.86933	2
-26Leaf	26	L	26L	Sample	361	360	7	Verbenaceae	Callicarpa	kochiana	Callicarpa_kochiana	62.19735	2
-27Leaf	27	L	27L	Sample	360	364	7	Melastomataceae	Melastoma	kochiana	Melastoma_kochiana	62.06171	2
-28Leaf	28	L	28L	Sample	363	363	7	Proteaceae	Helicia	formosana	Helicia_formosana	61.35912	2
-29Leaf	29	L	29L	Sample	363	360	7	Verbenaceae	Callicarpa	kochiana	Callicarpa_kochiana	63.70044	2
-30Leaf	30	L	30L	Sample	367	360	7	Lauraceae	Machilus	japonica var. kusanoi	Machilus_japonica_var_kusanoi	60.32493	2
-31Leaf	31	L	31L	Sample	376	360	7	Euphorbiaceae	Antidesma	japonicum var. densiflorum	Antidesma_japonicum_var_densiflorum	51.55997	2
-32Leaf	32	L	32L	Sample	391	360	7	Aquifoliaceae	Ilex	ficoidea	Ilex_ficoidea	36.9517	2
-33Leaf	33	L	33L	Sample	423	360	7	Proteaceae	Helicia	formosana	Helicia_formosana	5.787396	2
-34Leaf	34	L	34L	Sample	487	360	6	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	33.11926	3
-35Leaf	35	L	35L	Sample	360	368	7	Lauraceae	Machilus	thunbergii	Machilus_thunbergii	58.68752	2
-36Leaf	36	L	36L	Sample	360	375	7	Rubiaceae	Randia	cochinchinensis	Randia_cochinchinensis	52.78268	2
-37Leaf	37	L	37L	Sample	360	391	5	Theaceae	Cleyera	japonica	Cleyera_japonica	38.25516	2
-38Leaf	38	L	38L	Sample	360	423	7	Proteaceae	Helicia	formosana	Helicia_formosana	11.71607	2
-39Leaf	39	L	39L	Sample	360	483	5	Symplocaceae	Symplocos	theophrastifolia	Symplocos_theophrastifolia	46.44559	2
-40Leaf	40	L	40L	Sample	488	488	6	Melastomataceae	Melastoma	candida	Melastoma_candida	111.1887	4
-41Leaf	41	L	41L	Sample	423	423	7	Araliaceae	Schefflera	octophylla	Schefflera_octophylla	20.71181	2
-42Leaf	42	L	42L	Sample	375	375	7	Cyatheaceae	Cyathea	podophylla	Cyathea_podophylla	45.19699	2
-43Leaf	43	L	43L	Sample	391	391	7	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	24.26231	2
-44Leaf	44	L	44L	Sample	367	367	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	55.91854	2
-45Leaf	45	L	45L	Sample	307	360	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	42.2274	2
-46Leaf	46	L	46L	Sample	243	360	5	Proteaceae	Helicia	formosana	Helicia_formosana	81.93669	3
-47Leaf	47	L	47L	Sample	211	360	5	Lauraceae	Machilus	zuihoensis	Machilus_zuihoensis	103.3725	2
-48Leaf	48	L	48L	Sample	195	360	6	Fagaceae	Limlia	uraiana	Limlia_uraiana	115.931	3
-49Leaf	49	L	49L	Sample	188	360	6	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	121.6796	3
-50Leaf	50	L	50L	Sample	183	360	6	Fagaceae	Castanopsis	cuspidata var. carlesii	Castanopsis_cuspidata_var_carlesii	125.8634	3
-51Leaf	51	L	51L	Sample	181	360	6	Fagaceae	Limlia	uraiana	Limlia_uraiana	127.5534	3
-52Leaf	52	L	52L	Sample	180	360	6	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	128.4017	3
-53Leaf	53	L	53L	Sample	180	361	6	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	128.9322	2
-54Leaf	54	L	54L	Sample	181	361	6	Fagaceae	Castanopsis	cuspidata var. carlesii	Castanopsis_cuspidata_var_carlesii	128.0874	2
-55Leaf	55	L	55L	Sample	180	363	6	Proteaceae	Helicia	formosana	Helicia_formosana	130.0099	2
-56Leaf	56	L	56L	Sample	183	363	6	Rubiaceae	Randia	cochinchinensis	Randia_cochinchinensis	127.5036	2
-57Leaf	57	L	57L	Sample	180	367	6	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	132.2295	2
-58Leaf	58	L	58L	Sample	180	375	6	Lauraceae	Machilus	zuihoensis var. mushaensis	Machilus_zuihoensis_var_mushaensis	136.9117	2
-59Leaf	59	L	59L	Sample	180	391	6	Cyatheaceae	Cyathea	podophylla	Cyathea_podophylla	147.1365	2
-60Leaf	60	L	60L	Sample	180	423	6	Proteaceae	Helicia	formosana	Helicia_formosana	151.9575	3
-61Leaf	61	L	61L	Sample	180	487	7	Symplocaceae	Symplocos	glauca	Symplocos_glauca	163.9489	2
-62Leaf	62	L	62L	Sample	307	487	4	Elaeocarpaceae	Elaeocarpus	sylvestris	Elaeocarpus_sylvestris	66.41605	2
-63Leaf	63	L	63L	Sample	243	423	2	Fagaceae	Limlia	uraiana	Limlia_uraiana	88.97098	2
-64Leaf	64	L	64L	Sample	211	391	5	Euphorbiaceae	Glochidion	acuminatum	Glochidion_acuminatum	125.7371	2
-65Leaf	65	L	65L	Sample	195	375	6	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	125.291	2
-66Leaf	66	L	66L	Sample	187	367	6	Lauraceae	Machilus	zuihoensis var. mushaensis	Machilus_zuihoensis_var_mushaensis	126.5177	2
-67Leaf	67	L	67L	Sample	180	220	1	Lauraceae	Machilus	thunbergii	Machilus_thunbergii	130.4595	1
-68Leaf	68	L	68L	Sample	180	221	2	Theaceae	Eurya	loquaiana	Eurya_loquaiana	129.9135	1
-69Leaf	69	L	69L	Sample	181	221	2	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	129.0751	1
-70Leaf	70	L	70L	Sample	181	220	2	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	129.6247	1
-71Leaf	71	L	71L	Sample	183	220	2	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	127.929	1
-72Leaf	72	L	72L	Sample	183	223	2	Proteaceae	Helicia	formosana	Helicia_formosana	126.3083	1
-73Leaf	73	L	73L	Sample	180	223	2	Fagaceae	Castanopsis	cuspidata var. carlesii	Castanopsis_cuspidata_var_carlesii	128.8378	1
-74Leaf	74	L	74L	Sample	180	227	2	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	126.7538	1
-75Leaf	75	L	75L	Sample	180	235	2	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	122.8706	1
-76Leaf	76	L	76L	Sample	180	251	4	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	116.3723	2
-77Leaf	77	L	77L	Sample	180	283	4	Proteaceae	Helicia	formosana	Helicia_formosana	109.4037	2
-78Leaf	78	L	78L	Sample	180	347	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	122.0419	3
-79Leaf	79	L	79L	Sample	307	347	7	Fagaceae	Pasania	harlandii	Pasania_harlandii	29.53989	2
-80Leaf	80	L	80L	Sample	243	283	7	Proteaceae	Helicia	formosana	Helicia_formosana	46.85935	3
-81Leaf	81	L	81L	Sample	211	251	4	Euphorbiaceae	Antidesma	japonicum var. densiflorum	Antidesma_japonicum_var_densiflorum	87.9852	2
-82Leaf	82	L	82L	Sample	195	235	2	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	109.7734	1
-83Leaf	83	L	83L	Sample	187	227	2	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	120.7832	1
-84Leaf	84	L	84L	Sample	187	220	1	Theaceae	Cleyera	japonica	Cleyera_japonica	124.4753	1
-85Leaf	85	L	85L	Sample	195	220	2	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	117.5859	1
-86Leaf	86	L	86L	Sample	211	220	2	Fagaceae	Limlia	uraiana	Limlia_uraiana	104.2465	1
-87Leaf	87	L	87L	Sample	243	220	3	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	79.37705	1
-88Leaf	88	L	88L	Sample	307	220	7	Lauraceae	Cryptocarya	chinensis	Cryptocarya_chinensis	47.36483	2
-89Leaf	89	L	89L	Sample	287	20	7	Proteaceae	Helicia	formosana	Helicia_formosana	25.33942	2
-90Leaf	90	L	90L	Sample	243	20	7	Proteaceae	Helicia	formosana	Helicia_formosana	33.07126	2
-91Leaf	91	L	91L	Sample	211	20	7	Proteaceae	Helicia	formosana	Helicia_formosana	37.29322	2
-92Leaf	92	L	92L	Sample	195	20	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	31.43415	2
-93Leaf	93	L	93L	Sample	187	20	6	Rosaceae	Prunus	phaeosticta	Prunus_phaeosticta	27.63549	2
-94Leaf	94	L	94L	Sample	180	20	6	Moraceae	Ficus	erecta var. beecheyana	Ficus_erecta_var_beecheyana	25.06622	2
-95Leaf	95	L	95L	Sample	181	20	6	Moraceae	Ficus	erecta var. beecheyana	Ficus_erecta_var_beecheyana	25.33385	2
-96Leaf	96	L	96L	Sample	181	21	7	Proteaceae	Helicia	formosana	Helicia_formosana	24.37728	3
-97Leaf	97	L	97L	Sample	180	21	7	Proteaceae	Helicia	formosana	Helicia_formosana	24.09903	3
-98Leaf	98	L	98L	Sample	180	23	7	Proteaceae	Helicia	formosana	Helicia_formosana	22.17339	3
-99Leaf	99	L	99L	Sample	183	23	7	Proteaceae	Helicia	formosana	Helicia_formosana	23.19752	3
-100Leaf	100	L	100L	Sample	183	20	7	Proteaceae	Helicia	formosana	Helicia_formosana	25.97654	2
-101Leaf	101	L	101L	Sample	180	27	7	Proteaceae	Helicia	formosana	Helicia_formosana	18.36984	3
-102Leaf	102	L	102L	Sample	187	27	7	Theaceae	Cleyera	japonica	Cleyera_japonica	21.3725	3
-103Leaf	103	L	103L	Sample	180	35	7	Proteaceae	Helicia	formosana	Helicia_formosana	11.08831	3
-104Leaf	104	L	104L	Sample	180	51	7	Proteaceae	Helicia	formosana	Helicia_formosana	1.409998	3
-105Leaf	105	L	105L	Sample	180	83	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	22.46722	3
-106Leaf	106	L	106L	Sample	180	147	3	Proteaceae	Helicia	formosana	Helicia_formosana	82.49734	2
-107Leaf	107	L	107L	Sample	307	147	3	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	64.85876	1
-108Leaf	108	L	108L	Sample	243	83	3	Theaceae	Cleyera	japonica	Cleyera_japonica	19.02113	1
-109Leaf	109	L	109L	Sample	209	49	7	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	13.46815	3
-110Leaf	110	L	110L	Sample	209	49	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	13.46815	3
-111Leaf	111	L	111L	Sample	195	35	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	20.37973	3
-112_1Leaf	112_1	L	112_1L	Sample	167	40	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	4.250151	2
-112_2Leaf	112_2	L	112_2L	Sample	167	40	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	4.250151	2
-113_1Leaf	113_1	L	113_1L	Sample	103	40	7	Araliaceae	Schefflera	octophylla	Schefflera_octophylla	12.80385	3
-113_2Leaf	113_2	L	113_2L	Sample	103	40	7	Araliaceae	Schefflera	octophylla	Schefflera_octophylla	12.80385	3
-114Leaf	114	L	114L	Sample	71	40	7	Proteaceae	Helicia	formosana	Helicia_formosana	6.015914	2
-115Leaf	115	L	115L	Sample	55	40	4	Cyatheaceae	Cyathea	podophylla	Cyathea_podophylla	16.75811	3
-116Leaf	116	L	116L	Sample	47	40	4	Proteaceae	Helicia	formosana	Helicia_formosana	24.2118	3
-117Leaf	117	L	117L	Sample	40	40	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	30.79582	3
-118Leaf	118	L	118L	Sample	40	41	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	30.50139	3
-119Leaf	119	L	119L	Sample	41	41	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	29.54256	3
-120Leaf	120	L	120L	Sample	41	40	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	29.84645	3
-121Leaf	121	L	121L	Sample	43	40	4	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	27.95829	3
-122Leaf	122	L	122L	Sample	43	43	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	27.07621	3
-125Leaf	125	L	125L	Sample	40	55	4	Lauraceae	Litsea	acuminata	Litsea_acuminata	27.32744	3
-126_1Leaf	126_1	L	126_1L	Sample	40	71	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	20.16175	3
-126_2Leaf	126_2	L	126_2L	Sample	40	71	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	20.16175	3
-127Leaf	127	L	127L	Sample	40	103	7	Proteaceae	Helicia	formosana	Helicia_formosana	11.69457	3
-128Leaf	128	L	128L	Sample	40	167	3	Fagaceae	Castanopsis	cuspidata var. carlesii	Castanopsis_cuspidata_var_carlesii	75.54028	3
-129Leaf	129	L	129L	Sample	167	167	3	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	105.2136	1
-130Leaf	130	L	130L	Sample	103	103	7	Proteaceae	Helicia	formosana	Helicia_formosana	45.72196	3
-131Leaf	131	L	131L	Sample	71	71	7	Proteaceae	Helicia	formosana	Helicia_formosana	5.360382	4
-132Leaf	132	L	132L	Sample	55	55	7	Proteaceae	Helicia	formosana	Helicia_formosana	12.4373	3
-133Leaf	133	L	133L	Sample	47	47	7	Proteaceae	Helicia	formosana	Helicia_formosana	22.16354	3
-NC_1Leaf	NC_1	L	NC_1L	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
-NC_2Leaf	NC_2	L	NC_2L	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Strom	S	S	SS	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
+#SampleID	Library	SorC	X	Y	Forest_Type	Host_family	Host_genus	Host_species	Host_genus_species	stream_distance	vegcom
+Dc_X	W	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Dc_PosG	W	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Dc_PosI	W	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Dc_Neg	W	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
+1w	W	Sample	360	220	7	Juglandaceae	Engelhardtia	roxburghiana	Engelhardtia_roxburghiana	24.11897	2
+2w	W	Sample	360	221	7	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	23.22664	2
+3w	W	Sample	361	221	7	Proteaceae	Helicia	formosana	Helicia_formosana	22.77525	2
+4w	W	Sample	361	220	7	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	23.66758	2
+5w	W	Sample	363	220	7	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	22.7648	2
+7w	W	Sample	360	223	7	Juglandaceae	Engelhardtia	roxburghiana	Engelhardtia_roxburghiana	21.44198	2
+9w	W	Sample	360	235	7	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	10.73405	2
+10w	W	Sample	360	251	7	Lauraceae	Machilus	thunbergii	Machilus_thunbergii	3.54319786	2
+11w	W	Sample	360	283	5	Euphorbiaceae	Antidesma	japonicum var. densiflorum	Antidesma_japonicum_var_densiflorum	25.9008889518	2
+13w	W	Sample	367	220	7	Theaceae	Cleyera	japonica	Cleyera_japonica	20.95925	2
+14w	W	Sample	375	220	7	Proteaceae	Helicia	formosana	Helicia_formosana	17.58541	2
+15w	W	Sample	391	220	7	Theaceae	Adinandra	formosana	Adinandra_formosana	10.15435	2
+16w	W	Sample	423	220	7	Rubiaceae	Randia	cochinchinensis	Randia_cochinchinensis	4.772709	2
+17w	W	Sample	487	220	7	Rubiaceae	Lasianthus	fordii	Lasianthus_fordii	32.99848	2
+18w	W	Sample	487	347	7	Proteaceae	Helicia	formosana	Helicia_formosana	23.69731	3
+19w	W	Sample	423	283	7	Rubiaceae	Tricalysia	dubia	Tricalysia_dubia	10.3363	2
+20w	W	Sample	391	251	7	Cyatheaceae	Cyathea	podophylla	Cyathea_podophylla	6.13463	2
+21w	W	Sample	375	235	7	Theaceae	Cleyera	japonica	Cleyera_japonica	3.963231	2
+23w	W	Sample	360	360	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	61.45643	2
+25w	W	Sample	361	361	7	Proteaceae	Helicia	formosana	Helicia_formosana	62.86933	2
+26w	W	Sample	361	360	7	Verbenaceae	Callicarpa	kochiana	Callicarpa_kochiana	62.19735	2
+27w	W	Sample	360	364	7	Melastomataceae	Melastoma	kochiana	Melastoma_kochiana	62.06171	2
+28w	W	Sample	363	363	7	Proteaceae	Helicia	formosana	Helicia_formosana	61.35912	2
+29w	W	Sample	363	360	7	Verbenaceae	Callicarpa	kochiana	Callicarpa_kochiana	63.70044	2
+30w	W	Sample	367	360	7	Lauraceae	Machilus	japonica var. kusanoi	Machilus_japonica_var_kusanoi	60.32493	2
+31w	W	Sample	376	360	7	Euphorbiaceae	Antidesma	japonicum var. densiflorum	Antidesma_japonicum_var_densiflorum	51.55997	2
+32w	W	Sample	391	360	7	Aquifoliaceae	Ilex	ficoidea	Ilex_ficoidea	36.9517	2
+35w	W	Sample	360	368	7	Lauraceae	Machilus	thunbergii	Machilus_thunbergii	58.68752	2
+36w	W	Sample	360	375	7	Rubiaceae	Randia	cochinchinensis	Randia_cochinchinensis	52.78268	2
+37w	W	Sample	360	391	5	Theaceae	Cleyera	japonica	Cleyera_japonica	38.25516	2
+38w	W	Sample	360	423	7	Proteaceae	Helicia	formosana	Helicia_formosana	11.71607	2
+39w	W	Sample	360	483	5	Symplocaceae	Symplocos	theophrastifolia	Symplocos_theophrastifolia	46.44559	2
+42w	W	Sample	375	375	7	Cyatheaceae	Cyathea	podophylla	Cyathea_podophylla	45.19699	2
+45w	W	Sample	307	360	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	42.2274	2
+46w	W	Sample	243	360	5	Proteaceae	Helicia	formosana	Helicia_formosana	81.93669	3
+49w	W	Sample	188	360	6	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	121.6796	3
+50w	W	Sample	183	360	6	Fagaceae	Castanopsis	cuspidata var. carlesii	Castanopsis_cuspidata_var_carlesii	125.8634	3
+52w	W	Sample	180	360	6	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	128.4017	3
+55w	W	Sample	180	363	6	Proteaceae	Helicia	formosana	Helicia_formosana	130.0099	2
+56w	W	Sample	183	363	6	Rubiaceae	Randia	cochinchinensis	Randia_cochinchinensis	127.5036	2
+57w	W	Sample	180	367	6	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	132.2295	2
+58w	W	Sample	180	375	6	Lauraceae	Machilus	zuihoensis var. mushaensis	Machilus_zuihoensis_var_mushaensis	136.9117	2
+59w	W	Sample	180	391	6	Cyatheaceae	Cyathea	podophylla	Cyathea_podophylla	147.1365	2
+60w	W	Sample	180	423	6	Proteaceae	Helicia	formosana	Helicia_formosana	151.9575	3
+61w	W	Sample	180	487	7	Symplocaceae	Symplocos	glauca	Symplocos_glauca	163.9489	2
+64w	W	Sample	211	391	5	Euphorbiaceae	Glochidion	acuminatum	Glochidion_acuminatum	125.7371	2
+66w	W	Sample	187	367	6	Lauraceae	Machilus	zuihoensis var. mushaensis	Machilus_zuihoensis_var_mushaensis	126.5177	2
+67w	W	Sample	180	220	1	Lauraceae	Machilus	thunbergii	Machilus_thunbergii	130.4595	1
+68w	W	Sample	180	221	2	Theaceae	Eurya	loquaiana	Eurya_loquaiana	129.9135	1
+69w	W	Sample	181	221	2	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	129.0751	1
+70w	W	Sample	181	220	2	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	129.6247	1
+71w	W	Sample	183	220	2	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	127.929	1
+72w	W	Sample	183	223	2	Proteaceae	Helicia	formosana	Helicia_formosana	126.3083	1
+73w	W	Sample	180	223	2	Fagaceae	Castanopsis	cuspidata var. carlesii	Castanopsis_cuspidata_var_carlesii	128.8378	1
+74w	W	Sample	180	227	2	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	126.7538	1
+75w	W	Sample	180	235	2	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	122.8706	1
+76w	W	Sample	180	251	4	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	116.3723	2
+79w	W	Sample	307	347	7	Fagaceae	Pasania	harlandii	Pasania_harlandii	29.53989	2
+81w	W	Sample	211	251	4	Euphorbiaceae	Antidesma	japonicum var. densiflorum	Antidesma_japonicum_var_densiflorum	87.9852	2
+82w	W	Sample	195	235	2	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	109.7734	1
+84w	W	Sample	187	220	1	Theaceae	Cleyera	japonica	Cleyera_japonica	124.4753	1
+85w	W	Sample	195	220	2	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	117.5859	1
+86w	W	Sample	211	220	2	Fagaceae	Limlia	uraiana	Limlia_uraiana	104.2465	1
+87w	W	Sample	243	220	3	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	79.37705	1
+88w	W	Sample	307	220	7	Lauraceae	Cryptocarya	chinensis	Cryptocarya_chinensis	47.36483	2
+89w	W	Sample	287	20	7	Proteaceae	Helicia	formosana	Helicia_formosana	25.33942	2
+92w	W	Sample	195	20	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	31.43415	2
+93w	W	Sample	187	20	6	Rosaceae	Prunus	phaeosticta	Prunus_phaeosticta	27.63549	2
+94w	W	Sample	180	20	6	Moraceae	Ficus	erecta var. beecheyana	Ficus_erecta_var_beecheyana	25.06622	2
+95w	W	Sample	181	20	6	Moraceae	Ficus	erecta var. beecheyana	Ficus_erecta_var_beecheyana	25.33385	2
+96w	W	Sample	181	21	7	Proteaceae	Helicia	formosana	Helicia_formosana	24.37728	3
+97w	W	Sample	180	21	7	Proteaceae	Helicia	formosana	Helicia_formosana	24.09903	3
+99w	W	Sample	183	23	7	Proteaceae	Helicia	formosana	Helicia_formosana	23.19752	3
+100w	W	Sample	183	20	7	Proteaceae	Helicia	formosana	Helicia_formosana	25.97654	2
+101w	W	Sample	180	27	7	Proteaceae	Helicia	formosana	Helicia_formosana	18.36984	3
+102w	W	Sample	187	27	7	Theaceae	Cleyera	japonica	Cleyera_japonica	21.3725	3
+104w	W	Sample	180	51	7	Proteaceae	Helicia	formosana	Helicia_formosana	1.409998	3
+106w	W	Sample	180	147	3	Proteaceae	Helicia	formosana	Helicia_formosana	82.49734	2
+107w	W	Sample	307	147	3	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	64.85876	1
+108w	W	Sample	243	83	3	Theaceae	Cleyera	japonica	Cleyera_japonica	19.02113	1
+109w	W	Sample	209	49	7	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	13.46815	3
+114w	W	Sample	71	40	7	Proteaceae	Helicia	formosana	Helicia_formosana	6.015914	2
+115w	W	Sample	55	40	4	Cyatheaceae	Cyathea	podophylla	Cyathea_podophylla	16.75811	3
+121w	W	Sample	43	40	4	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	27.95829	3
+124w	W	Sample	40	47	7	Euphorbiaceae	Glochidion	acuminatum	Glochidion_acuminatum	28.9161391514	3
+125w	W	Sample	40	55	4	Lauraceae	Litsea	acuminata	Litsea_acuminata	27.32744	3
+128w	W	Sample	40	167	3	Fagaceae	Castanopsis	cuspidata var. carlesii	Castanopsis_cuspidata_var_carlesii	75.54028	3
+129w	W	Sample	167	167	3	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	105.2136	1
+130w	W	Sample	103	103	7	Proteaceae	Helicia	formosana	Helicia_formosana	45.72196	3
+131w	W	Sample	71	71	7	Proteaceae	Helicia	formosana	Helicia_formosana	5.360382	4
+133w	W	Sample	47	47	7	Proteaceae	Helicia	formosana	Helicia_formosana	22.16354	3
+Neg	W	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
+PosG	W	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
+PosI	W	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
+1leaf	L	Sample	360	220	7	Juglandaceae	Engelhardtia	roxburghiana	Engelhardtia_roxburghiana	24.11897	2
+2leaf	L	Sample	360	221	7	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	23.22664	2
+3leaf	L	Sample	361	221	7	Proteaceae	Helicia	formosana	Helicia_formosana	22.77525	2
+4leaf	L	Sample	361	220	7	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	23.66758	2
+5leaf	L	Sample	363	220	7	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	22.7648	2
+6leaf	L	Sample	363	223	7	Proteaceae	Helicia	formosana	Helicia_formosana	20.08782	2
+7leaf	L	Sample	360	223	7	Juglandaceae	Engelhardtia	roxburghiana	Engelhardtia_roxburghiana	21.44198	2
+8leaf	L	Sample	360	227	7	Proteaceae	Helicia	formosana	Helicia_formosana	17.87267	2
+9leaf	L	Sample	360	235	7	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	10.73405	2
+12leaf	L	Sample	360	347	7	Rubiaceae	Randia	cochinchinensis	Randia_cochinchinensis	53.53826	2
+13leaf	L	Sample	367	220	7	Theaceae	Cleyera	japonica	Cleyera_japonica	20.95925	2
+14leaf	L	Sample	375	220	7	Proteaceae	Helicia	formosana	Helicia_formosana	17.58541	2
+15leaf	L	Sample	391	220	7	Theaceae	Adinandra	formosana	Adinandra_formosana	10.15435	2
+16leaf	L	Sample	423	220	7	Rubiaceae	Randia	cochinchinensis	Randia_cochinchinensis	4.772709	2
+17leaf	L	Sample	487	220	7	Rubiaceae	Lasianthus	fordii	Lasianthus_fordii	32.99848	2
+18leaf	L	Sample	487	347	7	Proteaceae	Helicia	formosana	Helicia_formosana	23.69731	3
+19leaf	L	Sample	423	283	7	Rubiaceae	Tricalysia	dubia	Tricalysia_dubia	10.3363	2
+20leaf	L	Sample	391	251	7	Cyatheaceae	Cyathea	podophylla	Cyathea_podophylla	6.13463	2
+21leaf	L	Sample	375	235	7	Theaceae	Cleyera	japonica	Cleyera_japonica	3.963231	2
+22leaf	L	Sample	367	227	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	14.71296	2
+23leaf	L	Sample	360	360	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	61.45643	2
+24leaf	L	Sample	360	361	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	62.13642	2
+25leaf	L	Sample	361	361	7	Proteaceae	Helicia	formosana	Helicia_formosana	62.86933	2
+26leaf	L	Sample	361	360	7	Verbenaceae	Callicarpa	kochiana	Callicarpa_kochiana	62.19735	2
+27leaf	L	Sample	360	364	7	Melastomataceae	Melastoma	kochiana	Melastoma_kochiana	62.06171	2
+28leaf	L	Sample	363	363	7	Proteaceae	Helicia	formosana	Helicia_formosana	61.35912	2
+29leaf	L	Sample	363	360	7	Verbenaceae	Callicarpa	kochiana	Callicarpa_kochiana	63.70044	2
+30leaf	L	Sample	367	360	7	Lauraceae	Machilus	japonica var. kusanoi	Machilus_japonica_var_kusanoi	60.32493	2
+31leaf	L	Sample	376	360	7	Euphorbiaceae	Antidesma	japonicum var. densiflorum	Antidesma_japonicum_var_densiflorum	51.55997	2
+32leaf	L	Sample	391	360	7	Aquifoliaceae	Ilex	ficoidea	Ilex_ficoidea	36.9517	2
+33leaf	L	Sample	423	360	7	Proteaceae	Helicia	formosana	Helicia_formosana	5.787396	2
+34leaf	L	Sample	487	360	6	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	33.11926	3
+35leaf	L	Sample	360	368	7	Lauraceae	Machilus	thunbergii	Machilus_thunbergii	58.68752	2
+36leaf	L	Sample	360	375	7	Rubiaceae	Randia	cochinchinensis	Randia_cochinchinensis	52.78268	2
+37leaf	L	Sample	360	391	5	Theaceae	Cleyera	japonica	Cleyera_japonica	38.25516	2
+38leaf	L	Sample	360	423	7	Proteaceae	Helicia	formosana	Helicia_formosana	11.71607	2
+39leaf	L	Sample	360	483	5	Symplocaceae	Symplocos	theophrastifolia	Symplocos_theophrastifolia	46.44559	2
+40leaf	L	Sample	488	488	6	Melastomataceae	Melastoma	candida	Melastoma_candida	111.1887	4
+41leaf	L	Sample	423	423	7	Araliaceae	Schefflera	octophylla	Schefflera_octophylla	20.71181	2
+42leaf	L	Sample	375	375	7	Cyatheaceae	Cyathea	podophylla	Cyathea_podophylla	45.19699	2
+43leaf	L	Sample	391	391	7	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	24.26231	2
+44leaf	L	Sample	367	367	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	55.91854	2
+45leaf	L	Sample	307	360	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	42.2274	2
+46leaf	L	Sample	243	360	5	Proteaceae	Helicia	formosana	Helicia_formosana	81.93669	3
+47leaf	L	Sample	211	360	5	Lauraceae	Machilus	zuihoensis	Machilus_zuihoensis	103.3725	2
+48leaf	L	Sample	195	360	6	Fagaceae	Limlia	uraiana	Limlia_uraiana	115.931	3
+49leaf	L	Sample	188	360	6	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	121.6796	3
+50leaf	L	Sample	183	360	6	Fagaceae	Castanopsis	cuspidata var. carlesii	Castanopsis_cuspidata_var_carlesii	125.8634	3
+51leaf	L	Sample	181	360	6	Fagaceae	Limlia	uraiana	Limlia_uraiana	127.5534	3
+52leaf	L	Sample	180	360	6	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	128.4017	3
+53leaf	L	Sample	180	361	6	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	128.9322	2
+54leaf	L	Sample	181	361	6	Fagaceae	Castanopsis	cuspidata var. carlesii	Castanopsis_cuspidata_var_carlesii	128.0874	2
+55leaf	L	Sample	180	363	6	Proteaceae	Helicia	formosana	Helicia_formosana	130.0099	2
+56leaf	L	Sample	183	363	6	Rubiaceae	Randia	cochinchinensis	Randia_cochinchinensis	127.5036	2
+57leaf	L	Sample	180	367	6	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	132.2295	2
+58leaf	L	Sample	180	375	6	Lauraceae	Machilus	zuihoensis var. mushaensis	Machilus_zuihoensis_var_mushaensis	136.9117	2
+59leaf	L	Sample	180	391	6	Cyatheaceae	Cyathea	podophylla	Cyathea_podophylla	147.1365	2
+60leaf	L	Sample	180	423	6	Proteaceae	Helicia	formosana	Helicia_formosana	151.9575	3
+61leaf	L	Sample	180	487	7	Symplocaceae	Symplocos	glauca	Symplocos_glauca	163.9489	2
+62leaf	L	Sample	307	487	4	Elaeocarpaceae	Elaeocarpus	sylvestris	Elaeocarpus_sylvestris	66.41605	2
+63leaf	L	Sample	243	423	2	Fagaceae	Limlia	uraiana	Limlia_uraiana	88.97098	2
+64leaf	L	Sample	211	391	5	Euphorbiaceae	Glochidion	acuminatum	Glochidion_acuminatum	125.7371	2
+65leaf	L	Sample	195	375	6	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	125.291	2
+66leaf	L	Sample	187	367	6	Lauraceae	Machilus	zuihoensis var. mushaensis	Machilus_zuihoensis_var_mushaensis	126.5177	2
+67leaf	L	Sample	180	220	1	Lauraceae	Machilus	thunbergii	Machilus_thunbergii	130.4595	1
+68leaf	L	Sample	180	221	2	Theaceae	Eurya	loquaiana	Eurya_loquaiana	129.9135	1
+69leaf	L	Sample	181	221	2	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	129.0751	1
+70leaf	L	Sample	181	220	2	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	129.6247	1
+71leaf	L	Sample	183	220	2	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	127.929	1
+72leaf	L	Sample	183	223	2	Proteaceae	Helicia	formosana	Helicia_formosana	126.3083	1
+73leaf	L	Sample	180	223	2	Fagaceae	Castanopsis	cuspidata var. carlesii	Castanopsis_cuspidata_var_carlesii	128.8378	1
+74leaf	L	Sample	180	227	2	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	126.7538	1
+75leaf	L	Sample	180	235	2	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	122.8706	1
+76leaf	L	Sample	180	251	4	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	116.3723	2
+77leaf	L	Sample	180	283	4	Proteaceae	Helicia	formosana	Helicia_formosana	109.4037	2
+78leaf	L	Sample	180	347	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	122.0419	3
+79leaf	L	Sample	307	347	7	Fagaceae	Pasania	harlandii	Pasania_harlandii	29.53989	2
+80leaf	L	Sample	243	283	7	Proteaceae	Helicia	formosana	Helicia_formosana	46.85935	3
+81leaf	L	Sample	211	251	4	Euphorbiaceae	Antidesma	japonicum var. densiflorum	Antidesma_japonicum_var_densiflorum	87.9852	2
+82leaf	L	Sample	195	235	2	Theaceae	Pyrenaria	shinkoensis	Pyrenaria_shinkoensis	109.7734	1
+83leaf	L	Sample	187	227	2	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	120.7832	1
+84leaf	L	Sample	187	220	1	Theaceae	Cleyera	japonica	Cleyera_japonica	124.4753	1
+85leaf	L	Sample	195	220	2	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	117.5859	1
+86leaf	L	Sample	211	220	2	Fagaceae	Limlia	uraiana	Limlia_uraiana	104.2465	1
+87leaf	L	Sample	243	220	3	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	79.37705	1
+88leaf	L	Sample	307	220	7	Lauraceae	Cryptocarya	chinensis	Cryptocarya_chinensis	47.36483	2
+89leaf	L	Sample	287	20	7	Proteaceae	Helicia	formosana	Helicia_formosana	25.33942	2
+90leaf	L	Sample	243	20	7	Proteaceae	Helicia	formosana	Helicia_formosana	33.07126	2
+91leaf	L	Sample	211	20	7	Proteaceae	Helicia	formosana	Helicia_formosana	37.29322	2
+92leaf	L	Sample	195	20	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	31.43415	2
+93leaf	L	Sample	187	20	6	Rosaceae	Prunus	phaeosticta	Prunus_phaeosticta	27.63549	2
+94leaf	L	Sample	180	20	6	Moraceae	Ficus	erecta var. beecheyana	Ficus_erecta_var_beecheyana	25.06622	2
+95leaf	L	Sample	181	20	6	Moraceae	Ficus	erecta var. beecheyana	Ficus_erecta_var_beecheyana	25.33385	2
+96leaf	L	Sample	181	21	7	Proteaceae	Helicia	formosana	Helicia_formosana	24.37728	3
+97leaf	L	Sample	180	21	7	Proteaceae	Helicia	formosana	Helicia_formosana	24.09903	3
+98leaf	L	Sample	180	23	7	Proteaceae	Helicia	formosana	Helicia_formosana	22.17339	3
+99leaf	L	Sample	183	23	7	Proteaceae	Helicia	formosana	Helicia_formosana	23.19752	3
+100leaf	L	Sample	183	20	7	Proteaceae	Helicia	formosana	Helicia_formosana	25.97654	2
+101leaf	L	Sample	180	27	7	Proteaceae	Helicia	formosana	Helicia_formosana	18.36984	3
+102leaf	L	Sample	187	27	7	Theaceae	Cleyera	japonica	Cleyera_japonica	21.3725	3
+103leaf	L	Sample	180	35	7	Proteaceae	Helicia	formosana	Helicia_formosana	11.08831	3
+104leaf	L	Sample	180	51	7	Proteaceae	Helicia	formosana	Helicia_formosana	1.409998	3
+105leaf	L	Sample	180	83	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	22.46722	3
+106leaf	L	Sample	180	147	3	Proteaceae	Helicia	formosana	Helicia_formosana	82.49734	2
+107leaf	L	Sample	307	147	3	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	64.85876	1
+108leaf	L	Sample	243	83	3	Theaceae	Cleyera	japonica	Cleyera_japonica	19.02113	1
+109leaf	L	Sample	209	49	7	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	13.46815	3
+110leaf	L	Sample	209	49	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	13.46815	3
+111leaf	L	Sample	195	35	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	20.37973	3
+112A	L	Sample	167	40	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	4.250151	2
+112B	L	Sample	167	40	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	4.250151	2
+113A	L	Sample	103	40	7	Araliaceae	Schefflera	octophylla	Schefflera_octophylla	12.80385	3
+113B	L	Sample	103	40	7	Araliaceae	Schefflera	octophylla	Schefflera_octophylla	12.80385	3
+114leaf	L	Sample	71	40	7	Proteaceae	Helicia	formosana	Helicia_formosana	6.015914	2
+115leaf	L	Sample	55	40	4	Cyatheaceae	Cyathea	podophylla	Cyathea_podophylla	16.75811	3
+116leaf	L	Sample	47	40	4	Proteaceae	Helicia	formosana	Helicia_formosana	24.2118	3
+117leaf	L	Sample	40	40	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	30.79582	3
+118leaf	L	Sample	40	41	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	30.50139	3
+119leaf	L	Sample	41	41	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	29.54256	3
+120leaf	L	Sample	41	40	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	29.84645	3
+121leaf	L	Sample	43	40	4	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	27.95829	3
+122leaf	L	Sample	43	43	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	27.07621	3
+125leaf	L	Sample	40	55	4	Lauraceae	Litsea	acuminata	Litsea_acuminata	27.32744	3
+126leafA	L	Sample	40	71	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	20.16175	3
+126leafB	L	Sample	40	71	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	20.16175	3
+127leaf	L	Sample	40	103	7	Proteaceae	Helicia	formosana	Helicia_formosana	11.69457	3
+128leaf	L	Sample	40	167	3	Fagaceae	Castanopsis	cuspidata var. carlesii	Castanopsis_cuspidata_var_carlesii	75.54028	3
+129leaf	L	Sample	167	167	3	Myrsinaceae	Myrsine	seguinii	Myrsine_seguinii	105.2136	1
+130leaf	L	Sample	103	103	7	Proteaceae	Helicia	formosana	Helicia_formosana	45.72196	3
+131leaf	L	Sample	71	71	7	Proteaceae	Helicia	formosana	Helicia_formosana	5.360382	4
+132leaf	L	Sample	55	55	7	Proteaceae	Helicia	formosana	Helicia_formosana	12.4373	3
+133leaf	L	Sample	47	47	7	Proteaceae	Helicia	formosana	Helicia_formosana	22.16354	3
+leafNCA	L	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
+leafNCB	L	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
