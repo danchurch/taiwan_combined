@@ -2252,12 +2252,64 @@ scp combo_otu.biom makebiom.log daniel@192.168.1.4:/home/daniel/Documents/taiwan
 
 R 
 library("phyloseq")
-
 library("biomformat")
 
-biom95 <- import_biom("combo_otu_wMeta.biom", parseFunction=parse_taxonomy_greengenes)
+biom95_meta <- import_biom("combo_otu_wMeta.biom", parseFunction=parse_taxonomy_greengenes)
 ## nope
+
 
 ## not sure. maybe a better approach is to add the metadata in phyloseq?
 
+## I think we can use the merge_phyloseq command, if we can get phyloseq 
+## see our metadata....
+
+biom95 <- import_biom("combo_otu_relab.biom", parseFunction=parse_taxonomy_greengenes)
+
+aa <- read_biom("combo_otu_wMeta.biom")
+
+bb <- sample_metadata(aa)
+
+sample_data(biom95) <- bb
+
+## nope. Try importing the metadata table directly?
+
+dd <- read.csv('meta_2018.06.14.tsv', sep = '\t') ## read in the metadata
+colnames(dd)[1] <- "SampleID" ## clean up column names
+
+## do our rownames in this metadata dataframe match our sample names?
+all(rownames(dd) %in% sample_names(biom95)) 
+## nope. Why not?
+
+rownames(dd) ## ah. our new dataframe has the default numeric rownames
+
+## change our rownames to our sample names:
+rownames(dd) <- dd$SampleID
+
+rownames(dd) 
+
+sample_names(biom95)
+
+rownames(dd) %in% sample_names(biom95)
+
+
+rownames(dd)[208]
+
+"112A" %in% sample_names(biom95)
+
+## did this help?
+
+sample_data(biom95) <- dd
+
+sample_data(biom95)
+
+## looks good to me. Update notebook. 
+
+## then look at reviewers again, and eco notebook. 
+
+## You have ~12 days. come up with a strategy.
+
+
+
+
+sample_names(biom95)
 

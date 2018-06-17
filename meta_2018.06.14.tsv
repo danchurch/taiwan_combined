@@ -206,10 +206,10 @@ PosI	W	Control	NA	NA	NA	NA	NA	NA	NA	NA	NA
 109leaf	L	Sample	209	49	7	Sabiaceae	Meliosma	squamulata	Meliosma_squamulata	13.46815	3
 110leaf	L	Sample	209	49	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	13.46815	3
 111leaf	L	Sample	195	35	7	Fagaceae	Limlia	uraiana	Limlia_uraiana	20.37973	3
-112A	L	Sample	167	40	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	4.250151	2
-112B	L	Sample	167	40	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	4.250151	2
-113A	L	Sample	103	40	7	Araliaceae	Schefflera	octophylla	Schefflera_octophylla	12.80385	3
-113B	L	Sample	103	40	7	Araliaceae	Schefflera	octophylla	Schefflera_octophylla	12.80385	3
+112leafA	L	Sample	167	40	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	4.250151	2
+112leafB	L	Sample	167	40	7	Melastomataceae	Blastus	cochinchinensis	Blastus_cochinchinensis	4.250151	2
+113leafA	L	Sample	103	40	7	Araliaceae	Schefflera	octophylla	Schefflera_octophylla	12.80385	3
+113leafB	L	Sample	103	40	7	Araliaceae	Schefflera	octophylla	Schefflera_octophylla	12.80385	3
 114leaf	L	Sample	71	40	7	Proteaceae	Helicia	formosana	Helicia_formosana	6.015914	2
 115leaf	L	Sample	55	40	4	Cyatheaceae	Cyathea	podophylla	Cyathea_podophylla	16.75811	3
 116leaf	L	Sample	47	40	4	Proteaceae	Helicia	formosana	Helicia_formosana	24.2118	3
